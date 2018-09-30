@@ -2,8 +2,8 @@
  * timeline plus
  * https://yotamberk.github.io/timeline-plus
  *
- * @version 2.1.8
- * @date    2018-09-25
+ * @version 2.1.9
+ * @date    2018-09-30
  *
  */
 
@@ -81,7 +81,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 82);
+/******/ 	return __webpack_require__(__webpack_require__.s = 85);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -108,7 +108,7 @@ exports.default = function (instance, Constructor) {
 
 exports.__esModule = true;
 
-var _defineProperty = __webpack_require__(121);
+var _defineProperty = __webpack_require__(122);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -144,7 +144,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.easingFunctions = exports.option = undefined;
 
-var _create = __webpack_require__(33);
+var _create = __webpack_require__(35);
 
 var _create2 = _interopRequireDefault(_create);
 
@@ -152,11 +152,11 @@ var _keys = __webpack_require__(10);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _getIterator2 = __webpack_require__(24);
+var _getIterator2 = __webpack_require__(23);
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -212,11 +212,11 @@ exports.binarySearchValue = binarySearchValue;
 exports.getScrollBarWidth = getScrollBarWidth;
 exports.topMost = topMost;
 
-var _moment = __webpack_require__(8);
+var _moment = __webpack_require__(9);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _uuid = __webpack_require__(118);
+var _uuid = __webpack_require__(119);
 
 var _uuid2 = _interopRequireDefault(_uuid);
 
@@ -1840,10 +1840,37 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(125), __esModule: true };
+"use strict";
+
+
+exports.__esModule = true;
+
+var _iterator = __webpack_require__(104);
+
+var _iterator2 = _interopRequireDefault(_iterator);
+
+var _symbol = __webpack_require__(106);
+
+var _symbol2 = _interopRequireDefault(_symbol);
+
+var _typeof = typeof _symbol2.default === "function" && typeof _iterator2.default === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj; };
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.default) === "symbol" ? function (obj) {
+  return typeof obj === "undefined" ? "undefined" : _typeof(obj);
+} : function (obj) {
+  return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj === "undefined" ? "undefined" : _typeof(obj);
+};
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(126), __esModule: true };
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1851,7 +1878,7 @@ module.exports = { "default": __webpack_require__(125), __esModule: true };
 
 exports.__esModule = true;
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -1866,7 +1893,7 @@ exports.default = function (self, call) {
 };
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1874,15 +1901,15 @@ exports.default = function (self, call) {
 
 exports.__esModule = true;
 
-var _setPrototypeOf = __webpack_require__(127);
+var _setPrototypeOf = __webpack_require__(128);
 
 var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
 
-var _create = __webpack_require__(33);
+var _create = __webpack_require__(35);
 
 var _create2 = _interopRequireDefault(_create);
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -1905,71 +1932,12 @@ exports.default = function (subClass, superClass) {
 };
 
 /***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _iterator = __webpack_require__(103);
-
-var _iterator2 = _interopRequireDefault(_iterator);
-
-var _symbol = __webpack_require__(105);
-
-var _symbol2 = _interopRequireDefault(_symbol);
-
-var _typeof = typeof _symbol2.default === "function" && typeof _iterator2.default === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj; };
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.default) === "symbol" ? function (obj) {
-  return typeof obj === "undefined" ? "undefined" : _typeof(obj);
-} : function (obj) {
-  return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj === "undefined" ? "undefined" : _typeof(obj);
-};
-
-/***/ }),
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-// first check if moment.js is already loaded in the browser window, if so,
-// use this instance. Else, load via commonjs.
-exports['default'] = typeof window !== 'undefined' && window['moment'] || __webpack_require__(115);
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports) {
-
-// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
-var global = module.exports = typeof window != 'undefined' && window.Math == Math
-  ? window : typeof self != 'undefined' && self.Math == Math ? self
-  // eslint-disable-next-line no-new-func
-  : Function('return this')();
-if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
-
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(92), __esModule: true };
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var store = __webpack_require__(40)('wks');
-var uid = __webpack_require__(30);
-var Symbol = __webpack_require__(9).Symbol;
+var store = __webpack_require__(43)('wks');
+var uid = __webpack_require__(32);
+var Symbol = __webpack_require__(11).Symbol;
 var USE_SYMBOL = typeof Symbol == 'function';
 
 var $exports = module.exports = function (name) {
@@ -1981,15 +1949,47 @@ $exports.store = store;
 
 
 /***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+// first check if moment.js is already loaded in the browser window, if so,
+// use this instance. Else, load via commonjs.
+exports['default'] = typeof window !== 'undefined' && window['moment'] || __webpack_require__(116);
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(94), __esModule: true };
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
+var global = module.exports = typeof window != 'undefined' && window.Math == Math
+  ? window : typeof self != 'undefined' && self.Math == Math ? self
+  // eslint-disable-next-line no-new-func
+  : Function('return this')();
+if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
+
+
+/***/ }),
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(19);
-var IE8_DOM_DEFINE = __webpack_require__(55);
-var toPrimitive = __webpack_require__(34);
+var anObject = __webpack_require__(15);
+var IE8_DOM_DEFINE = __webpack_require__(57);
+var toPrimitive = __webpack_require__(37);
 var dP = Object.defineProperty;
 
-exports.f = __webpack_require__(13) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
+exports.f = __webpack_require__(16) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
   anObject(O);
   P = toPrimitive(P, true);
   anObject(Attributes);
@@ -2006,14 +2006,139 @@ exports.f = __webpack_require__(13) ? Object.defineProperty : function definePro
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+/**
+ * Setup a mock hammer.js object, for unit testing.
+ *
+ * Inspiration: https://github.com/uber/deck.gl/pull/658
+ *
+ * @returns {{on: noop, off: noop, destroy: noop, emit: noop, get: get}}
+ */
+function hammerMock() {
+  var noop = function noop() {};
+
+  return {
+    on: noop,
+    off: noop,
+    destroy: noop,
+    emit: noop,
+
+    get: function get(m) {
+      //eslint-disable-line no-unused-vars
+      return {
+        set: noop
+      };
+    }
+  };
+}
+
+if (typeof window !== 'undefined') {
+  var propagating = __webpack_require__(132);
+  var Hammer = window['Hammer'] || __webpack_require__(133);
+  module.exports = propagating(Hammer, {
+    preventDefault: 'mouse'
+  });
+} else {
+  module.exports = function () {
+    return (// hammer.js is only available in a browser, not in node.js. Replacing it with a mock object.
+      hammerMock()
+    );
+  };
+}
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(11);
+var core = __webpack_require__(3);
+var ctx = __webpack_require__(36);
+var hide = __webpack_require__(20);
+var has = __webpack_require__(17);
+var PROTOTYPE = 'prototype';
+
+var $export = function (type, name, source) {
+  var IS_FORCED = type & $export.F;
+  var IS_GLOBAL = type & $export.G;
+  var IS_STATIC = type & $export.S;
+  var IS_PROTO = type & $export.P;
+  var IS_BIND = type & $export.B;
+  var IS_WRAP = type & $export.W;
+  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});
+  var expProto = exports[PROTOTYPE];
+  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];
+  var key, own, out;
+  if (IS_GLOBAL) source = name;
+  for (key in source) {
+    // contains in native
+    own = !IS_FORCED && target && target[key] !== undefined;
+    if (own && has(exports, key)) continue;
+    // export native or passed
+    out = own ? target[key] : source[key];
+    // prevent global pollution for namespaces
+    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
+    // bind timers to global for call from export context
+    : IS_BIND && own ? ctx(out, global)
+    // wrap global constructors for prevent change them in library
+    : IS_WRAP && target[key] == out ? (function (C) {
+      var F = function (a, b, c) {
+        if (this instanceof C) {
+          switch (arguments.length) {
+            case 0: return new C();
+            case 1: return new C(a);
+            case 2: return new C(a, b);
+          } return new C(a, b, c);
+        } return C.apply(this, arguments);
+      };
+      F[PROTOTYPE] = C[PROTOTYPE];
+      return F;
+    // make static versions for prototype methods
+    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
+    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
+    if (IS_PROTO) {
+      (exports.virtual || (exports.virtual = {}))[key] = out;
+      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
+      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);
+    }
+  }
+};
+// type bitmap
+$export.F = 1;   // forced
+$export.G = 2;   // global
+$export.S = 4;   // static
+$export.P = 8;   // proto
+$export.B = 16;  // bind
+$export.W = 32;  // wrap
+$export.U = 64;  // safe
+$export.R = 128; // real proto method for `library`
+module.exports = $export;
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(21);
+module.exports = function (it) {
+  if (!isObject(it)) throw TypeError(it + ' is not an object!');
+  return it;
+};
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(23)(function () {
+module.exports = !__webpack_require__(25)(function () {
   return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
 });
 
 
 /***/ }),
-/* 14 */
+/* 17 */
 /***/ (function(module, exports) {
 
 var hasOwnProperty = {}.hasOwnProperty;
@@ -2023,7 +2148,7 @@ module.exports = function (it, key) {
 
 
 /***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2123,126 +2248,746 @@ var Component = function () {
 exports['default'] = Component;
 
 /***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof2 = __webpack_require__(4);
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+var _getIterator2 = __webpack_require__(23);
+
+var _getIterator3 = _interopRequireDefault(_getIterator2);
+
+var _keys = __webpack_require__(10);
+
+var _keys2 = _interopRequireDefault(_keys);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _ItemSet = __webpack_require__(29);
+
+var _hammer = __webpack_require__(13);
+
+var _hammer2 = _interopRequireDefault(_hammer);
+
+var _util = __webpack_require__(2);
+
+var util = _interopRequireWildcard(_util);
+
+var _moment = __webpack_require__(9);
+
+var _moment2 = _interopRequireDefault(_moment);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var EPSILON = 0.001; // used when checking collisions, to prevent round-off errors
+
 /**
- * Setup a mock hammer.js object, for unit testing.
- *
- * Inspiration: https://github.com/uber/deck.gl/pull/658
- *
- * @returns {{on: noop, off: noop, destroy: noop, emit: noop, get: get}}
+ * Item
  */
-function hammerMock() {
-  var noop = function noop() {};
 
-  return {
-    on: noop,
-    off: noop,
-    destroy: noop,
-    emit: noop,
+var Item = function () {
+  /**
+   * @constructor Item
+   * @param {Object} data             Object containing (optional) parameters type,
+   *                                  start, end, content, group, className.
+   * @param {{toScreen: function, toTime: function}} conversion
+   *                                  Conversion functions from time to screen and vice versa
+   * @param {Object} options          Configuration options
+   *                                  // TODO: describe available options
+   */
+  function Item(data, conversion, options) {
+    (0, _classCallCheck3['default'])(this, Item);
 
-    get: function get(m) {
-      //eslint-disable-line no-unused-vars
-      return {
-        set: noop
-      };
-    }
-  };
-}
+    this.id = null;
+    this.parent = null;
+    this.data = data;
+    this.dom = null;
+    this.conversion = conversion || {};
+    this.options = options || {};
+    this.selected = false;
+    this.displayed = false;
+    this.groupShowing = true;
+    this.dirty = true;
 
-if (typeof window !== 'undefined') {
-  var propagating = __webpack_require__(131);
-  var Hammer = window['Hammer'] || __webpack_require__(132);
-  module.exports = propagating(Hammer, {
-    preventDefault: 'mouse'
-  });
-} else {
-  module.exports = function () {
-    return (// hammer.js is only available in a browser, not in node.js. Replacing it with a mock object.
-      hammerMock()
-    );
-  };
-}
+    this.top = null;
+    this.right = null;
+    this.left = null;
+    this.width = null;
+    this.height = null;
 
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var global = __webpack_require__(9);
-var core = __webpack_require__(3);
-var ctx = __webpack_require__(54);
-var hide = __webpack_require__(18);
-var has = __webpack_require__(14);
-var PROTOTYPE = 'prototype';
-
-var $export = function (type, name, source) {
-  var IS_FORCED = type & $export.F;
-  var IS_GLOBAL = type & $export.G;
-  var IS_STATIC = type & $export.S;
-  var IS_PROTO = type & $export.P;
-  var IS_BIND = type & $export.B;
-  var IS_WRAP = type & $export.W;
-  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});
-  var expProto = exports[PROTOTYPE];
-  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];
-  var key, own, out;
-  if (IS_GLOBAL) source = name;
-  for (key in source) {
-    // contains in native
-    own = !IS_FORCED && target && target[key] !== undefined;
-    if (own && has(exports, key)) continue;
-    // export native or passed
-    out = own ? target[key] : source[key];
-    // prevent global pollution for namespaces
-    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
-    // bind timers to global for call from export context
-    : IS_BIND && own ? ctx(out, global)
-    // wrap global constructors for prevent change them in library
-    : IS_WRAP && target[key] == out ? (function (C) {
-      var F = function (a, b, c) {
-        if (this instanceof C) {
-          switch (arguments.length) {
-            case 0: return new C();
-            case 1: return new C(a);
-            case 2: return new C(a, b);
-          } return new C(a, b, c);
-        } return C.apply(this, arguments);
-      };
-      F[PROTOTYPE] = C[PROTOTYPE];
-      return F;
-    // make static versions for prototype methods
-    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
-    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
-    if (IS_PROTO) {
-      (exports.virtual || (exports.virtual = {}))[key] = out;
-      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
-      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);
-    }
+    this.editable = null;
+    this._updateEditStatus();
   }
-};
-// type bitmap
-$export.F = 1;   // forced
-$export.G = 2;   // global
-$export.S = 4;   // static
-$export.P = 8;   // proto
-$export.B = 16;  // bind
-$export.W = 32;  // wrap
-$export.U = 64;  // safe
-$export.R = 128; // real proto method for `library`
-module.exports = $export;
 
+  /**
+   * Select current item
+   */
+
+
+  (0, _createClass3['default'])(Item, [{
+    key: 'select',
+    value: function select() {
+      this.selected = true;
+      this.dirty = true;
+      if (this.displayed) this.redraw();
+    }
+
+    /**
+     * Unselect current item
+     */
+
+  }, {
+    key: 'unselect',
+    value: function unselect() {
+      this.selected = false;
+      this.dirty = true;
+      if (this.displayed) this.redraw();
+    }
+
+    /**
+     * Set data for the item. Existing data will be updated. The id should not
+     * be changed. When the item is displayed, it will be redrawn immediately.
+     * @param {Object} data
+     */
+
+  }, {
+    key: 'setData',
+    value: function setData(data) {
+      var groupChanged = data.group != undefined && this.data.group != data.group;
+      if (groupChanged && this.parent != null) {
+        this.parent.itemSet._moveToGroup(this, data.group);
+      }
+
+      if (this.parent) {
+        this.parent.stackDirty = true;
+      }
+
+      var subGroupChanged = data.subgroup != undefined && this.data.subgroup != data.subgroup;
+      if (subGroupChanged && this.parent != null) {
+        this.parent.changeSubgroup(this, this.data.subgroup, data.subgroup);
+      }
+
+      this.data = data;
+      this._updateEditStatus();
+      this.dirty = true;
+      if (this.displayed) this.redraw();
+    }
+
+    /**
+     * Set a parent for the item
+     * @param {Group} parent
+     */
+
+  }, {
+    key: 'setParent',
+    value: function setParent(parent) {
+      if (this.displayed) {
+        this.hide();
+        this.parent = parent;
+        if (this.parent) {
+          this.show();
+        }
+      } else {
+        this.parent = parent;
+      }
+    }
+
+    /**
+     * Check whether this item is visible inside given range
+     * @param {timeline.Range} range with a timestamp for start and end
+     * @returns {boolean} True if visible
+     */
+
+  }, {
+    key: 'isVisible',
+    value: function isVisible(range) {
+      // eslint-disable-line no-unused-vars
+      return false;
+    }
+
+    /**
+     * Show the Item in the DOM (when not already visible)
+     * @return {Boolean} changed
+     */
+
+  }, {
+    key: 'show',
+    value: function show() {
+      return false;
+    }
+
+    /**
+     * Hide the Item from the DOM (when visible)
+     * @return {Boolean} changed
+     */
+
+  }, {
+    key: 'hide',
+    value: function hide() {
+      return false;
+    }
+
+    /**
+     * Repaint the item
+     */
+
+  }, {
+    key: 'redraw',
+    value: function redraw() {}
+    // should be implemented by the item
+
+
+    /**
+     * Reposition the Item horizontally
+     */
+
+  }, {
+    key: 'repositionX',
+    value: function repositionX() {}
+    // should be implemented by the item
+
+
+    /**
+     * Reposition the Item vertically
+     */
+
+  }, {
+    key: 'repositionY',
+    value: function repositionY() {}
+    // should be implemented by the item
+
+
+    /**
+     * Test if the item provided collide with this item.
+     * The item must have parameters left, width, top, and height.
+     * @param {Item} otherItem          The tested item
+     * @param {{horizontal: number, vertical: number}} margin
+     *                          An object containing a horizontal and vertical
+     *                          minimum required margin.
+     * @param {boolean} rtl
+     * @return {boolean}        true if a and b collide, else false
+     */
+
+  }, {
+    key: 'isColliding',
+    value: function isColliding(otherItem) {
+      var rtl = this.options.rtl;
+      var margin = this.options.margin.item;
+
+      if (rtl) {
+        return this.right - margin.horizontal + EPSILON < otherItem.right + otherItem.width && this.right + this.width + margin.horizontal - EPSILON > otherItem.right && this.top - margin.vertical + EPSILON < otherItem.top + otherItem.height && this.top + this.height + margin.vertical - EPSILON > otherItem.top;
+      } else {
+        return this.left - margin.horizontal + EPSILON < otherItem.left + otherItem.width && this.left + this.width + margin.horizontal - EPSILON > otherItem.left && this.top - margin.vertical + EPSILON < otherItem.top + otherItem.height && this.top + this.height + margin.vertical - EPSILON > otherItem.top;
+      }
+    }
+
+    /**
+    * Test if the two provided items collide
+    * The items must have parameters left, width, top, and height.
+    * @param {Item} a          The first item
+    * @param {Item} b          The second item
+    * @param {{horizontal: number, vertical: number}} margin
+    *                          An object containing a horizontal and vertical
+    *                          minimum required margin.
+    * @param {boolean} rtl
+    * @return {boolean}        true if a and b collide, else false
+    */
+
+  }, {
+    key: '_repaintDragCenter',
+
+
+    /**
+     * Repaint a drag area on the center of the item when the item is selected
+     * @protected
+     */
+    value: function _repaintDragCenter() {
+      if (this.selected && this.options.editable.updateTime && !this.dom.dragCenter) {
+        var me = this;
+        // create and show drag area
+        var dragCenter = document.createElement('div');
+        dragCenter.className = 'timeline-drag-center';
+        dragCenter.dragCenterItem = this;
+        this.hammerDragCenter = new _hammer2['default'](dragCenter);
+
+        this.hammerDragCenter.on('tap', function (event) {
+          me.parent.itemSet.body.emitter.emit('click', {
+            event: event,
+            item: me.id
+          });
+        });
+        this.hammerDragCenter.on('doubletap', function (event) {
+          event.stopPropagation();
+          me.parent.itemSet._onUpdateItem(me);
+          me.parent.itemSet.body.emitter.emit('doubleClick', {
+            event: event,
+            item: me.id
+          });
+        });
+
+        if (this.dom.box) {
+          if (this.dom.dragLeft) {
+            this.dom.box.insertBefore(dragCenter, this.dom.dragLeft);
+          } else {
+            this.dom.box.appendChild(dragCenter);
+          }
+        } else if (this.dom.point) {
+          this.dom.point.appendChild(dragCenter);
+        }
+
+        this.dom.dragCenter = dragCenter;
+      } else if (!this.selected && this.dom.dragCenter) {
+        // delete drag area
+        if (this.dom.dragCenter.parentNode) {
+          this.dom.dragCenter.parentNode.removeChild(this.dom.dragCenter);
+        }
+        this.dom.dragCenter = null;
+
+        if (this.hammerDragCenter) {
+          this.hammerDragCenter.destroy();
+          this.hammerDragCenter = null;
+        }
+      }
+    }
+
+    /**
+     * Repaint a delete button on the top right of the item when the item is selected
+     * @param {HTMLElement} anchor
+     * @protected
+     */
+
+  }, {
+    key: '_repaintDeleteButton',
+    value: function _repaintDeleteButton(anchor) {
+      var editable = (this.options.editable.overrideItems || this.editable == null) && this.options.editable.remove || !this.options.editable.overrideItems && this.editable != null && this.editable.remove;
+
+      if (this.selected && editable && !this.dom.deleteButton) {
+        // create and show button
+        var me = this;
+
+        var deleteButton = document.createElement('div');
+
+        if (this.options.rtl) {
+          deleteButton.className = 'timeline-delete-rtl';
+        } else {
+          deleteButton.className = 'timeline-delete';
+        }
+        deleteButton.title = 'Delete this item';
+
+        // TODO: be able to destroy the delete button
+        this.hammerDeleteButton = new _hammer2['default'](deleteButton).on('tap', function (event) {
+          event.stopPropagation();
+          me.parent.removeFromDataSet(me);
+        });
+
+        anchor.appendChild(deleteButton);
+        this.dom.deleteButton = deleteButton;
+      } else if (!this.selected && this.dom.deleteButton) {
+        // remove button
+        if (this.dom.deleteButton.parentNode) {
+          this.dom.deleteButton.parentNode.removeChild(this.dom.deleteButton);
+        }
+        this.dom.deleteButton = null;
+
+        if (this.hammerDeleteButton) {
+          this.hammerDeleteButton.destroy();
+          this.hammerDeleteButton = null;
+        }
+      }
+    }
+
+    /**
+     * Repaint a onChange tooltip on the top right of the item when the item is selected
+     * @param {HTMLElement} anchor
+     * @protected
+     */
+
+  }, {
+    key: '_repaintOnItemUpdateTimeTooltip',
+    value: function _repaintOnItemUpdateTimeTooltip(anchor) {
+      if (!this.options.tooltipOnItemUpdateTime) return;
+
+      var editable = (this.options.editable.updateTime || this.data.editable === true) && this.data.editable !== false;
+
+      if (this.selected && editable && !this.dom.onItemUpdateTimeTooltip) {
+        var onItemUpdateTimeTooltip = document.createElement('div');
+
+        onItemUpdateTimeTooltip.className = 'timeline-onUpdateTime-tooltip';
+        anchor.appendChild(onItemUpdateTimeTooltip);
+        this.dom.onItemUpdateTimeTooltip = onItemUpdateTimeTooltip;
+      } else if (!this.selected && this.dom.onItemUpdateTimeTooltip) {
+        // remove button
+        if (this.dom.onItemUpdateTimeTooltip.parentNode) {
+          this.dom.onItemUpdateTimeTooltip.parentNode.removeChild(this.dom.onItemUpdateTimeTooltip);
+        }
+        this.dom.onItemUpdateTimeTooltip = null;
+      }
+
+      // position onChange tooltip
+      if (this.dom.onItemUpdateTimeTooltip) {
+
+        // only show when editing
+        this.dom.onItemUpdateTimeTooltip.style.visibility = this.parent.itemSet.touchParams.itemIsDragging ? 'visible' : 'hidden';
+
+        // position relative to item's content
+        if (this.options.rtl) {
+          this.dom.onItemUpdateTimeTooltip.style.right = this.dom.content.style.right;
+        } else {
+          this.dom.onItemUpdateTimeTooltip.style.left = this.dom.content.style.left;
+        }
+
+        // position above or below the item depending on the item's position in the window
+        var tooltipOffset = 50; // TODO: should be tooltip height (depends on template)
+        var scrollTop = this.parent.itemSet.body.domProps.scrollTop;
+
+        // TODO: this.top for orientation:true is actually the items distance from the bottom... 
+        // (should be this.bottom)
+        var itemDistanceFromTop = void 0;
+        if (this.options.orientation.item == 'top') {
+          itemDistanceFromTop = this.top;
+        } else {
+          itemDistanceFromTop = this.parent.height - this.top - this.height;
+        }
+        var isCloseToTop = itemDistanceFromTop + this.parent.top - tooltipOffset < -scrollTop;
+
+        if (isCloseToTop) {
+          this.dom.onItemUpdateTimeTooltip.style.bottom = "";
+          this.dom.onItemUpdateTimeTooltip.style.top = this.height + 2 + 'px';
+        } else {
+          this.dom.onItemUpdateTimeTooltip.style.top = "";
+          this.dom.onItemUpdateTimeTooltip.style.bottom = this.height + 2 + 'px';
+        }
+
+        // handle tooltip content
+        var content = void 0;
+        var templateFunction = void 0;
+
+        if (this.options.tooltipOnItemUpdateTime && this.options.tooltipOnItemUpdateTime.template) {
+          templateFunction = this.options.tooltipOnItemUpdateTime.template.bind(this);
+          content = templateFunction(this.data);
+        } else {
+          content = 'start: ' + (0, _moment2['default'])(this.data.start).format('MM/DD/YYYY hh:mm');
+          if (this.data.end) {
+            content += '<br> end: ' + (0, _moment2['default'])(this.data.end).format('MM/DD/YYYY hh:mm');
+          }
+        }
+        this.dom.onItemUpdateTimeTooltip.innerHTML = content;
+      }
+    }
+
+    /**
+     * Set HTML contents for the item
+     * @param {Element} element   HTML element to fill with the contents
+     * @private
+     */
+
+  }, {
+    key: '_updateContents',
+    value: function _updateContents(element) {
+      var content = void 0;
+      var changed = void 0;
+      var templateFunction = void 0;
+      var itemVisibleFrameContent = void 0;
+      var visibleFrameTemplateFunction = void 0;
+      var itemData = this.parent.itemSet.itemsData.get(this.id); // get a clone of the data from the dataset
+
+      var frameElement = this.dom.box || this.dom.point;
+      var itemVisibleFrameContentElement = frameElement.getElementsByClassName('timeline-item-visible-frame')[0];
+
+      if (this.options.visibleFrameTemplate) {
+        visibleFrameTemplateFunction = this.options.visibleFrameTemplate.bind(this);
+        itemVisibleFrameContent = visibleFrameTemplateFunction(itemData, itemVisibleFrameContentElement);
+      } else {
+        itemVisibleFrameContent = '';
+      }
+
+      if (itemVisibleFrameContentElement) {
+        if (itemVisibleFrameContent instanceof Object && !(itemVisibleFrameContent instanceof Element)) {
+          visibleFrameTemplateFunction(itemData, itemVisibleFrameContentElement);
+        } else {
+          changed = this._contentToString(this.itemVisibleFrameContent) !== this._contentToString(itemVisibleFrameContent);
+          if (changed) {
+            // only replace the content when changed
+            if (itemVisibleFrameContent instanceof Element) {
+              itemVisibleFrameContentElement.innerHTML = '';
+              itemVisibleFrameContentElement.appendChild(itemVisibleFrameContent);
+            } else if (itemVisibleFrameContent != undefined) {
+              itemVisibleFrameContentElement.innerHTML = itemVisibleFrameContent;
+            } else {
+              if (!(this.data.type == 'background' && this.data.content === undefined)) {
+                throw new Error('Property "content" missing in item ' + this.id);
+              }
+            }
+
+            this.itemVisibleFrameContent = itemVisibleFrameContent;
+          }
+        }
+      }
+
+      if (this.options.template) {
+        templateFunction = this.options.template.bind(this);
+        content = templateFunction(itemData, element, this.data);
+      } else {
+        content = this.data.content;
+      }
+
+      if (content instanceof Object && !(content instanceof Element)) {
+        templateFunction(itemData, element);
+      } else {
+        changed = this._contentToString(this.content) !== this._contentToString(content);
+        if (changed) {
+          // only replace the content when changed
+          if (content instanceof Element) {
+            element.innerHTML = '';
+            element.appendChild(content);
+          } else if (content != undefined) {
+            element.innerHTML = content;
+          } else {
+            if (!(this.data.type == 'background' && this.data.content === undefined)) {
+              throw new Error('Property "content" missing in item ' + this.id);
+            }
+          }
+          this.content = content;
+        }
+      }
+    }
+
+    /**
+     * Process dataAttributes timeline option and set as data- attributes on dom.content
+     * @param {Element} element   HTML element to which the attributes will be attached
+     * @private
+     */
+
+  }, {
+    key: '_updateDataAttributes',
+    value: function _updateDataAttributes(element) {
+      if (this.options.dataAttributes && this.options.dataAttributes.length > 0) {
+        var attributes = [];
+
+        if (Array.isArray(this.options.dataAttributes)) {
+          attributes = this.options.dataAttributes;
+        } else if (this.options.dataAttributes == 'all') {
+          attributes = (0, _keys2['default'])(this.data);
+        } else {
+          return;
+        }
+
+        var _iteratorNormalCompletion = true;
+        var _didIteratorError = false;
+        var _iteratorError = undefined;
+
+        try {
+          for (var _iterator = (0, _getIterator3['default'])(attributes), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+            var name = _step.value;
+
+            var value = this.data[name];
+
+            if (value != null) {
+              element.setAttribute('data-' + name, value);
+            } else {
+              element.removeAttribute('data-' + name);
+            }
+          }
+        } catch (err) {
+          _didIteratorError = true;
+          _iteratorError = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion && _iterator['return']) {
+              _iterator['return']();
+            }
+          } finally {
+            if (_didIteratorError) {
+              throw _iteratorError;
+            }
+          }
+        }
+      }
+    }
+
+    /**
+     * Update custom styles of the element
+     * @param {Element} element
+     * @private
+     */
+
+  }, {
+    key: '_updateStyle',
+    value: function _updateStyle(element) {
+      // remove old styles
+      if (this.style) {
+        util.removeCssText(element, this.style);
+        this.style = null;
+      }
+
+      // append new styles
+      if (this.data.style) {
+        util.addCssText(element, this.data.style);
+        this.style = this.data.style;
+      }
+    }
+
+    /**
+     * Stringify the items contents
+     * @param {string | Element | undefined} content
+     * @returns {string | undefined}
+     * @private
+     */
+
+  }, {
+    key: '_contentToString',
+    value: function _contentToString(content) {
+      if (typeof content === 'string') return content;
+      if (content && 'outerHTML' in content) return content.outerHTML;
+      return content;
+    }
+
+    /**
+     * Update the editability of this item.
+     */
+
+  }, {
+    key: '_updateEditStatus',
+    value: function _updateEditStatus() {
+      if (this.options) {
+        if (typeof this.options.editable === 'boolean') {
+          this.editable = {
+            updateTime: this.options.editable,
+            updateGroup: this.options.editable,
+            remove: this.options.editable
+          };
+        } else if ((0, _typeof3['default'])(this.options.editable) === 'object') {
+          this.editable = {};
+          util.selectiveExtend(['updateTime', 'updateGroup', 'remove'], this.editable, this.options.editable);
+        }
+      }
+      // Item data overrides, except if options.editable.overrideItems is set.
+      if (!this.options || !this.options.editable || this.options.editable.overrideItems !== true) {
+        if (this.data) {
+          if (typeof this.data.editable === 'boolean') {
+            this.editable = {
+              updateTime: this.data.editable,
+              updateGroup: this.data.editable,
+              remove: this.data.editable
+            };
+          } else if ((0, _typeof3['default'])(this.data.editable) === 'object') {
+            // TODO: in timeline.js 5.0, we should change this to not reset options from the timeline configuration.
+            // Basically just remove the next line...
+            this.editable = {};
+            util.selectiveExtend(['updateTime', 'updateGroup', 'remove'], this.editable, this.data.editable);
+          }
+        }
+      }
+    }
+
+    /**
+     * Return the width of the item left from its start date
+     * @return {number}
+     */
+
+  }, {
+    key: 'getWidthLeft',
+    value: function getWidthLeft() {
+      return 0;
+    }
+
+    /**
+     * Return the width of the item right from the max of its start and end date
+     * @return {number}
+     */
+
+  }, {
+    key: 'getWidthRight',
+    value: function getWidthRight() {
+      return 0;
+    }
+
+    /**
+     * Return the title of the item
+     * @return {string | undefined}
+     */
+
+  }, {
+    key: 'getTitle',
+    value: function getTitle() {
+      return this.data.title;
+    }
+
+    /**
+     * Merge the item provided to this item.
+     * The item must have parameters left, width, top, and height.
+     * @param {Item} baseItem          The item to be merged
+     * @param {Item} otherItem          The item to be merged
+     * @return {Item}        New merged item
+     */
+
+  }], [{
+    key: 'isColliding',
+    value: function isColliding(a, b, margin, rtl) {
+      if (rtl) {
+        return a.right - margin.horizontal + EPSILON < b.right + b.width && a.right + a.width + margin.horizontal - EPSILON > b.right && a.top - margin.vertical + EPSILON < b.top + b.height && a.top + a.height + margin.vertical - EPSILON > b.top;
+      } else {
+        return a.left - margin.horizontal + EPSILON < b.left + b.width && a.left + a.width + margin.horizontal - EPSILON > b.left && a.top - margin.vertical + EPSILON < b.top + b.height && a.top + a.height + margin.vertical - EPSILON > b.top;
+      }
+    }
+  }, {
+    key: 'mergeItems',
+    value: function mergeItems(baseItem, otherItem) {
+
+      var typesConstructors = {};
+      util.toArray(_ItemSet.types).forEach(function (typeConstructor) {
+        if (baseItem instanceof typeConstructor) {
+          typesConstructors.base = typeConstructor;
+        }
+
+        if (otherItem instanceof typeConstructor) {
+          typesConstructors.other = typeConstructor;
+        }
+      });
+
+      if (!typesConstructors.base || !typesConstructors.other || typesConstructors.base !== typesConstructors.other) {
+        return;
+      }
+
+      var data = util.extend({}, baseItem.data);
+      data.content = 'merged'; //baseItem.content + ' merged!';
+      var mergedItem = new typesConstructors.base(data, baseItem.conversion, baseItem.options);
+      mergedItem.data.id = baseItem.data.id + '_merged_' + otherItem.data.id;
+      mergedItem.id = baseItem.data.id + '_merged_' + otherItem.data.id;
+      return mergedItem;
+    }
+  }]);
+  return Item;
+}();
+
+Item.prototype.stack = true;
+
+exports['default'] = Item;
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(12);
-var createDesc = __webpack_require__(27);
-module.exports = __webpack_require__(13) ? function (object, key, value) {
+var createDesc = __webpack_require__(26);
+module.exports = __webpack_require__(16) ? function (object, key, value) {
   return dP.f(object, key, createDesc(1, value));
 } : function (object, key, value) {
   object[key] = value;
@@ -2251,18 +2996,7 @@ module.exports = __webpack_require__(13) ? function (object, key, value) {
 
 
 /***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(20);
-module.exports = function (it) {
-  if (!isObject(it)) throw TypeError(it + ' is not an object!');
-  return it;
-};
-
-
-/***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -2271,25 +3005,31 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
-var IObject = __webpack_require__(87);
-var defined = __webpack_require__(37);
+var IObject = __webpack_require__(90);
+var defined = __webpack_require__(40);
 module.exports = function (it) {
   return IObject(defined(it));
 };
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(120), __esModule: true };
+module.exports = { "default": __webpack_require__(96), __esModule: true };
 
 /***/ }),
-/* 23 */
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(121), __esModule: true };
+
+/***/ }),
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = function (exec) {
@@ -2302,13 +3042,28 @@ module.exports = function (exec) {
 
 
 /***/ }),
-/* 24 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 26 */
+/***/ (function(module, exports) {
 
-module.exports = { "default": __webpack_require__(94), __esModule: true };
+module.exports = function (bitmap, value) {
+  return {
+    enumerable: !(bitmap & 1),
+    configurable: !(bitmap & 2),
+    writable: !(bitmap & 4),
+    value: value
+  };
+};
+
 
 /***/ }),
-/* 25 */
+/* 27 */
+/***/ (function(module, exports) {
+
+module.exports = {};
+
+
+/***/ }),
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2836,7 +3591,7 @@ function isHidden(time, hiddenDates) {
 }
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2845,18 +3600,27 @@ function isHidden(time, hiddenDates) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.types = undefined;
 
-var _typeof2 = __webpack_require__(7);
+var _create2 = __webpack_require__(35);
 
-var _typeof3 = _interopRequireDefault(_typeof2);
+var _create3 = _interopRequireDefault(_create2);
 
-var _getIterator2 = __webpack_require__(24);
+var _toConsumableArray2 = __webpack_require__(79);
+
+var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
+
+var _getIterator2 = __webpack_require__(23);
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _keys = __webpack_require__(10);
+var _typeof2 = __webpack_require__(4);
 
-var _keys2 = _interopRequireDefault(_keys);
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+var _getPrototypeOf = __webpack_require__(5);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
 var _classCallCheck2 = __webpack_require__(0);
 
@@ -2866,7 +3630,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _hammer = __webpack_require__(16);
+var _possibleConstructorReturn2 = __webpack_require__(6);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(7);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _hammer = __webpack_require__(13);
 
 var _hammer2 = _interopRequireDefault(_hammer);
 
@@ -2874,636 +3646,2724 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _moment = __webpack_require__(8);
+var _DataSet = __webpack_require__(34);
 
-var _moment2 = _interopRequireDefault(_moment);
+var _DataSet2 = _interopRequireDefault(_DataSet);
+
+var _DataView = __webpack_require__(50);
+
+var _DataView2 = _interopRequireDefault(_DataView);
+
+var _TimeStep = __webpack_require__(52);
+
+var _TimeStep2 = _interopRequireDefault(_TimeStep);
+
+var _Component2 = __webpack_require__(18);
+
+var _Component3 = _interopRequireDefault(_Component2);
+
+var _Group = __webpack_require__(54);
+
+var _Group2 = _interopRequireDefault(_Group);
+
+var _BackgroundGroup = __webpack_require__(55);
+
+var _BackgroundGroup2 = _interopRequireDefault(_BackgroundGroup);
+
+var _item2 = __webpack_require__(142);
+
+var _item3 = _interopRequireDefault(_item2);
+
+var _BoxItem = __webpack_require__(81);
+
+var _BoxItem2 = _interopRequireDefault(_BoxItem);
+
+var _PointItem = __webpack_require__(82);
+
+var _PointItem2 = _interopRequireDefault(_PointItem);
+
+var _RangeItem = __webpack_require__(56);
+
+var _RangeItem2 = _interopRequireDefault(_RangeItem);
+
+var _BackgroundItem = __webpack_require__(83);
+
+var _BackgroundItem2 = _interopRequireDefault(_BackgroundItem);
+
+var _Popup = __webpack_require__(143);
+
+var _Popup2 = _interopRequireDefault(_Popup);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
+var UNGROUPED = '__ungrouped__'; // reserved group id for ungrouped items
+var BACKGROUND = '__background__'; // reserved group id for background items without group
+
 /**
- * Item
+ * An ItemSet holds a set of items and ranges which can be displayed in a
+ * range. The width is determined by the parent of the ItemSet, and the height
+ * is determined by the size of the items.
  */
-var Item = function () {
+
+var ItemSet = function (_Component) {
+  (0, _inherits3['default'])(ItemSet, _Component);
+
   /**
-  * @constructor Item
-  * @param {Object} data             Object containing (optional) parameters type,
-  *                                  start, end, content, group, className.
-  * @param {{toScreen: function, toTime: function}} conversion
-  *                                  Conversion functions from time to screen and vice versa
-  * @param {Object} options          Configuration options
-  *                                  // TODO: describe available options
+  * @param {{dom: Object, domProps: Object, emitter: Emitter, range: Range}} body
+  * @param {Object} [options]      See ItemSet.setOptions for the available options.
+  * @constructor ItemSet
+  * @extends Component
   */
-  function Item(data, conversion, options) {
-    (0, _classCallCheck3['default'])(this, Item);
+  function ItemSet(body, options) {
+    (0, _classCallCheck3['default'])(this, ItemSet);
 
-    this.id = null;
-    this.parent = null;
-    this.data = data;
-    this.dom = null;
-    this.conversion = conversion || {};
-    this.options = options || {};
-    this.selected = false;
-    this.displayed = false;
-    this.groupShowing = true;
-    this.dirty = true;
+    var _this = (0, _possibleConstructorReturn3['default'])(this, (ItemSet.__proto__ || (0, _getPrototypeOf2['default'])(ItemSet)).call(this));
 
-    this.top = null;
-    this.right = null;
-    this.left = null;
-    this.width = null;
-    this.height = null;
+    _this.body = body;
+    _this.defaultOptions = {
+      type: null, // 'box', 'point', 'range', 'background'
+      orientation: {
+        item: 'bottom' // item orientation: 'top' or 'bottom'
+      },
+      align: 'auto', // alignment of box items
+      stack: true,
+      stackSubgroups: true,
+      groupOrderSwap: function groupOrderSwap(fromGroup, toGroup, groups) {
+        // eslint-disable-line no-unused-vars
+        var targetOrder = toGroup.order;
+        toGroup.order = fromGroup.order;
+        fromGroup.order = targetOrder;
+      },
 
-    this.editable = null;
-    this._updateEditStatus();
+      groupOrder: 'order',
+
+      selectable: true,
+      multiselect: false,
+      itemsAlwaysDraggable: {
+        item: false,
+        range: false
+      },
+
+      editable: {
+        updateTime: false,
+        updateGroup: false,
+        add: false,
+        remove: false,
+        overrideItems: false
+      },
+
+      groupEditable: {
+        order: false,
+        add: false,
+        remove: false
+      },
+
+      snap: _TimeStep2['default'].snap,
+
+      // Only called when `objectData.target === 'item'.
+      onDropObjectOnItem: function onDropObjectOnItem(objectData, item, callback) {
+        callback(item);
+      },
+      onAdd: function onAdd(item, callback) {
+        callback(item);
+      },
+      onUpdate: function onUpdate(item, callback) {
+        callback(item);
+      },
+      onMove: function onMove(item, callback) {
+        callback(item);
+      },
+      onRemove: function onRemove(item, callback) {
+        callback(item);
+      },
+      onMoving: function onMoving(item, callback) {
+        callback(item);
+      },
+      onAddGroup: function onAddGroup(item, callback) {
+        callback(item);
+      },
+      onMoveGroup: function onMoveGroup(item, callback) {
+        callback(item);
+      },
+      onRemoveGroup: function onRemoveGroup(item, callback) {
+        callback(item);
+      },
+
+
+      margin: {
+        item: {
+          horizontal: 10,
+          vertical: 10
+        },
+        axis: 20
+      },
+
+      showTooltips: true,
+
+      tooltip: {
+        followMouse: false,
+        overflowMethod: 'flip'
+      },
+
+      tooltipOnItemUpdateTime: false
+    };
+
+    // options is shared by this ItemSet and all its items
+    _this.options = util.extend({}, _this.defaultOptions);
+    _this.options.rtl = options.rtl;
+    _this.options.onTimeout = options.onTimeout;
+
+    // options for getting items from the DataSet with the correct type
+    _this.itemOptions = {
+      type: { start: 'Date', end: 'Date' }
+    };
+
+    _this.conversion = {
+      toScreen: body.util.toScreen,
+      toTime: body.util.toTime
+    };
+    _this.dom = {};
+    _this.props = {};
+    _this.hammer = null;
+
+    var me = _this;
+    _this.itemsData = null; // DataSet
+    _this.groupsData = null; // DataSet
+    _this.itemsSettingTime = null;
+    _this.initialItemSetDrawn = false;
+    _this.userContinueNotBail = null;
+
+    // listeners for the DataSet of the items
+    _this.itemListeners = {
+      'add': function add(event, params, senderId) {
+        // eslint-disable-line no-unused-vars
+        me._onAdd(params.items);
+      },
+      'update': function update(event, params, senderId) {
+        // eslint-disable-line no-unused-vars
+        me._onUpdate(params.items);
+      },
+      'remove': function remove(event, params, senderId) {
+        // eslint-disable-line no-unused-vars
+        me._onRemove(params.items);
+      }
+    };
+
+    // listeners for the DataSet of the groups
+    _this.groupListeners = {
+      'add': function add(event, params, senderId) {
+        // eslint-disable-line no-unused-vars
+        me._onAddGroups(params.items);
+
+        if (me.groupsData && me.groupsData.length > 0) {
+          var groupsData = me.groupsData.getDataSet();
+          groupsData.get().forEach(function (groupData) {
+            if (groupData.nestedGroups) {
+              if (groupData.showNested != false) {
+                groupData.showNested = true;
+              }
+              var updatedGroups = [];
+              groupData.nestedGroups.forEach(function (nestedGroupId) {
+                var updatedNestedGroup = groupsData.get(nestedGroupId);
+                if (!updatedNestedGroup) {
+                  return;
+                }
+                updatedNestedGroup.nestedInGroup = groupData.id;
+                if (groupData.showNested == false) {
+                  updatedNestedGroup.visible = false;
+                }
+                updatedGroups = updatedGroups.concat(updatedNestedGroup);
+              });
+              groupsData.update(updatedGroups, senderId);
+            }
+          });
+        }
+      },
+      'update': function update(event, params, senderId) {
+        // eslint-disable-line no-unused-vars
+        me._onUpdateGroups(params.items);
+      },
+      'remove': function remove(event, params, senderId) {
+        // eslint-disable-line no-unused-vars
+        me._onRemoveGroups(params.items);
+      }
+    };
+
+    _this.items = {}; // object with an Item for every data item
+    _this.groups = {}; // Group object for every group
+    _this.groupIds = [];
+
+    _this.selection = []; // list with the ids of all selected nodes
+
+    _this.popup = null;
+
+    _this.touchParams = {}; // stores properties while dragging
+    _this.groupTouchParams = {};
+    // create the HTML DOM
+
+    _this._create();
+
+    _this.setOptions(options);
+    return _this;
   }
 
   /**
-   * Select current item
+   * Create the HTML DOM for the ItemSet
    */
 
 
-  (0, _createClass3['default'])(Item, [{
-    key: 'select',
-    value: function select() {
-      this.selected = true;
-      this.dirty = true;
-      if (this.displayed) this.redraw();
-    }
+  (0, _createClass3['default'])(ItemSet, [{
+    key: '_create',
+    value: function _create() {
+      var _this2 = this;
 
-    /**
-     * Unselect current item
-     */
+      var frame = document.createElement('div');
+      frame.className = 'timeline-itemset';
+      frame['timeline-itemset'] = this;
+      this.dom.frame = frame;
 
-  }, {
-    key: 'unselect',
-    value: function unselect() {
-      this.selected = false;
-      this.dirty = true;
-      if (this.displayed) this.redraw();
-    }
+      // create background panel
+      var background = document.createElement('div');
+      background.className = 'timeline-background';
+      frame.appendChild(background);
+      this.dom.background = background;
 
-    /**
-     * Set data for the item. Existing data will be updated. The id should not
-     * be changed. When the item is displayed, it will be redrawn immediately.
-     * @param {Object} data
-     */
+      // create foreground panel
+      var foreground = document.createElement('div');
+      foreground.className = 'timeline-foreground';
+      frame.appendChild(foreground);
+      this.dom.foreground = foreground;
 
-  }, {
-    key: 'setData',
-    value: function setData(data) {
-      var groupChanged = data.group != undefined && this.data.group != data.group;
-      if (groupChanged && this.parent != null) {
-        this.parent.itemSet._moveToGroup(this, data.group);
-      }
+      // create axis panel
+      var axis = document.createElement('div');
+      axis.className = 'timeline-axis';
+      this.dom.axis = axis;
 
-      if (this.parent) {
-        this.parent.stackDirty = true;
-      }
+      // create labelset
+      var labelSet = document.createElement('div');
+      labelSet.className = 'timeline-labelset';
+      this.dom.labelSet = labelSet;
 
-      var subGroupChanged = data.subgroup != undefined && this.data.subgroup != data.subgroup;
-      if (subGroupChanged && this.parent != null) {
-        this.parent.changeSubgroup(this, this.data.subgroup, data.subgroup);
-      }
+      // create ungrouped Group
+      this._updateUngrouped();
 
-      this.data = data;
-      this._updateEditStatus();
-      this.dirty = true;
-      if (this.displayed) this.redraw();
-    }
+      // create background Group
+      var backgroundGroup = new _BackgroundGroup2['default'](BACKGROUND, null, this);
+      backgroundGroup.show();
+      this.groups[BACKGROUND] = backgroundGroup;
 
-    /**
-     * Set a parent for the item
-     * @param {Group} parent
-     */
+      // attach event listeners
+      // Note: we bind to the centerContainer for the case where the height
+      //       of the center container is larger than of the ItemSet, so we
+      //       can click in the empty area to create a new item or deselect an item.
+      this.hammer = new _hammer2['default'](this.body.dom.centerContainer);
 
-  }, {
-    key: 'setParent',
-    value: function setParent(parent) {
-      if (this.displayed) {
-        this.hide();
-        this.parent = parent;
-        if (this.parent) {
-          this.show();
+      // drag items when selected
+      this.hammer.on('hammer.input', function (event) {
+        if (event.isFirst) {
+          _this2._onTouch(event);
         }
+      });
+      this.hammer.on('panstart', this._onDragStart.bind(this));
+      this.hammer.on('panmove', this._onDrag.bind(this));
+      this.hammer.on('panend', this._onDragEnd.bind(this));
+      this.hammer.get('pan').set({ threshold: 5, direction: _hammer2['default'].DIRECTION_HORIZONTAL });
+
+      // single select (or unselect) when tapping an item
+      this.hammer.on('tap', this._onSelectItem.bind(this));
+
+      // multi select when holding mouse/touch, or on ctrl+click
+      this.hammer.on('press', this._onMultiSelectItem.bind(this));
+
+      // add item on doubletap
+      this.hammer.on('doubletap', this._onAddItem.bind(this));
+
+      if (this.options.rtl) {
+        this.groupHammer = new _hammer2['default'](this.body.dom.rightContainer);
       } else {
-        this.parent = parent;
+        this.groupHammer = new _hammer2['default'](this.body.dom.leftContainer);
+      }
+
+      this.groupHammer.on('tap', this._onGroupClick.bind(this));
+      this.groupHammer.on('panstart', this._onGroupDragStart.bind(this));
+      this.groupHammer.on('panmove', this._onGroupDrag.bind(this));
+      this.groupHammer.on('panend', this._onGroupDragEnd.bind(this));
+      this.groupHammer.get('pan').set({ threshold: 5, direction: _hammer2['default'].DIRECTION_VERTICAL });
+
+      this.body.dom.centerContainer.addEventListener('mouseover', this._onMouseOver.bind(this));
+      this.body.dom.centerContainer.addEventListener('mouseout', this._onMouseOut.bind(this));
+      this.body.dom.centerContainer.addEventListener('mousemove', this._onMouseMove.bind(this));
+      // right-click on timeline 
+      this.body.dom.centerContainer.addEventListener('contextmenu', this._onDragEnd.bind(this));
+
+      this.body.dom.centerContainer.addEventListener('mousewheel', this._onMouseWheel.bind(this));
+
+      // attach to the DOM
+      this.show();
+    }
+
+    /**
+     * Set options for the ItemSet. Existing options will be extended/overwritten.
+     * @param {Object} [options] The following options are available:
+     *                           {string} type
+     *                              Default type for the items. Choose from 'box'
+     *                              (default), 'point', 'range', or 'background'.
+     *                              The default style can be overwritten by
+     *                              individual items.
+     *                           {string} align
+     *                              Alignment for the items, only applicable for
+     *                              BoxItem. Choose 'center' (default), 'left', or
+     *                              'right'.
+     *                           {string} orientation.item
+     *                              Orientation of the item set. Choose 'top' or
+     *                              'bottom' (default).
+     *                           {Function} groupOrder
+     *                              A sorting function for ordering groups
+     *                           {boolean} stack
+     *                              If true (default), items will be stacked on
+     *                              top of each other.
+     *                           {number} margin.axis
+     *                              Margin between the axis and the items in pixels.
+     *                              Default is 20.
+     *                           {number} margin.item.horizontal
+     *                              Horizontal margin between items in pixels.
+     *                              Default is 10.
+     *                           {number} margin.item.vertical
+     *                              Vertical Margin between items in pixels.
+     *                              Default is 10.
+     *                           {number} margin.item
+     *                              Margin between items in pixels in both horizontal
+     *                              and vertical direction. Default is 10.
+     *                           {number} margin
+     *                              Set margin for both axis and items in pixels.
+     *                           {boolean} selectable
+     *                              If true (default), items can be selected.
+     *                           {boolean} multiselect
+     *                              If true, multiple items can be selected.
+     *                              False by default.
+     *                           {boolean} editable
+     *                              Set all editable options to true or false
+     *                           {boolean} editable.updateTime
+     *                              Allow dragging an item to an other moment in time
+     *                           {boolean} editable.updateGroup
+     *                              Allow dragging an item to an other group
+     *                           {boolean} editable.add
+     *                              Allow creating new items on double tap
+     *                           {boolean} editable.remove
+     *                              Allow removing items by clicking the delete button
+     *                              top right of a selected item.
+     *                           {Function(item: Item, callback: Function)} onAdd
+     *                              Callback function triggered when an item is about to be added:
+     *                              when the user double taps an empty space in the Timeline.
+     *                           {Function(item: Item, callback: Function)} onUpdate
+     *                              Callback function fired when an item is about to be updated.
+     *                              This function typically has to show a dialog where the user
+     *                              change the item. If not implemented, nothing happens.
+     *                           {Function(item: Item, callback: Function)} onMove
+     *                              Fired when an item has been moved. If not implemented,
+     *                              the move action will be accepted.
+     *                           {Function(item: Item, callback: Function)} onRemove
+     *                              Fired when an item is about to be deleted.
+     *                              If not implemented, the item will be always removed.
+     */
+
+  }, {
+    key: 'setOptions',
+    value: function setOptions(options) {
+      var _this3 = this;
+
+      if (options) {
+        // copy all options that we know
+        var fields = ['type', 'rtl', 'align', 'order', 'stack', 'stackSubgroups', 'selectable', 'multiselect', 'multiselectPerGroup', 'groupOrder', 'dataAttributes', 'template', 'groupTemplate', 'visibleFrameTemplate', 'hide', 'snap', 'groupOrderSwap', 'showTooltips', 'tooltip', 'tooltipOnItemUpdateTime', 'groupHeightMode', 'onTimeout'];
+        util.selectiveExtend(fields, this.options, options);
+
+        if ('itemsAlwaysDraggable' in options) {
+          if (typeof options.itemsAlwaysDraggable === 'boolean') {
+            this.options.itemsAlwaysDraggable.item = options.itemsAlwaysDraggable;
+            this.options.itemsAlwaysDraggable.range = false;
+          } else if ((0, _typeof3['default'])(options.itemsAlwaysDraggable) === 'object') {
+            util.selectiveExtend(['item', 'range'], this.options.itemsAlwaysDraggable, options.itemsAlwaysDraggable);
+            // only allow range always draggable when item is always draggable as well
+            if (!this.options.itemsAlwaysDraggable.item) {
+              this.options.itemsAlwaysDraggable.range = false;
+            }
+          }
+        }
+
+        if ('orientation' in options) {
+          if (typeof options.orientation === 'string') {
+            this.options.orientation.item = options.orientation === 'top' ? 'top' : 'bottom';
+          } else if ((0, _typeof3['default'])(options.orientation) === 'object' && 'item' in options.orientation) {
+            this.options.orientation.item = options.orientation.item;
+          }
+        }
+
+        if ('margin' in options) {
+          if (typeof options.margin === 'number') {
+            this.options.margin.axis = options.margin;
+            this.options.margin.item.horizontal = options.margin;
+            this.options.margin.item.vertical = options.margin;
+          } else if ((0, _typeof3['default'])(options.margin) === 'object') {
+            util.selectiveExtend(['axis'], this.options.margin, options.margin);
+            if ('item' in options.margin) {
+              if (typeof options.margin.item === 'number') {
+                this.options.margin.item.horizontal = options.margin.item;
+                this.options.margin.item.vertical = options.margin.item;
+              } else if ((0, _typeof3['default'])(options.margin.item) === 'object') {
+                util.selectiveExtend(['horizontal', 'vertical'], this.options.margin.item, options.margin.item);
+              }
+            }
+          }
+        }
+
+        if ('editable' in options) {
+          if (typeof options.editable === 'boolean') {
+            this.options.editable.updateTime = options.editable;
+            this.options.editable.updateGroup = options.editable;
+            this.options.editable.add = options.editable;
+            this.options.editable.remove = options.editable;
+            this.options.editable.overrideItems = false;
+          } else if ((0, _typeof3['default'])(options.editable) === 'object') {
+            util.selectiveExtend(['updateTime', 'updateGroup', 'add', 'remove', 'overrideItems'], this.options.editable, options.editable);
+          }
+        }
+
+        if ('groupEditable' in options) {
+          if (typeof options.groupEditable === 'boolean') {
+            this.options.groupEditable.order = options.groupEditable;
+            this.options.groupEditable.add = options.groupEditable;
+            this.options.groupEditable.remove = options.groupEditable;
+          } else if ((0, _typeof3['default'])(options.groupEditable) === 'object') {
+            util.selectiveExtend(['order', 'add', 'remove'], this.options.groupEditable, options.groupEditable);
+          }
+        }
+
+        // callback functions
+        var addCallback = function addCallback(name) {
+          var fn = options[name];
+          if (fn) {
+            if (!(typeof fn === 'function')) {
+              throw new Error('option ' + name + ' must be a function ' + name + '(item, callback)');
+            }
+            _this3.options[name] = fn;
+          }
+        };
+        ['onDropObjectOnItem', 'onAdd', 'onUpdate', 'onRemove', 'onMove', 'onMoving', 'onAddGroup', 'onMoveGroup', 'onRemoveGroup'].forEach(addCallback);
+
+        // force the itemSet to refresh: options like orientation and margins may be changed
+        this.markDirty();
       }
     }
 
     /**
-     * Check whether this item is visible inside given range
-     * @param {timeline.Range} range with a timestamp for start and end
-     * @returns {boolean} True if visible
+     * Mark the ItemSet dirty so it will refresh everything with next redraw.
+     * Optionally, all items can be marked as dirty and be refreshed.
+     * @param {{refreshItems: boolean}} [options]
      */
 
   }, {
-    key: 'isVisible',
-    value: function isVisible(range) {
-      // eslint-disable-line no-unused-vars
-      return false;
+    key: 'markDirty',
+    value: function markDirty(options) {
+      this.groupIds = [];
+
+      if (options && options.refreshItems) {
+        util.forEach(this.items, function (item) {
+          item.dirty = true;
+          if (item.displayed) item.redraw();
+        });
+      }
     }
 
     /**
-     * Show the Item in the DOM (when not already visible)
-     * @return {Boolean} changed
+     * Destroy the ItemSet
      */
 
   }, {
-    key: 'show',
-    value: function show() {
-      return false;
+    key: 'destroy',
+    value: function destroy() {
+      this.hide();
+      this.setItems(null);
+      this.setGroups(null);
+
+      this.hammer && this.hammer.destroy();
+      this.groupHammer && this.groupHammer.destroy();
+      this.hammer = null;
+
+      this.body = null;
+      this.conversion = null;
     }
 
     /**
-     * Hide the Item from the DOM (when visible)
-     * @return {Boolean} changed
+     * Hide the component from the DOM
      */
 
   }, {
     key: 'hide',
     value: function hide() {
-      return false;
+      // remove the frame containing the items
+      if (this.dom.frame.parentNode) {
+        this.dom.frame.parentNode.removeChild(this.dom.frame);
+      }
+
+      // remove the axis with dots
+      if (this.dom.axis.parentNode) {
+        this.dom.axis.parentNode.removeChild(this.dom.axis);
+      }
+
+      // remove the labelset containing all group labels
+      if (this.dom.labelSet.parentNode) {
+        this.dom.labelSet.parentNode.removeChild(this.dom.labelSet);
+      }
     }
 
     /**
-     * Repaint the item
+     * Show the component in the DOM (when not already visible).
+     */
+
+  }, {
+    key: 'show',
+    value: function show() {
+      // show frame containing the items
+      if (!this.dom.frame.parentNode) {
+        this.body.dom.center.appendChild(this.dom.frame);
+      }
+
+      // show axis with dots
+      if (!this.dom.axis.parentNode) {
+        this.body.dom.backgroundVertical.appendChild(this.dom.axis);
+      }
+
+      // show labelset containing labels
+      if (!this.dom.labelSet.parentNode) {
+        if (this.options.rtl) {
+          this.body.dom.right.appendChild(this.dom.labelSet);
+        } else {
+          this.body.dom.left.appendChild(this.dom.labelSet);
+        }
+      }
+    }
+
+    /**
+     * Set selected items by their id. Replaces the current selection
+     * Unknown id's are silently ignored.
+     * @param {string[] | string} [ids] An array with zero or more id's of the items to be
+     *                                  selected, or a single item id. If ids is undefined
+     *                                  or an empty array, all items will be unselected.
+     */
+
+  }, {
+    key: 'setSelection',
+    value: function setSelection(ids) {
+      var i = void 0;
+      var ii = void 0;
+      var id = void 0;
+      var item = void 0;
+
+      if (ids == undefined) ids = [];
+      if (!Array.isArray(ids)) ids = [ids];
+
+      // unselect currently selected items
+      for (i = 0, ii = this.selection.length; i < ii; i++) {
+        id = this.selection[i];
+        item = this.items[id];
+        if (item && ids.indexOf(id) < 0) item.unselect();
+      }
+
+      // select items
+      this.selection = [];
+      for (i = 0, ii = ids.length; i < ii; i++) {
+        id = ids[i];
+        item = this.items[id];
+        if (item) {
+          this.selection.push(id);
+          item.select();
+        }
+      }
+    }
+
+    /**
+     * Get the selected items by their id
+     * @return {Array} ids  The ids of the selected items
+     */
+
+  }, {
+    key: 'getSelection',
+    value: function getSelection() {
+      return this.selection.concat([]);
+    }
+
+    /**
+     * Get the id's of the currently visible items.
+     * @returns {Array} The ids of the visible items
+     */
+
+  }, {
+    key: 'getVisibleItems',
+    value: function getVisibleItems() {
+      var range = this.body.range.getRange();
+      var right = void 0;
+      var left = void 0;
+
+      if (this.options.rtl) {
+        right = this.body.util.toScreen(range.start);
+        left = this.body.util.toScreen(range.end);
+      } else {
+        left = this.body.util.toScreen(range.start);
+        right = this.body.util.toScreen(range.end);
+      }
+
+      var items = [];
+      for (var groupId in this.groups) {
+        if (this.groups.hasOwnProperty(groupId)) {
+          var group = this.groups[groupId];
+          var rawVisibleItems = group.isVisible ? group.visibleItems : [];
+
+          // filter the "raw" set with visibleItems into a set which is really
+          // visible by pixels
+          var _iteratorNormalCompletion = true;
+          var _didIteratorError = false;
+          var _iteratorError = undefined;
+
+          try {
+            for (var _iterator = (0, _getIterator3['default'])(rawVisibleItems), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+              var item = _step.value;
+
+              // TODO: also check whether visible vertically
+              if (this.options.rtl) {
+                if (item.right < left && item.right + item.width > right) {
+                  items.push(item);
+                }
+              } else {
+                if (item.left < right && item.left + item.width > left) {
+                  items.push(item);
+                }
+              }
+            }
+          } catch (err) {
+            _didIteratorError = true;
+            _iteratorError = err;
+          } finally {
+            try {
+              if (!_iteratorNormalCompletion && _iterator['return']) {
+                _iterator['return']();
+              }
+            } finally {
+              if (_didIteratorError) {
+                throw _iteratorError;
+              }
+            }
+          }
+        }
+      }
+
+      if (this.options.clusterItems) {
+        items = this._clusterItems(items);
+      }
+
+      var ids = items.map(function (item) {
+        return item.id;
+      });
+      return ids;
+    }
+  }, {
+    key: '_clusterItems',
+    value: function _clusterItems(items) {
+      var clusteredItems = void 0;
+
+      if (!items) {
+        return null;
+      }
+
+      if (items instanceof ItemSet) {
+        // turn an array into a dataset
+        clusteredItems = [].concat((0, _toConsumableArray3['default'])(items.items));
+      } else {
+        clusteredItems = [].concat((0, _toConsumableArray3['default'])(items));
+      }
+
+      for (var i = 0; i < clusteredItems.length; i++) {
+        // eslint-disable-line no-redeclare
+        for (var j = i + 1; j < clusteredItems.length; j++) {
+          if (clusteredItems[i].isColliding(clusteredItems[j])) {
+            clusteredItems[i] = _item3['default'].mergeItems(clusteredItems[i], clusteredItems[j]);
+            clusteredItems.splice(j, 1);
+          }
+        }
+      }
+      return clusteredItems;
+    }
+
+    /**
+     * Get the id's of the currently visible groups.
+     * @returns {Array} The ids of the visible groups
+     */
+
+  }, {
+    key: 'getVisibleGroups',
+    value: function getVisibleGroups() {
+      var ids = [];
+
+      for (var groupId in this.groups) {
+        if (this.groups.hasOwnProperty(groupId)) {
+          var group = this.groups[groupId];
+          if (group.isVisible) {
+            ids.push(groupId);
+          }
+        }
+      }
+
+      return ids;
+    }
+
+    /**
+     * Deselect a selected item
+     * @param {string | number} id
+     * @private
+     */
+
+  }, {
+    key: '_deselect',
+    value: function _deselect(id) {
+      var selection = this.selection;
+      for (var i = 0, ii = selection.length; i < ii; i++) {
+        if (selection[i] == id) {
+          // non-strict comparison!
+          selection.splice(i, 1);
+          break;
+        }
+      }
+    }
+
+    /**
+     * Repaint the component
+     * @return {boolean} Returns true if the component is resized
      */
 
   }, {
     key: 'redraw',
-    value: function redraw() {}
-    // should be implemented by the item
+    value: function redraw() {
+      var _this4 = this;
 
+      var margin = this.options.margin;
+      var range = this.body.range;
+      var asSize = util.option.asSize;
+      var options = this.options;
+      var orientation = options.orientation.item;
+      var resized = false;
+      var frame = this.dom.frame;
 
-    /**
-     * Reposition the Item horizontally
-     */
+      // recalculate absolute position (before redrawing groups)
+      this.props.top = this.body.domProps.top.height + this.body.domProps.border.top;
 
-  }, {
-    key: 'repositionX',
-    value: function repositionX() {}
-    // should be implemented by the item
+      if (this.options.rtl) {
+        this.props.right = this.body.domProps.right.width + this.body.domProps.border.right;
+      } else {
+        this.props.left = this.body.domProps.left.width + this.body.domProps.border.left;
+      }
 
+      // update class name
+      frame.className = 'timeline-itemset';
 
-    /**
-     * Reposition the Item vertically
-     */
+      // reorder the groups (if needed)
+      resized = this._orderGroups() || resized;
 
-  }, {
-    key: 'repositionY',
-    value: function repositionY() {}
-    // should be implemented by the item
+      // check whether zoomed (in that case we need to re-stack everything)
+      // TODO: would be nicer to get this as a trigger from Range
+      var visibleInterval = range.end - range.start;
+      var zoomed = visibleInterval != this.lastVisibleInterval || this.props.width != this.props.lastWidth;
+      var scrolled = range.start != this.lastRangeStart;
+      var changedStackOption = options.stack != this.lastStack;
+      var changedStackSubgroupsOption = options.stackSubgroups != this.lastStackSubgroups;
+      var forceRestack = zoomed || scrolled || changedStackOption || changedStackSubgroupsOption;
+      this.lastVisibleInterval = visibleInterval;
+      this.lastRangeStart = range.start;
+      this.lastStack = options.stack;
+      this.lastStackSubgroups = options.stackSubgroups;
 
+      this.props.lastWidth = this.props.width;
+      var firstGroup = this._firstGroup();
+      var firstMargin = {
+        item: margin.item,
+        axis: margin.axis
+      };
+      var nonFirstMargin = {
+        item: margin.item,
+        axis: margin.item.vertical / 2
+      };
+      var height = 0;
+      var minHeight = margin.axis + margin.item.vertical;
 
-    /**
-     * Repaint a drag area on the center of the item when the item is selected
-     * @protected
-     */
+      // redraw the background group
+      this.groups[BACKGROUND].redraw(range, nonFirstMargin, forceRestack);
 
-  }, {
-    key: '_repaintDragCenter',
-    value: function _repaintDragCenter() {
-      if (this.selected && this.options.editable.updateTime && !this.dom.dragCenter) {
-        var me = this;
-        // create and show drag area
-        var dragCenter = document.createElement('div');
-        dragCenter.className = 'timeline-drag-center';
-        dragCenter.dragCenterItem = this;
-        this.hammerDragCenter = new _hammer2['default'](dragCenter);
+      var redrawQueue = {};
+      var redrawQueueLength = 0;
 
-        this.hammerDragCenter.on('tap', function (event) {
-          me.parent.itemSet.body.emitter.emit('click', {
-            event: event,
-            item: me.id
-          });
-        });
-        this.hammerDragCenter.on('doubletap', function (event) {
-          event.stopPropagation();
-          me.parent.itemSet._onUpdateItem(me);
-          me.parent.itemSet.body.emitter.emit('doubleClick', {
-            event: event,
-            item: me.id
-          });
-        });
+      // collect redraw functions
+      util.forEach(this.groups, function (group, key) {
+        if (key === BACKGROUND) return;
+        var groupMargin = group == firstGroup ? firstMargin : nonFirstMargin;
+        var returnQueue = true;
+        redrawQueue[key] = group.redraw(range, groupMargin, forceRestack, returnQueue);
+        redrawQueueLength = redrawQueue[key].length;
+      });
 
-        if (this.dom.box) {
-          if (this.dom.dragLeft) {
-            this.dom.box.insertBefore(dragCenter, this.dom.dragLeft);
-          } else {
-            this.dom.box.appendChild(dragCenter);
+      var needRedraw = redrawQueueLength > 0;
+      if (needRedraw) {
+        (function () {
+          var redrawResults = {};
+
+          var _loop = function _loop(i) {
+            util.forEach(redrawQueue, function (fns, key) {
+              redrawResults[key] = fns[i]();
+            });
+          };
+
+          for (var i = 0; i < redrawQueueLength; i++) {
+            _loop(i);
           }
-        } else if (this.dom.point) {
-          this.dom.point.appendChild(dragCenter);
-        }
 
-        this.dom.dragCenter = dragCenter;
-      } else if (!this.selected && this.dom.dragCenter) {
-        // delete drag area
-        if (this.dom.dragCenter.parentNode) {
-          this.dom.dragCenter.parentNode.removeChild(this.dom.dragCenter);
-        }
-        this.dom.dragCenter = null;
-
-        if (this.hammerDragCenter) {
-          this.hammerDragCenter.destroy();
-          this.hammerDragCenter = null;
-        }
+          // redraw all regular groups
+          util.forEach(_this4.groups, function (group, key) {
+            if (key === BACKGROUND) return;
+            var groupResized = redrawResults[key];
+            resized = groupResized || resized;
+            height += group.height;
+          });
+          height = Math.max(height, minHeight);
+        })();
       }
+
+      height = Math.max(height, minHeight);
+
+      // update frame height
+      frame.style.height = asSize(height);
+
+      // calculate actual size
+      this.props.width = frame.offsetWidth;
+      this.props.height = height;
+
+      // reposition axis
+      this.dom.axis.style.top = asSize(orientation == 'top' ? this.body.domProps.top.height + this.body.domProps.border.top : this.body.domProps.top.height + this.body.domProps.centerContainer.height);
+      if (this.options.rtl) {
+        this.dom.axis.style.right = '0';
+      } else {
+        this.dom.axis.style.left = '0';
+      }
+
+      this.initialItemSetDrawn = true;
+      // check if this component is resized
+      resized = this._isResized() || resized;
+
+      return resized;
     }
 
     /**
-     * Repaint a delete button on the top right of the item when the item is selected
-     * @param {HTMLElement} anchor
-     * @protected
-     */
-
-  }, {
-    key: '_repaintDeleteButton',
-    value: function _repaintDeleteButton(anchor) {
-      var editable = (this.options.editable.overrideItems || this.editable == null) && this.options.editable.remove || !this.options.editable.overrideItems && this.editable != null && this.editable.remove;
-
-      if (this.selected && editable && !this.dom.deleteButton) {
-        // create and show button
-        var me = this;
-
-        var deleteButton = document.createElement('div');
-
-        if (this.options.rtl) {
-          deleteButton.className = 'timeline-delete-rtl';
-        } else {
-          deleteButton.className = 'timeline-delete';
-        }
-        deleteButton.title = 'Delete this item';
-
-        // TODO: be able to destroy the delete button
-        this.hammerDeleteButton = new _hammer2['default'](deleteButton).on('tap', function (event) {
-          event.stopPropagation();
-          me.parent.removeFromDataSet(me);
-        });
-
-        anchor.appendChild(deleteButton);
-        this.dom.deleteButton = deleteButton;
-      } else if (!this.selected && this.dom.deleteButton) {
-        // remove button
-        if (this.dom.deleteButton.parentNode) {
-          this.dom.deleteButton.parentNode.removeChild(this.dom.deleteButton);
-        }
-        this.dom.deleteButton = null;
-
-        if (this.hammerDeleteButton) {
-          this.hammerDeleteButton.destroy();
-          this.hammerDeleteButton = null;
-        }
-      }
-    }
-
-    /**
-     * Repaint a onChange tooltip on the top right of the item when the item is selected
-     * @param {HTMLElement} anchor
-     * @protected
-     */
-
-  }, {
-    key: '_repaintOnItemUpdateTimeTooltip',
-    value: function _repaintOnItemUpdateTimeTooltip(anchor) {
-      if (!this.options.tooltipOnItemUpdateTime) return;
-
-      var editable = (this.options.editable.updateTime || this.data.editable === true) && this.data.editable !== false;
-
-      if (this.selected && editable && !this.dom.onItemUpdateTimeTooltip) {
-        var onItemUpdateTimeTooltip = document.createElement('div');
-
-        onItemUpdateTimeTooltip.className = 'timeline-onUpdateTime-tooltip';
-        anchor.appendChild(onItemUpdateTimeTooltip);
-        this.dom.onItemUpdateTimeTooltip = onItemUpdateTimeTooltip;
-      } else if (!this.selected && this.dom.onItemUpdateTimeTooltip) {
-        // remove button
-        if (this.dom.onItemUpdateTimeTooltip.parentNode) {
-          this.dom.onItemUpdateTimeTooltip.parentNode.removeChild(this.dom.onItemUpdateTimeTooltip);
-        }
-        this.dom.onItemUpdateTimeTooltip = null;
-      }
-
-      // position onChange tooltip
-      if (this.dom.onItemUpdateTimeTooltip) {
-
-        // only show when editing
-        this.dom.onItemUpdateTimeTooltip.style.visibility = this.parent.itemSet.touchParams.itemIsDragging ? 'visible' : 'hidden';
-
-        // position relative to item's content
-        if (this.options.rtl) {
-          this.dom.onItemUpdateTimeTooltip.style.right = this.dom.content.style.right;
-        } else {
-          this.dom.onItemUpdateTimeTooltip.style.left = this.dom.content.style.left;
-        }
-
-        // position above or below the item depending on the item's position in the window
-        var tooltipOffset = 50; // TODO: should be tooltip height (depends on template)
-        var scrollTop = this.parent.itemSet.body.domProps.scrollTop;
-
-        // TODO: this.top for orientation:true is actually the items distance from the bottom... 
-        // (should be this.bottom)
-        var itemDistanceFromTop = void 0;
-        if (this.options.orientation.item == 'top') {
-          itemDistanceFromTop = this.top;
-        } else {
-          itemDistanceFromTop = this.parent.height - this.top - this.height;
-        }
-        var isCloseToTop = itemDistanceFromTop + this.parent.top - tooltipOffset < -scrollTop;
-
-        if (isCloseToTop) {
-          this.dom.onItemUpdateTimeTooltip.style.bottom = "";
-          this.dom.onItemUpdateTimeTooltip.style.top = this.height + 2 + 'px';
-        } else {
-          this.dom.onItemUpdateTimeTooltip.style.top = "";
-          this.dom.onItemUpdateTimeTooltip.style.bottom = this.height + 2 + 'px';
-        }
-
-        // handle tooltip content
-        var content = void 0;
-        var templateFunction = void 0;
-
-        if (this.options.tooltipOnItemUpdateTime && this.options.tooltipOnItemUpdateTime.template) {
-          templateFunction = this.options.tooltipOnItemUpdateTime.template.bind(this);
-          content = templateFunction(this.data);
-        } else {
-          content = 'start: ' + (0, _moment2['default'])(this.data.start).format('MM/DD/YYYY hh:mm');
-          if (this.data.end) {
-            content += '<br> end: ' + (0, _moment2['default'])(this.data.end).format('MM/DD/YYYY hh:mm');
-          }
-        }
-        this.dom.onItemUpdateTimeTooltip.innerHTML = content;
-      }
-    }
-
-    /**
-     * Set HTML contents for the item
-     * @param {Element} element   HTML element to fill with the contents
+     * Get the first group, aligned with the axis
+     * @return {Group | null} firstGroup
      * @private
      */
 
   }, {
-    key: '_updateContents',
-    value: function _updateContents(element) {
-      var content = void 0;
-      var changed = void 0;
-      var templateFunction = void 0;
-      var itemVisibleFrameContent = void 0;
-      var visibleFrameTemplateFunction = void 0;
-      var itemData = this.parent.itemSet.itemsData.get(this.id); // get a clone of the data from the dataset
+    key: '_firstGroup',
+    value: function _firstGroup() {
+      var firstGroupIndex = this.options.orientation.item == 'top' ? 0 : this.groupIds.length - 1;
+      var firstGroupId = this.groupIds[firstGroupIndex];
+      var firstGroup = this.groups[firstGroupId] || this.groups[UNGROUPED];
 
-      var frameElement = this.dom.box || this.dom.point;
-      var itemVisibleFrameContentElement = frameElement.getElementsByClassName('timeline-item-visible-frame')[0];
+      return firstGroup || null;
+    }
 
-      if (this.options.visibleFrameTemplate) {
-        visibleFrameTemplateFunction = this.options.visibleFrameTemplate.bind(this);
-        itemVisibleFrameContent = visibleFrameTemplateFunction(itemData, itemVisibleFrameContentElement);
+    /**
+     * Create or delete the group holding all ungrouped items. This group is used when
+     * there are no groups specified.
+     * @protected
+     */
+
+  }, {
+    key: '_updateUngrouped',
+    value: function _updateUngrouped() {
+      var ungrouped = this.groups[UNGROUPED];
+      var item = void 0;
+      var itemId = void 0;
+
+      if (this.groupsData) {
+        // remove the group holding all ungrouped items
+        if (ungrouped) {
+          ungrouped.hide();
+          delete this.groups[UNGROUPED];
+
+          for (itemId in this.items) {
+            if (this.items.hasOwnProperty(itemId)) {
+              item = this.items[itemId];
+              item.parent && item.parent.remove(item);
+              var groupId = this._getGroupId(item.data);
+              var group = this.groups[groupId];
+              group && group.add(item) || item.hide();
+            }
+          }
+        }
       } else {
-        itemVisibleFrameContent = '';
+        // create a group holding all (unfiltered) items
+        if (!ungrouped) {
+          var id = null;
+          var data = null;
+          ungrouped = new _Group2['default'](id, data, this);
+          this.groups[UNGROUPED] = ungrouped;
+
+          for (itemId in this.items) {
+            if (this.items.hasOwnProperty(itemId)) {
+              item = this.items[itemId];
+              ungrouped.add(item);
+            }
+          }
+
+          ungrouped.show();
+        }
+      }
+    }
+
+    /**
+     * Get the element for the labelset
+     * @return {HTMLElement} labelSet
+     */
+
+  }, {
+    key: 'getLabelSet',
+    value: function getLabelSet() {
+      return this.dom.labelSet;
+    }
+
+    /**
+     * Set items
+     * @param {timeline.DataSet | null} items
+     */
+
+  }, {
+    key: 'setItems',
+    value: function setItems(items) {
+      this.itemsSettingTime = new Date();
+      var me = this;
+      var ids = void 0;
+      var oldItemsData = this.itemsData;
+
+      // replace the dataset
+      if (!items) {
+        this.itemsData = null;
+      } else if (items instanceof _DataSet2['default'] || items instanceof _DataView2['default']) {
+        this.itemsData = items;
+      } else {
+        throw new TypeError('Data must be an instance of DataSet or DataView');
       }
 
-      if (itemVisibleFrameContentElement) {
-        if (itemVisibleFrameContent instanceof Object && !(itemVisibleFrameContent instanceof Element)) {
-          visibleFrameTemplateFunction(itemData, itemVisibleFrameContentElement);
-        } else {
-          changed = this._contentToString(this.itemVisibleFrameContent) !== this._contentToString(itemVisibleFrameContent);
-          if (changed) {
-            // only replace the content when changed
-            if (itemVisibleFrameContent instanceof Element) {
-              itemVisibleFrameContentElement.innerHTML = '';
-              itemVisibleFrameContentElement.appendChild(itemVisibleFrameContent);
-            } else if (itemVisibleFrameContent != undefined) {
-              itemVisibleFrameContentElement.innerHTML = itemVisibleFrameContent;
-            } else {
-              if (!(this.data.type == 'background' && this.data.content === undefined)) {
-                throw new Error('Property "content" missing in item ' + this.id);
+      if (oldItemsData) {
+        // unsubscribe from old dataset
+        util.forEach(this.itemListeners, function (callback, event) {
+          oldItemsData.off(event, callback);
+        });
+
+        // remove all drawn items
+        ids = oldItemsData.getIds();
+        this._onRemove(ids);
+      }
+
+      if (this.itemsData) {
+        // subscribe to new dataset
+        var id = this.id;
+        util.forEach(this.itemListeners, function (callback, event) {
+          me.itemsData.on(event, callback, id);
+        });
+
+        // add all new items
+        ids = this.itemsData.getIds();
+        this._onAdd(ids);
+
+        // update the group holding all ungrouped items
+        this._updateUngrouped();
+      }
+
+      this.body.emitter.emit('_change', { queue: true });
+    }
+
+    /**
+     * Get the current items
+     * @returns {timeline.DataSet | null}
+     */
+
+  }, {
+    key: 'getItems',
+    value: function getItems() {
+      return this.itemsData;
+    }
+
+    /**
+     * Set groups
+     * @param {timeline.DataSet} groups
+     */
+
+  }, {
+    key: 'setGroups',
+    value: function setGroups(groups) {
+      var me = this;
+      var ids = void 0;
+
+      // unsubscribe from current dataset
+      if (this.groupsData) {
+        util.forEach(this.groupListeners, function (callback, event) {
+          me.groupsData.off(event, callback);
+        });
+
+        // remove all drawn groups
+        ids = this.groupsData.getIds();
+        this.groupsData = null;
+        this._onRemoveGroups(ids); // note: this will cause a redraw
+      }
+
+      // replace the dataset
+      if (!groups) {
+        this.groupsData = null;
+      } else if (groups instanceof _DataSet2['default'] || groups instanceof _DataView2['default']) {
+        this.groupsData = groups;
+      } else {
+        throw new TypeError('Data must be an instance of DataSet or DataView');
+      }
+
+      if (this.groupsData) {
+        // go over all groups nesting
+        var groupsData = this.groupsData;
+        if (this.groupsData instanceof _DataView2['default']) {
+          groupsData = this.groupsData.getDataSet();
+        }
+
+        groupsData.get().forEach(function (group) {
+          if (group.nestedGroups) {
+            group.nestedGroups.forEach(function (nestedGroupId) {
+              var updatedNestedGroup = groupsData.get(nestedGroupId);
+              updatedNestedGroup.nestedInGroup = group.id;
+              if (group.showNested == false) {
+                updatedNestedGroup.visible = false;
+              }
+              groupsData.update(updatedNestedGroup);
+            });
+          }
+        });
+
+        // subscribe to new dataset
+        var id = this.id;
+        util.forEach(this.groupListeners, function (callback, event) {
+          me.groupsData.on(event, callback, id);
+        });
+
+        // draw all ms
+        ids = this.groupsData.getIds();
+        this._onAddGroups(ids);
+      }
+
+      // update the group holding all ungrouped items
+      this._updateUngrouped();
+
+      // update the order of all items in each group
+      this._order();
+
+      this.body.emitter.emit('_change', { queue: true });
+    }
+
+    /**
+     * Get the current groups
+     * @returns {timeline.DataSet | null} groups
+     */
+
+  }, {
+    key: 'getGroups',
+    value: function getGroups() {
+      return this.groupsData;
+    }
+
+    /**
+     * Remove an item by its id
+     * @param {string | number} id
+     */
+
+  }, {
+    key: 'removeItem',
+    value: function removeItem(id) {
+      var item = this.itemsData.get(id);
+      var dataset = this.itemsData.getDataSet();
+
+      if (item) {
+        // confirm deletion
+        this.options.onRemove(item, function (item) {
+          if (item) {
+            // remove by id here, it is possible that an item has no id defined
+            // itself, so better not delete by the item itself
+            dataset.remove(id);
+          }
+        });
+      }
+    }
+
+    /**
+     * Get the time of an item based on it's data and options.type
+     * @param {Object} itemData
+     * @returns {string} Returns the type
+     * @private
+     */
+
+  }, {
+    key: '_getType',
+    value: function _getType(itemData) {
+      return itemData.type || this.options.type || (itemData.end ? 'range' : 'box');
+    }
+
+    /**
+     * Get the group id for an item
+     * @param {Object} itemData
+     * @returns {string} Returns the groupId
+     * @private
+     */
+
+  }, {
+    key: '_getGroupId',
+    value: function _getGroupId(itemData) {
+      var type = this._getType(itemData);
+      if (type == 'background' && itemData.group == undefined) {
+        return BACKGROUND;
+      } else {
+        return this.groupsData ? itemData.group : UNGROUPED;
+      }
+    }
+
+    /**
+     * Handle updated items
+     * @param {number[]} ids
+     * @protected
+     */
+
+  }, {
+    key: '_onUpdate',
+    value: function _onUpdate(ids) {
+      var _this5 = this;
+
+      var me = this;
+
+      ids.forEach(function (id) {
+        var itemData = me.itemsData.get(id, me.itemOptions);
+        var item = me.items[id];
+        var type = itemData ? me._getType(itemData) : null;
+
+        var constructor = ItemSet.types[type];
+        var selected = void 0;
+
+        if (item) {
+          // update item   	
+          if (!constructor || !(item instanceof constructor)) {
+            // item type has changed, delete the item and recreate it
+            selected = item.selected; // preserve selection of this item
+            me._removeItem(item);
+            item = null;
+          } else {
+            me._updateItem(item, itemData);
+          }
+        }
+
+        if (!item && itemData) {
+          // create item
+          if (constructor) {
+            item = new constructor(itemData, me.conversion, me.options);
+            item.id = id; // TODO: not so nice setting id afterwards
+
+            me._addItem(item);
+            if (selected) {
+              _this5.selection.push(id);
+              item.select();
+            }
+          } else if (type == 'rangeoverflow') {
+            // TODO: deprecated since version 2.1.0 (or 3.0.0?). cleanup some day
+            throw new TypeError('Item type "rangeoverflow" is deprecated. Use css styling instead: ' + '.timeline-item.timeline-range .timeline-item-content {overflow: visible;}');
+          } else {
+            throw new TypeError('Unknown item type "' + type + '"');
+          }
+        }
+      });
+
+      this._order();
+      this.body.emitter.emit('_change', { queue: true });
+    }
+
+    /**
+     * Handle removed items
+     * @param {number[]} ids
+     * @protected
+     */
+
+  }, {
+    key: '_onRemove',
+    value: function _onRemove(ids) {
+      var count = 0;
+      var me = this;
+      ids.forEach(function (id) {
+        var item = me.items[id];
+        if (item) {
+          count++;
+          me._removeItem(item);
+        }
+      });
+
+      if (count) {
+        // update order
+        this._order();
+        this.body.emitter.emit('_change', { queue: true });
+      }
+    }
+
+    /**
+     * Update the order of item in all groups
+     * @private
+     */
+
+  }, {
+    key: '_order',
+    value: function _order() {
+      // reorder the items in all groups
+      // TODO: optimization: only reorder groups affected by the changed items
+      util.forEach(this.groups, function (group) {
+        group.order();
+      });
+    }
+
+    /**
+     * Handle updated groups
+     * @param {number[]} ids
+     * @private
+     */
+
+  }, {
+    key: '_onUpdateGroups',
+    value: function _onUpdateGroups(ids) {
+      this._onAddGroups(ids);
+    }
+
+    /**
+     * Handle changed groups (added or updated)
+     * @param {number[]} ids
+     * @private
+     */
+
+  }, {
+    key: '_onAddGroups',
+    value: function _onAddGroups(ids) {
+      var me = this;
+
+      ids.forEach(function (id) {
+        var groupData = me.groupsData.get(id);
+        var group = me.groups[id];
+
+        if (!group) {
+          // check for reserved ids
+          if (id == UNGROUPED || id == BACKGROUND) {
+            throw new Error('Illegal group id. ' + id + ' is a reserved id.');
+          }
+
+          var groupOptions = (0, _create3['default'])(me.options);
+          util.extend(groupOptions, {
+            height: null
+          });
+
+          group = new _Group2['default'](id, groupData, me);
+          me.groups[id] = group;
+
+          // add items with this groupId to the new group
+          for (var itemId in me.items) {
+            if (me.items.hasOwnProperty(itemId)) {
+              var item = me.items[itemId];
+              if (item.data.group == id) {
+                group.add(item);
               }
             }
-
-            this.itemVisibleFrameContent = itemVisibleFrameContent;
           }
-        }
-      }
 
-      if (this.options.template) {
-        templateFunction = this.options.template.bind(this);
-        content = templateFunction(itemData, element, this.data);
-      } else {
-        content = this.data.content;
-      }
-
-      if (content instanceof Object && !(content instanceof Element)) {
-        templateFunction(itemData, element);
-      } else {
-        changed = this._contentToString(this.content) !== this._contentToString(content);
-        if (changed) {
-          // only replace the content when changed
-          if (content instanceof Element) {
-            element.innerHTML = '';
-            element.appendChild(content);
-          } else if (content != undefined) {
-            element.innerHTML = content;
-          } else {
-            if (!(this.data.type == 'background' && this.data.content === undefined)) {
-              throw new Error('Property "content" missing in item ' + this.id);
-            }
-          }
-          this.content = content;
+          group.order();
+          group.show();
+        } else {
+          // update group
+          group.setData(groupData);
         }
-      }
+      });
+
+      this.body.emitter.emit('_change', { queue: true });
     }
 
     /**
-     * Process dataAttributes timeline option and set as data- attributes on dom.content
-     * @param {Element} element   HTML element to which the attributes will be attached
+     * Handle removed groups
+     * @param {number[]} ids
      * @private
      */
 
   }, {
-    key: '_updateDataAttributes',
-    value: function _updateDataAttributes(element) {
-      if (this.options.dataAttributes && this.options.dataAttributes.length > 0) {
-        var attributes = [];
+    key: '_onRemoveGroups',
+    value: function _onRemoveGroups(ids) {
+      var groups = this.groups;
+      ids.forEach(function (id) {
+        var group = groups[id];
 
-        if (Array.isArray(this.options.dataAttributes)) {
-          attributes = this.options.dataAttributes;
-        } else if (this.options.dataAttributes == 'all') {
-          attributes = (0, _keys2['default'])(this.data);
-        } else {
+        if (group) {
+          group.hide();
+          delete groups[id];
+        }
+      });
+
+      this.markDirty();
+
+      this.body.emitter.emit('_change', { queue: true });
+    }
+
+    /**
+     * Reorder the groups if needed
+     * @return {boolean} changed
+     * @private
+     */
+
+  }, {
+    key: '_orderGroups',
+    value: function _orderGroups() {
+      if (this.groupsData) {
+        // reorder the groups
+        var groupIds = this.groupsData.getIds({
+          order: this.options.groupOrder
+        });
+
+        groupIds = this._orderNestedGroups(groupIds);
+
+        var changed = !util.equalArray(groupIds, this.groupIds);
+        if (changed) {
+          // hide all groups, removes them from the DOM
+          var groups = this.groups;
+          groupIds.forEach(function (groupId) {
+            groups[groupId].hide();
+          });
+
+          // show the groups again, attach them to the DOM in correct order
+          groupIds.forEach(function (groupId) {
+            groups[groupId].show();
+          });
+
+          this.groupIds = groupIds;
+        }
+
+        return changed;
+      } else {
+        return false;
+      }
+    }
+
+    /**
+     * Reorder the nested groups
+     *
+     * @param {Array.<number>} groupIds
+     * @returns {Array.<number>}
+     * @private
+     */
+
+  }, {
+    key: '_orderNestedGroups',
+    value: function _orderNestedGroups(groupIds) {
+      var _this6 = this;
+
+      /**
+       * Recursively order nested groups
+       *
+       * @param {ItemSet} t
+       * @param {Array.<number>} groupIds
+       * @returns {Array.<number>}
+       * @private
+       */
+      function getOrderedNestedGroups(t, groupIds) {
+        var result = [];
+        groupIds.forEach(function (groupId) {
+          result.push(groupId);
+          var groupData = t.groupsData.get(groupId);
+          if (groupData.nestedGroups) {
+            var nestedGroupIds = t.groupsData.get({
+              filter: function filter(nestedGroup) {
+                return nestedGroup.nestedInGroup == groupId;
+              },
+
+              order: t.options.groupOrder
+            }).map(function (nestedGroup) {
+              return nestedGroup.id;
+            });
+            result = result.concat(getOrderedNestedGroups(t, nestedGroupIds));
+          }
+        });
+
+        return result;
+      }
+
+      var topGroupIds = groupIds.filter(function (groupId) {
+        return !_this6.groupsData.get(groupId).nestedInGroup;
+      });
+
+      return getOrderedNestedGroups(this, topGroupIds);
+    }
+
+    /**
+    * Add a new item
+    * @param {Item} item
+    */
+
+  }, {
+    key: 'addItem',
+    value: function addItem(item) {
+      this._addItem(item);
+    }
+
+    /**
+     * Add a new item
+     * @param {Item} item
+     * @private
+     */
+
+  }, {
+    key: '_addItem',
+    value: function _addItem(item) {
+      this.items[item.id] = item;
+
+      // add to group
+      var groupId = this._getGroupId(item.data);
+      var group = this.groups[groupId];
+
+      if (!group) {
+        item.groupShowing = false;
+      } else if (group && group.data && group.data.showNested) {
+        item.groupShowing = true;
+      }
+
+      if (group) group.add(item);
+    }
+
+    /**
+     * Update an existing item
+     * @param {Item} item
+     * @param {Object} itemData
+     * @private
+     */
+
+  }, {
+    key: '_updateItem',
+    value: function _updateItem(item, itemData) {
+      // update the items data (will redraw the item when displayed)
+      item.setData(itemData);
+
+      var groupId = this._getGroupId(item.data);
+      var group = this.groups[groupId];
+      if (!group) {
+        item.groupShowing = false;
+      } else if (group && group.data && group.data.showNested) {
+        item.groupShowing = true;
+      }
+    }
+
+    /**
+     * Delete an item from the ItemSet: remove it from the DOM, from the map
+     * with items, and from the map with visible items, and from the selection
+     * @param {Item} item
+     * @private
+     */
+
+  }, {
+    key: '_removeItem',
+    value: function _removeItem(item) {
+      // remove from DOM
+      item.hide();
+
+      // remove from items
+      delete this.items[item.id];
+
+      // remove from selection
+      var index = this.selection.indexOf(item.id);
+      if (index != -1) this.selection.splice(index, 1);
+
+      // remove from group
+      item.parent && item.parent.remove(item);
+    }
+
+    /**
+     * Create an array containing all items being a range (having an end date)
+     * @param {Array.<Object>} array
+     * @returns {Array}
+     * @private
+     */
+
+  }, {
+    key: '_constructByEndArray',
+    value: function _constructByEndArray(array) {
+      var endArray = [];
+
+      for (var i = 0; i < array.length; i++) {
+        if (array[i] instanceof _RangeItem2['default']) {
+          endArray.push(array[i]);
+        }
+      }
+      return endArray;
+    }
+
+    /**
+     * Register the clicked item on touch, before dragStart is initiated.
+     *
+     * dragStart is initiated from a mousemove event, AFTER the mouse/touch is
+     * already moving. Therefore, the mouse/touch can sometimes be above an other
+     * DOM element than the item itself.
+     *
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onTouch',
+    value: function _onTouch(event) {
+      // store the touched item, used in _onDragStart
+      this.touchParams.item = this.itemFromTarget(event);
+      this.touchParams.dragLeftItem = event.target.dragLeftItem || false;
+      this.touchParams.dragRightItem = event.target.dragRightItem || false;
+      this.touchParams.itemProps = null;
+    }
+
+    /**
+     * Given an group id, returns the index it has.
+     *
+     * @param {number} groupId
+     * @returns {number} index / groupId
+     * @private
+     */
+
+  }, {
+    key: '_getGroupIndex',
+    value: function _getGroupIndex(groupId) {
+      for (var i = 0; i < this.groupIds.length; i++) {
+        if (groupId == this.groupIds[i]) return i;
+      }
+    }
+
+    /**
+     * Start dragging the selected events
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onDragStart',
+    value: function _onDragStart(event) {
+      var _this7 = this;
+
+      if (this.touchParams.itemIsDragging) {
+        return;
+      }
+      var item = this.touchParams.item || null;
+      var me = this;
+      var props = void 0;
+
+      if (item && (item.selected || this.options.itemsAlwaysDraggable.item)) {
+
+        if (this.options.editable.overrideItems && !this.options.editable.updateTime && !this.options.editable.updateGroup) {
           return;
         }
 
-        var _iteratorNormalCompletion = true;
-        var _didIteratorError = false;
-        var _iteratorError = undefined;
-
-        try {
-          for (var _iterator = (0, _getIterator3['default'])(attributes), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-            var name = _step.value;
-
-            var value = this.data[name];
-
-            if (value != null) {
-              element.setAttribute('data-' + name, value);
-            } else {
-              element.removeAttribute('data-' + name);
-            }
-          }
-        } catch (err) {
-          _didIteratorError = true;
-          _iteratorError = err;
-        } finally {
-          try {
-            if (!_iteratorNormalCompletion && _iterator['return']) {
-              _iterator['return']();
-            }
-          } finally {
-            if (_didIteratorError) {
-              throw _iteratorError;
-            }
-          }
+        // override options.editable
+        if (item.editable != null && !item.editable.updateTime && !item.editable.updateGroup && !this.options.editable.overrideItems) {
+          return;
         }
-      }
-    }
 
-    /**
-     * Update custom styles of the element
-     * @param {Element} element
-     * @private
-     */
+        var dragLeftItem = this.touchParams.dragLeftItem;
+        var dragRightItem = this.touchParams.dragRightItem;
+        this.touchParams.itemIsDragging = true;
+        this.touchParams.selectedItem = item;
 
-  }, {
-    key: '_updateStyle',
-    value: function _updateStyle(element) {
-      // remove old styles
-      if (this.style) {
-        util.removeCssText(element, this.style);
-        this.style = null;
-      }
-
-      // append new styles
-      if (this.data.style) {
-        util.addCssText(element, this.data.style);
-        this.style = this.data.style;
-      }
-    }
-
-    /**
-     * Stringify the items contents
-     * @param {string | Element | undefined} content
-     * @returns {string | undefined}
-     * @private
-     */
-
-  }, {
-    key: '_contentToString',
-    value: function _contentToString(content) {
-      if (typeof content === 'string') return content;
-      if (content && 'outerHTML' in content) return content.outerHTML;
-      return content;
-    }
-
-    /**
-     * Update the editability of this item.
-     */
-
-  }, {
-    key: '_updateEditStatus',
-    value: function _updateEditStatus() {
-      if (this.options) {
-        if (typeof this.options.editable === 'boolean') {
-          this.editable = {
-            updateTime: this.options.editable,
-            updateGroup: this.options.editable,
-            remove: this.options.editable
+        if (dragLeftItem) {
+          props = {
+            item: dragLeftItem,
+            initialX: event.center.x,
+            dragLeft: true,
+            data: this._cloneItemData(item.data)
           };
-        } else if ((0, _typeof3['default'])(this.options.editable) === 'object') {
-          this.editable = {};
-          util.selectiveExtend(['updateTime', 'updateGroup', 'remove'], this.editable, this.options.editable);
+
+          this.touchParams.itemProps = [props];
+        } else if (dragRightItem) {
+          props = {
+            item: dragRightItem,
+            initialX: event.center.x,
+            dragRight: true,
+            data: this._cloneItemData(item.data)
+          };
+
+          this.touchParams.itemProps = [props];
+        } else if (this.options.editable.add && (event.srcEvent.ctrlKey || event.srcEvent.metaKey)) {
+          // create a new range item when dragging with ctrl key down
+          this._onDragStartAddItem(event);
+        } else {
+          if (this.groupIds.length < 1) {
+            // Mitigates a race condition if _onDragStart() is
+            // called after markDirty() without redraw() being called between.
+            this.redraw();
+          }
+
+          var baseGroupIndex = this._getGroupIndex(item.data.group);
+
+          var itemsToDrag = this.options.itemsAlwaysDraggable.item && !item.selected ? [item.id] : this.getSelection();
+
+          this.touchParams.itemProps = itemsToDrag.map(function (id) {
+            var item = me.items[id];
+            var groupIndex = me._getGroupIndex(item.data.group);
+            return {
+              item: item,
+              initialX: event.center.x,
+              groupOffset: baseGroupIndex - groupIndex,
+              data: _this7._cloneItemData(item.data)
+            };
+          });
+        }
+
+        event.stopPropagation();
+      } else if (this.options.editable.add && (event.srcEvent.ctrlKey || event.srcEvent.metaKey)) {
+        // create a new range item when dragging with ctrl key down
+        this._onDragStartAddItem(event);
+      }
+    }
+
+    /**
+     * Start creating a new range item by dragging.
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onDragStartAddItem',
+    value: function _onDragStartAddItem(event) {
+      var xAbs = void 0;
+      var x = void 0;
+      var snap = this.options.snap || null;
+
+      if (this.options.rtl) {
+        xAbs = util.getAbsoluteRight(this.dom.frame);
+        x = xAbs - event.center.x + 10; // plus 10 to compensate for the drag starting as soon as you've moved 10px
+      } else {
+        xAbs = util.getAbsoluteLeft(this.dom.frame);
+        x = event.center.x - xAbs - 10; // minus 10 to compensate for the drag starting as soon as you've moved 10px
+      }
+
+      var time = this.body.util.toTime(x);
+      var scale = this.body.util.getScale();
+      var step = this.body.util.getStep();
+      var start = snap ? snap(time, scale, step) : time;
+      var end = start;
+
+      var itemData = {
+        type: 'range',
+        start: start,
+        end: end,
+        content: 'new item'
+      };
+
+      var id = util.randomUUID();
+      itemData[this.itemsData._fieldId] = id;
+
+      var group = this.groupFromTarget(event);
+      if (group) {
+        itemData.group = group.groupId;
+      }
+      var newItem = new _RangeItem2['default'](itemData, this.conversion, this.options);
+      newItem.id = id; // TODO: not so nice setting id afterwards
+      newItem.data = this._cloneItemData(itemData);
+      this._addItem(newItem);
+      this.touchParams.selectedItem = newItem;
+
+      var props = {
+        item: newItem,
+        initialX: event.center.x,
+        data: newItem.data
+      };
+
+      if (this.options.rtl) {
+        props.dragLeft = true;
+      } else {
+        props.dragRight = true;
+      }
+      this.touchParams.itemProps = [props];
+
+      event.stopPropagation();
+    }
+
+    /**
+     * Drag selected items
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onDrag',
+    value: function _onDrag(event) {
+      var _this8 = this;
+
+      if (this.touchParams.itemProps) {
+        event.stopPropagation();
+
+        var me = this;
+        var snap = this.options.snap || null;
+        var xOffset = void 0;
+
+        if (this.options.rtl) {
+          xOffset = this.body.dom.root.offsetLeft + this.body.domProps.right.width;
+        } else {
+          xOffset = this.body.dom.root.offsetLeft + this.body.domProps.left.width;
+        }
+
+        var scale = this.body.util.getScale();
+        var step = this.body.util.getStep();
+
+        //only calculate the new group for the item that's actually dragged
+        var selectedItem = this.touchParams.selectedItem;
+        var updateGroupAllowed = (this.options.editable.overrideItems || selectedItem.editable == null) && this.options.editable.updateGroup || !this.options.editable.overrideItems && selectedItem.editable != null && selectedItem.editable.updateGroup;
+        var newGroupBase = null;
+        if (updateGroupAllowed && selectedItem) {
+          if (selectedItem.data.group != undefined) {
+            // drag from one group to another
+            var group = me.groupFromTarget(event);
+            if (group) {
+              //we know the offset for all items, so the new group for all items
+              //will be relative to this one.
+              newGroupBase = this._getGroupIndex(group.groupId);
+            }
+          }
+        }
+
+        // move
+        this.touchParams.itemProps.forEach(function (props) {
+          var current = me.body.util.toTime(event.center.x - xOffset);
+          var initial = me.body.util.toTime(props.initialX - xOffset);
+          var offset = void 0;
+          var initialStart = void 0;
+          var initialEnd = void 0;
+          var start = void 0;
+          var end = void 0;
+
+          if (_this8.options.rtl) {
+            offset = -(current - initial); // ms
+          } else {
+            offset = current - initial; // ms
+          }
+
+          var itemData = _this8._cloneItemData(props.item.data); // clone the data
+          if (props.item.editable != null && !props.item.editable.updateTime && !props.item.editable.updateGroup && !me.options.editable.overrideItems) {
+            return;
+          }
+
+          var updateTimeAllowed = (_this8.options.editable.overrideItems || selectedItem.editable == null) && _this8.options.editable.updateTime || !_this8.options.editable.overrideItems && selectedItem.editable != null && selectedItem.editable.updateTime;
+          if (updateTimeAllowed) {
+            if (props.dragLeft) {
+              // drag left side of a range item
+              if (_this8.options.rtl) {
+                if (itemData.end != undefined) {
+                  initialEnd = util.convert(props.data.end, 'Date');
+                  end = new Date(initialEnd.valueOf() + offset);
+                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
+                  itemData.end = snap ? snap(end, scale, step) : end;
+                }
+              } else {
+                if (itemData.start != undefined) {
+                  initialStart = util.convert(props.data.start, 'Date');
+                  start = new Date(initialStart.valueOf() + offset);
+                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
+                  itemData.start = snap ? snap(start, scale, step) : start;
+                }
+              }
+            } else if (props.dragRight) {
+              // drag right side of a range item
+              if (_this8.options.rtl) {
+                if (itemData.start != undefined) {
+                  initialStart = util.convert(props.data.start, 'Date');
+                  start = new Date(initialStart.valueOf() + offset);
+                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
+                  itemData.start = snap ? snap(start, scale, step) : start;
+                }
+              } else {
+                if (itemData.end != undefined) {
+                  initialEnd = util.convert(props.data.end, 'Date');
+                  end = new Date(initialEnd.valueOf() + offset);
+                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
+                  itemData.end = snap ? snap(end, scale, step) : end;
+                }
+              }
+            } else {
+              // drag both start and end
+              if (itemData.start != undefined) {
+
+                initialStart = util.convert(props.data.start, 'Date').valueOf();
+                start = new Date(initialStart + offset);
+
+                if (itemData.end != undefined) {
+                  initialEnd = util.convert(props.data.end, 'Date');
+                  var duration = initialEnd.valueOf() - initialStart.valueOf();
+
+                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
+                  itemData.start = snap ? snap(start, scale, step) : start;
+                  itemData.end = new Date(itemData.start.valueOf() + duration);
+                } else {
+                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
+                  itemData.start = snap ? snap(start, scale, step) : start;
+                }
+              }
+            }
+          }
+
+          if (updateGroupAllowed && !props.dragLeft && !props.dragRight && newGroupBase != null) {
+            if (itemData.group != undefined) {
+              var newOffset = newGroupBase - props.groupOffset;
+
+              //make sure we stay in bounds
+              newOffset = Math.max(0, newOffset);
+              newOffset = Math.min(me.groupIds.length - 1, newOffset);
+              itemData.group = me.groupIds[newOffset];
+            }
+          }
+
+          // confirm moving the item
+          itemData = _this8._cloneItemData(itemData); // convert start and end to the correct type
+          me.options.onMoving(itemData, function (itemData) {
+            if (itemData) {
+              props.item.setData(_this8._cloneItemData(itemData, 'Date'));
+            }
+          });
+        });
+
+        this.body.emitter.emit('_change');
+      }
+    }
+
+    /**
+     * Move an item to another group
+     * @param {Item} item
+     * @param {string | number} groupId
+     * @private
+     */
+
+  }, {
+    key: '_moveToGroup',
+    value: function _moveToGroup(item, groupId) {
+      var group = this.groups[groupId];
+      if (group && group.groupId != item.data.group) {
+        var oldGroup = item.parent;
+        oldGroup.remove(item);
+        oldGroup.order();
+
+        item.data.group = group.groupId;
+
+        group.add(item);
+        group.order();
+      }
+    }
+
+    /**
+     * End of dragging selected items
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onDragEnd',
+    value: function _onDragEnd(event) {
+      var _this9 = this;
+
+      this.touchParams.itemIsDragging = false;
+      if (this.touchParams.itemProps) {
+        event.stopPropagation();
+
+        var me = this;
+        var dataset = this.itemsData.getDataSet();
+        var itemProps = this.touchParams.itemProps;
+        this.touchParams.itemProps = null;
+
+        itemProps.forEach(function (props) {
+          var id = props.item.id;
+          var exists = me.itemsData.get(id, me.itemOptions) != null;
+
+          if (!exists) {
+            // add a new item
+            me.options.onAdd(props.item.data, function (itemData) {
+              me._removeItem(props.item); // remove temporary item
+              if (itemData) {
+                me.itemsData.getDataSet().add(itemData);
+              }
+
+              // force re-stacking of all items next redraw
+              me.body.emitter.emit('_change');
+            });
+          } else {
+            // update existing item
+            var itemData = _this9._cloneItemData(props.item.data); // convert start and end to the correct type
+            me.options.onMove(itemData, function (itemData) {
+              if (itemData) {
+                // apply changes
+                itemData[dataset._fieldId] = id; // ensure the item contains its id (can be undefined)
+                dataset.update(itemData);
+              } else {
+                // restore original values
+                props.item.setData(props.data);
+
+                me.body.emitter.emit('_change');
+              }
+            });
+          }
+        });
+      }
+    }
+  }, {
+    key: '_onGroupClick',
+    value: function _onGroupClick(event) {
+      var group = this.groupFromTarget(event);
+
+      if (!group || !group.nestedGroups) return;
+
+      var groupsData = this.groupsData.getDataSet();
+
+      group.showNested = !group.showNested;
+
+      var nestingGroup = groupsData.get(group.groupId);
+      nestingGroup.showNested = group.showNested;
+
+      var fullNestedGroups = group.nestedGroups;
+      var nextLevel = fullNestedGroups;
+      while (nextLevel.length > 0) {
+        var current = nextLevel;
+        nextLevel = [];
+        for (var i = 0; i < current.length; i++) {
+          var node = groupsData.get(current[i]);
+          if (node.nestedGroups) {
+            nextLevel = nextLevel.concat(node.nestedGroups);
+          }
+        }
+        if (nextLevel.length > 0) {
+          fullNestedGroups = fullNestedGroups.concat(nextLevel);
         }
       }
-      // Item data overrides, except if options.editable.overrideItems is set.
-      if (!this.options || !this.options.editable || this.options.editable.overrideItems !== true) {
-        if (this.data) {
-          if (typeof this.data.editable === 'boolean') {
-            this.editable = {
-              updateTime: this.data.editable,
-              updateGroup: this.data.editable,
-              remove: this.data.editable
-            };
-          } else if ((0, _typeof3['default'])(this.data.editable) === 'object') {
-            // TODO: in timeline.js 5.0, we should change this to not reset options from the timeline configuration.
-            // Basically just remove the next line...
-            this.editable = {};
-            util.selectiveExtend(['updateTime', 'updateGroup', 'remove'], this.editable, this.data.editable);
+      var nestedGroups = groupsData.get(fullNestedGroups).map(function (nestedGroup) {
+        if (nestedGroup.visible == undefined) {
+          nestedGroup.visible = true;
+        }
+        nestedGroup.visible = !!nestingGroup.showNested;
+        return nestedGroup;
+      });
+
+      groupsData.update(nestedGroups.concat(nestingGroup));
+
+      if (nestingGroup.showNested) {
+        util.removeClassName(group.dom.label, 'collapsed');
+        util.addClassName(group.dom.label, 'expanded');
+      } else {
+        util.removeClassName(group.dom.label, 'expanded');
+        var collapsedDirClassName = this.options.rtl ? 'collapsed-rtl' : 'collapsed';
+        util.addClassName(group.dom.label, collapsedDirClassName);
+      }
+    }
+  }, {
+    key: '_onGroupDragStart',
+    value: function _onGroupDragStart(event) {
+      if (this.options.groupEditable.order) {
+        this.groupTouchParams.group = this.groupFromTarget(event);
+
+        if (this.groupTouchParams.group) {
+          event.stopPropagation();
+
+          this.groupTouchParams.originalOrder = this.groupsData.getIds({
+            order: this.options.groupOrder
+          });
+        }
+      }
+    }
+  }, {
+    key: '_onGroupDrag',
+    value: function _onGroupDrag(event) {
+      if (this.options.groupEditable.order && this.groupTouchParams.group) {
+        event.stopPropagation();
+
+        var groupsData = this.groupsData;
+        if (this.groupsData instanceof _DataView2['default']) {
+          groupsData = this.groupsData.getDataSet();
+        }
+        // drag from one group to another
+        var group = this.groupFromTarget(event);
+
+        // try to avoid toggling when groups differ in height
+        if (group && group.height != this.groupTouchParams.group.height) {
+          var movingUp = group.top < this.groupTouchParams.group.top;
+          var clientY = event.center ? event.center.y : event.clientY;
+          var targetGroupTop = util.getAbsoluteTop(group.dom.foreground);
+          var draggedGroupHeight = this.groupTouchParams.group.height;
+          if (movingUp) {
+            // skip swapping the groups when the dragged group is not below clientY afterwards
+            if (targetGroupTop + draggedGroupHeight < clientY) {
+              return;
+            }
+          } else {
+            var targetGroupHeight = group.height;
+            // skip swapping the groups when the dragged group is not below clientY afterwards
+            if (targetGroupTop + targetGroupHeight - draggedGroupHeight > clientY) {
+              return;
+            }
+          }
+        }
+
+        if (group && group != this.groupTouchParams.group) {
+          var targetGroup = groupsData.get(group.groupId);
+          var draggedGroup = groupsData.get(this.groupTouchParams.group.groupId);
+
+          // switch groups
+          if (draggedGroup && targetGroup) {
+            this.options.groupOrderSwap(draggedGroup, targetGroup, groupsData);
+            groupsData.update(draggedGroup);
+            groupsData.update(targetGroup);
+          }
+
+          // fetch current order of groups
+          var newOrder = groupsData.getIds({
+            order: this.options.groupOrder
+          });
+
+          // in case of changes since _onGroupDragStart
+          if (!util.equalArray(newOrder, this.groupTouchParams.originalOrder)) {
+            var origOrder = this.groupTouchParams.originalOrder;
+            var draggedId = this.groupTouchParams.group.groupId;
+            var numGroups = Math.min(origOrder.length, newOrder.length);
+            var curPos = 0;
+            var newOffset = 0;
+            var orgOffset = 0;
+            while (curPos < numGroups) {
+              // as long as the groups are where they should be step down along the groups order
+              while (curPos + newOffset < numGroups && curPos + orgOffset < numGroups && newOrder[curPos + newOffset] == origOrder[curPos + orgOffset]) {
+                curPos++;
+              }
+
+              // all ok
+              if (curPos + newOffset >= numGroups) {
+                break;
+              }
+
+              // not all ok
+              // if dragged group was move upwards everything below should have an offset
+              if (newOrder[curPos + newOffset] == draggedId) {
+                newOffset = 1;
+              }
+              // if dragged group was move downwards everything above should have an offset
+              else if (origOrder[curPos + orgOffset] == draggedId) {
+                  orgOffset = 1;
+                }
+                // found a group (apart from dragged group) that has the wrong position -> switch with the 
+                // group at the position where other one should be, fix index arrays and continue
+                else {
+                    var slippedPosition = newOrder.indexOf(origOrder[curPos + orgOffset]);
+                    var switchGroup = groupsData.get(newOrder[curPos + newOffset]);
+                    var shouldBeGroup = groupsData.get(origOrder[curPos + orgOffset]);
+                    this.options.groupOrderSwap(switchGroup, shouldBeGroup, groupsData);
+                    groupsData.update(switchGroup);
+                    groupsData.update(shouldBeGroup);
+
+                    var switchGroupId = newOrder[curPos + newOffset];
+                    newOrder[curPos + newOffset] = origOrder[curPos + orgOffset];
+                    newOrder[slippedPosition] = switchGroupId;
+
+                    curPos++;
+                  }
+            }
+          }
+        }
+      }
+    }
+  }, {
+    key: '_onGroupDragEnd',
+    value: function _onGroupDragEnd(event) {
+      if (this.options.groupEditable.order && this.groupTouchParams.group) {
+        event.stopPropagation();
+
+        // update existing group
+        var me = this;
+        var id = me.groupTouchParams.group.groupId;
+        var dataset = me.groupsData.getDataSet();
+        var groupData = util.extend({}, dataset.get(id)); // clone the data
+        me.options.onMoveGroup(groupData, function (groupData) {
+          if (groupData) {
+            // apply changes
+            groupData[dataset._fieldId] = id; // ensure the group contains its id (can be undefined)
+            dataset.update(groupData);
+          } else {
+
+            // fetch current order of groups
+            var newOrder = dataset.getIds({
+              order: me.options.groupOrder
+            });
+
+            // restore original order
+            if (!util.equalArray(newOrder, me.groupTouchParams.originalOrder)) {
+              var origOrder = me.groupTouchParams.originalOrder;
+              var numGroups = Math.min(origOrder.length, newOrder.length);
+              var curPos = 0;
+              while (curPos < numGroups) {
+                // as long as the groups are where they should be step down along the groups order
+                while (curPos < numGroups && newOrder[curPos] == origOrder[curPos]) {
+                  curPos++;
+                }
+
+                // all ok
+                if (curPos >= numGroups) {
+                  break;
+                }
+
+                // found a group that has the wrong position -> switch with the
+                // group at the position where other one should be, fix index arrays and continue
+                var slippedPosition = newOrder.indexOf(origOrder[curPos]);
+                var switchGroup = dataset.get(newOrder[curPos]);
+                var shouldBeGroup = dataset.get(origOrder[curPos]);
+                me.options.groupOrderSwap(switchGroup, shouldBeGroup, dataset);
+                dataset.update(switchGroup);
+                dataset.update(shouldBeGroup);
+
+                var switchGroupId = newOrder[curPos];
+                newOrder[curPos] = origOrder[curPos];
+                newOrder[slippedPosition] = switchGroupId;
+
+                curPos++;
+              }
+            }
+          }
+        });
+
+        me.body.emitter.emit('groupDragged', { groupId: id });
+      }
+    }
+
+    /**
+     * Handle selecting/deselecting an item when tapping it
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onSelectItem',
+    value: function _onSelectItem(event) {
+      if (!this.options.selectable) return;
+
+      var ctrlKey = event.srcEvent && (event.srcEvent.ctrlKey || event.srcEvent.metaKey);
+      var shiftKey = event.srcEvent && event.srcEvent.shiftKey;
+      if (ctrlKey || shiftKey) {
+        this._onMultiSelectItem(event);
+        return;
+      }
+
+      var oldSelection = this.getSelection();
+
+      var item = this.itemFromTarget(event);
+      var selection = item ? [item.id] : [];
+      this.setSelection(selection);
+
+      var newSelection = this.getSelection();
+
+      // emit a select event,
+      // except when old selection is empty and new selection is still empty
+      if (newSelection.length > 0 || oldSelection.length > 0) {
+        this.body.emitter.emit('select', {
+          items: newSelection,
+          event: event
+        });
+      }
+    }
+
+    /**
+     * Handle hovering an item
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onMouseOver',
+    value: function _onMouseOver(event) {
+      var item = this.itemFromTarget(event);
+      if (!item) return;
+
+      // Item we just left
+      var related = this.itemFromRelatedTarget(event);
+      if (item === related) {
+        // We haven't changed item, just element in the item
+        return;
+      }
+
+      var title = item.getTitle();
+      if (this.options.showTooltips && title) {
+        if (this.popup == null) {
+          this.popup = new _Popup2['default'](this.body.dom.root, this.options.tooltip.overflowMethod || 'flip');
+        }
+
+        this.popup.setText(title);
+        var container = this.body.dom.centerContainer;
+        this.popup.setPosition(event.clientX - util.getAbsoluteLeft(container) + container.offsetLeft, event.clientY - util.getAbsoluteTop(container) + container.offsetTop);
+        this.popup.show();
+      } else {
+        // Hovering over item without a title, hide popup
+        // Needed instead of _just_ in _onMouseOut due to #2572
+        if (this.popup != null) {
+          this.popup.hide();
+        }
+      }
+
+      this.body.emitter.emit('itemover', {
+        item: item.id,
+        event: event
+      });
+    }
+  }, {
+    key: '_onMouseOut',
+    value: function _onMouseOut(event) {
+      var item = this.itemFromTarget(event);
+      if (!item) return;
+
+      // Item we are going to
+      var related = this.itemFromRelatedTarget(event);
+      if (item === related) {
+        // We aren't changing item, just element in the item
+        return;
+      }
+
+      if (this.popup != null) {
+        this.popup.hide();
+      }
+
+      this.body.emitter.emit('itemout', {
+        item: item.id,
+        event: event
+      });
+    }
+  }, {
+    key: '_onMouseMove',
+    value: function _onMouseMove(event) {
+      var item = this.itemFromTarget(event);
+      if (!item) return;
+
+      if (this.options.showTooltips && this.options.tooltip.followMouse) {
+        if (this.popup) {
+          if (!this.popup.hidden) {
+            var container = this.body.dom.centerContainer;
+            this.popup.setPosition(event.clientX - util.getAbsoluteLeft(container) + container.offsetLeft, event.clientY - util.getAbsoluteTop(container) + container.offsetTop);
+            this.popup.show(); // Redraw
           }
         }
       }
     }
 
     /**
-     * Return the width of the item left from its start date
-     * @return {number}
+     * Handle mousewheel
+     * @param {Event}  event   The event
+     * @private
      */
 
   }, {
-    key: 'getWidthLeft',
-    value: function getWidthLeft() {
-      return 0;
+    key: '_onMouseWheel',
+    value: function _onMouseWheel(event) {
+      if (this.touchParams.itemIsDragging) {
+        this._onDragEnd(event);
+      }
     }
 
     /**
-     * Return the width of the item right from the max of its start and end date
-     * @return {number}
+     * Handle updates of an item on double tap
+     * @param {timeline.Item}  item   The item
+     * @private
      */
 
   }, {
-    key: 'getWidthRight',
-    value: function getWidthRight() {
-      return 0;
+    key: '_onUpdateItem',
+    value: function _onUpdateItem(item) {
+      if (!this.options.selectable) return;
+      if (!this.options.editable.add) return;
+
+      var me = this;
+
+      if (item) {
+        // execute async handler to update the item (or cancel it)
+        var itemData = me.itemsData.get(item.id); // get a clone of the data from the dataset
+        this.options.onUpdate(itemData, function (itemData) {
+          if (itemData) {
+            me.itemsData.getDataSet().update(itemData);
+          }
+        });
+      }
     }
 
     /**
-     * Return the title of the item
-     * @return {string | undefined}
+     * Handle drop event of data on item
+     * Only called when `objectData.target === 'item'.
+     * @param {Event} event The event 
+     * @private
      */
 
   }, {
-    key: 'getTitle',
-    value: function getTitle() {
-      return this.data.title;
+    key: '_onDropObjectOnItem',
+    value: function _onDropObjectOnItem(event) {
+      var item = this.itemFromTarget(event);
+      var objectData = JSON.parse(event.dataTransfer.getData("text"));
+      this.options.onDropObjectOnItem(objectData, item);
+    }
+
+    /**
+     * Handle creation of an item on double tap or drop of a drag event
+     * @param {Event} event   The event
+     * @private
+     */
+
+  }, {
+    key: '_onAddItem',
+    value: function _onAddItem(event) {
+      if (!this.options.selectable) return;
+      if (!this.options.editable.add) return;
+
+      var me = this;
+      var snap = this.options.snap || null;
+      var xAbs = void 0;
+      var x = void 0;
+      // add item
+      if (this.options.rtl) {
+        xAbs = util.getAbsoluteRight(this.dom.frame);
+        x = xAbs - event.center.x;
+      } else {
+        xAbs = util.getAbsoluteLeft(this.dom.frame);
+        x = event.center.x - xAbs;
+      }
+      // var xAbs = util.getAbsoluteLeft(this.dom.frame);
+      // var x = event.center.x - xAbs;
+      var start = this.body.util.toTime(x);
+      var scale = this.body.util.getScale();
+      var step = this.body.util.getStep();
+      var end = void 0;
+
+      var newItemData = void 0;
+      if (event.type == 'drop') {
+        newItemData = JSON.parse(event.dataTransfer.getData("text"));
+        newItemData.content = newItemData.content ? newItemData.content : 'new item';
+        newItemData.start = newItemData.start ? newItemData.start : snap ? snap(start, scale, step) : start;
+        newItemData.type = newItemData.type || 'box';
+        newItemData[this.itemsData._fieldId] = newItemData.id || util.randomUUID();
+
+        if (newItemData.type == 'range' && !newItemData.end) {
+          end = this.body.util.toTime(x + this.props.width / 5);
+          newItemData.end = snap ? snap(end, scale, step) : end;
+        }
+      } else {
+        newItemData = {
+          start: snap ? snap(start, scale, step) : start,
+          content: 'new item'
+        };
+        newItemData[this.itemsData._fieldId] = util.randomUUID();
+
+        // when default type is a range, add a default end date to the new item
+        if (this.options.type === 'range') {
+          end = this.body.util.toTime(x + this.props.width / 5);
+          newItemData.end = snap ? snap(end, scale, step) : end;
+        }
+      }
+
+      var group = this.groupFromTarget(event);
+      if (group) {
+        newItemData.group = group.groupId;
+      }
+
+      // execute async handler to customize (or cancel) adding an item
+      newItemData = this._cloneItemData(newItemData); // convert start and end to the correct type
+      this.options.onAdd(newItemData, function (item) {
+        if (item) {
+          me.itemsData.getDataSet().add(item);
+          if (event.type == 'drop') {
+            me.setSelection([item.id]);
+          }
+          // TODO: need to trigger a redraw?
+        }
+      });
+    }
+
+    /**
+     * Handle selecting/deselecting multiple items when holding an item
+     * @param {Event} event
+     * @private
+     */
+
+  }, {
+    key: '_onMultiSelectItem',
+    value: function _onMultiSelectItem(event) {
+      if (!this.options.selectable) return;
+
+      var item = this.itemFromTarget(event);
+
+      if (item) {
+        // multi select items (if allowed)
+
+        var selection = this.options.multiselect ? this.getSelection() // take current selection
+        : []; // deselect current selection
+
+        var shiftKey = event.srcEvent && event.srcEvent.shiftKey || false;
+
+        if (shiftKey && this.options.multiselect) {
+          // select all items between the old selection and the tapped item
+          var itemGroup = this.itemsData.get(item.id).group;
+
+          // when filtering get the group of the last selected item
+          var lastSelectedGroup = undefined;
+          if (this.options.multiselectPerGroup) {
+            if (selection.length > 0) {
+              lastSelectedGroup = this.itemsData.get(selection[0]).group;
+            }
+          }
+
+          // determine the selection range
+          if (!this.options.multiselectPerGroup || lastSelectedGroup == undefined || lastSelectedGroup == itemGroup) {
+            selection.push(item.id);
+          }
+          var range = ItemSet._getItemRange(this.itemsData.get(selection, this.itemOptions));
+
+          if (!this.options.multiselectPerGroup || lastSelectedGroup == itemGroup) {
+            // select all items within the selection range
+            selection = [];
+            for (var id in this.items) {
+              if (this.items.hasOwnProperty(id)) {
+                var _item = this.items[id];
+                var start = _item.data.start;
+                var end = _item.data.end !== undefined ? _item.data.end : start;
+
+                if (start >= range.min && end <= range.max && (!this.options.multiselectPerGroup || lastSelectedGroup == this.itemsData.get(_item.id).group) && !(_item instanceof _BackgroundItem2['default'])) {
+                  selection.push(_item.id); // do not use id but item.id, id itself is stringified
+                }
+              }
+            }
+          }
+        } else {
+          // add/remove this item from the current selection
+          var index = selection.indexOf(item.id);
+          if (index == -1) {
+            // item is not yet selected -> select it
+            selection.push(item.id);
+          } else {
+            // item is already selected -> deselect it
+            selection.splice(index, 1);
+          }
+        }
+
+        this.setSelection(selection);
+
+        this.body.emitter.emit('select', {
+          items: this.getSelection(),
+          event: event
+        });
+      }
+    }
+
+    /**
+     * Calculate the time range of a list of items
+     * @param {Array.<Object>} itemsData
+     * @return {{min: Date, max: Date}} Returns the range of the provided items
+     * @private
+     */
+
+  }, {
+    key: 'itemFromElement',
+
+
+    /**
+     * Find an item from an element:
+     * searches for the attribute 'timeline-item' in the element's tree
+     * @param {HTMLElement} element
+     * @return {Item | null} item
+     */
+    value: function itemFromElement(element) {
+      var cur = element;
+      while (cur) {
+        if (cur.hasOwnProperty('timeline-item')) {
+          return cur['timeline-item'];
+        }
+        cur = cur.parentNode;
+      }
+
+      return null;
+    }
+
+    /**
+     * Find an item from an event target:
+     * searches for the attribute 'timeline-item' in the event target's element tree
+     * @param {Event} event
+     * @return {Item | null} item
+     */
+
+  }, {
+    key: 'itemFromTarget',
+    value: function itemFromTarget(event) {
+      return this.itemFromElement(event.target);
+    }
+
+    /**
+     * Find an item from an event's related target:
+     * searches for the attribute 'timeline-item' in the related target's element tree
+     * @param {Event} event
+     * @return {Item | null} item
+     */
+
+  }, {
+    key: 'itemFromRelatedTarget',
+    value: function itemFromRelatedTarget(event) {
+      return this.itemFromElement(event.relatedTarget);
+    }
+
+    /**
+     * Find the Group from an event target:
+     * searches for the attribute 'timeline-group' in the event target's element tree
+     * @param {Event} event
+     * @return {Group | null} group
+     */
+
+  }, {
+    key: 'groupFromTarget',
+    value: function groupFromTarget(event) {
+      var clientY = event.center ? event.center.y : event.clientY;
+      var groupIds = this.groupIds;
+
+      if (groupIds.length <= 0 && this.groupsData) {
+        groupIds = this.groupsData.getIds({
+          order: this.options.groupOrder
+        });
+      }
+
+      for (var i = 0; i < groupIds.length; i++) {
+        var groupId = groupIds[i];
+        var group = this.groups[groupId];
+        var foreground = group.dom.foreground;
+        var top = util.getAbsoluteTop(foreground);
+        if (clientY >= top && clientY < top + foreground.offsetHeight) {
+          return group;
+        }
+
+        if (this.options.orientation.item === 'top') {
+          if (i === this.groupIds.length - 1 && clientY > top) {
+            return group;
+          }
+        } else {
+          if (i === 0 && clientY < top + foreground.offset) {
+            return group;
+          }
+        }
+      }
+
+      return null;
+    }
+
+    /**
+     * Find the ItemSet from an event target:
+     * searches for the attribute 'timeline-itemset' in the event target's element tree
+     * @param {Event} event
+     * @return {ItemSet | null} item
+     */
+
+  }, {
+    key: '_cloneItemData',
+
+
+    /**
+     * Clone the data of an item, and "normalize" it: convert the start and end date
+     * to the type (Date, Moment, ...) configured in the DataSet. If not configured,
+     * start and end are converted to Date.
+     * @param {Object} itemData, typically `item.data`
+     * @param {string} [type]  Optional Date type. If not provided, the type from the DataSet is taken
+     * @return {Object} The cloned object
+     * @private
+     */
+    value: function _cloneItemData(itemData, type) {
+      var clone = util.extend({}, itemData);
+
+      if (!type) {
+        // convert start and end date to the type (Date, Moment, ...) configured in the DataSet
+        type = this.itemsData.getDataSet()._options.type;
+      }
+
+      if (clone.start != undefined) {
+        clone.start = util.convert(clone.start, type && type.start || 'Date');
+      }
+      if (clone.end != undefined) {
+        clone.end = util.convert(clone.end, type && type.end || 'Date');
+      }
+
+      return clone;
+    }
+  }], [{
+    key: '_getItemRange',
+    value: function _getItemRange(itemsData) {
+      var max = null;
+      var min = null;
+
+      itemsData.forEach(function (data) {
+        if (min == null || data.start < min) {
+          min = data.start;
+        }
+
+        if (data.end != undefined) {
+          if (max == null || data.end > max) {
+            max = data.end;
+          }
+        } else {
+          if (max == null || data.start > max) {
+            max = data.start;
+          }
+        }
+      });
+
+      return {
+        min: min,
+        max: max
+      };
+    }
+  }, {
+    key: 'itemSetFromTarget',
+    value: function itemSetFromTarget(event) {
+      var target = event.target;
+      while (target) {
+        if (target.hasOwnProperty('timeline-itemset')) {
+          return target['timeline-itemset'];
+        }
+        target = target.parentNode;
+      }
+
+      return null;
     }
   }]);
-  return Item;
-}();
+  return ItemSet;
+}(_Component3['default']);
 
-Item.prototype.stack = true;
-
-exports['default'] = Item;
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-module.exports = function (bitmap, value) {
-  return {
-    enumerable: !(bitmap & 1),
-    configurable: !(bitmap & 2),
-    writable: !(bitmap & 4),
-    value: value
-  };
+var types = exports.types = {
+  background: _BackgroundItem2['default'],
+  box: _BoxItem2['default'],
+  range: _RangeItem2['default'],
+  point: _PointItem2['default']
 };
+// available item types will be registered here
+ItemSet.types = types;
 
+/**
+ * Handle added items
+ * @param {number[]} ids
+ * @protected
+ */
+ItemSet.prototype._onAdd = ItemSet.prototype._onUpdate;
+
+exports['default'] = ItemSet;
 
 /***/ }),
-/* 28 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(57);
-var enumBugKeys = __webpack_require__(41);
+var $keys = __webpack_require__(59);
+var enumBugKeys = __webpack_require__(44);
 
 module.exports = Object.keys || function keys(O) {
   return $keys(O, enumBugKeys);
@@ -3511,14 +6371,14 @@ module.exports = Object.keys || function keys(O) {
 
 
 /***/ }),
-/* 29 */
+/* 31 */
 /***/ (function(module, exports) {
 
 module.exports = true;
 
 
 /***/ }),
-/* 30 */
+/* 32 */
 /***/ (function(module, exports) {
 
 var id = 0;
@@ -3529,14 +6389,18 @@ module.exports = function (key) {
 
 
 /***/ }),
-/* 31 */
-/***/ (function(module, exports) {
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = {};
+// 7.1.13 ToObject(argument)
+var defined = __webpack_require__(40);
+module.exports = function (it) {
+  return Object(defined(it));
+};
 
 
 /***/ }),
-/* 32 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3546,11 +6410,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(22);
+var _stringify = __webpack_require__(24);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -3570,7 +6434,7 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _Queue = __webpack_require__(68);
+var _Queue = __webpack_require__(71);
 
 var Queue = _interopRequireWildcard(_Queue);
 
@@ -4586,17 +7450,43 @@ var DataSet = function () {
 exports['default'] = DataSet;
 
 /***/ }),
-/* 33 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(83), __esModule: true };
+module.exports = { "default": __webpack_require__(86), __esModule: true };
 
 /***/ }),
-/* 34 */
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// optional / simple context binding
+var aFunction = __webpack_require__(88);
+module.exports = function (fn, that, length) {
+  aFunction(fn);
+  if (that === undefined) return fn;
+  switch (length) {
+    case 1: return function (a) {
+      return fn.call(that, a);
+    };
+    case 2: return function (a, b) {
+      return fn.call(that, a, b);
+    };
+    case 3: return function (a, b, c) {
+      return fn.call(that, a, b, c);
+    };
+  }
+  return function (/* ...args */) {
+    return fn.apply(that, arguments);
+  };
+};
+
+
+/***/ }),
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
-var isObject = __webpack_require__(20);
+var isObject = __webpack_require__(21);
 // instead of the ES6 spec version, we didn't implement @@toPrimitive case
 // and the second argument - flag - preferred type is a string
 module.exports = function (it, S) {
@@ -4610,27 +7500,27 @@ module.exports = function (it, S) {
 
 
 /***/ }),
-/* 35 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-var anObject = __webpack_require__(19);
-var dPs = __webpack_require__(86);
-var enumBugKeys = __webpack_require__(41);
-var IE_PROTO = __webpack_require__(39)('IE_PROTO');
+var anObject = __webpack_require__(15);
+var dPs = __webpack_require__(89);
+var enumBugKeys = __webpack_require__(44);
+var IE_PROTO = __webpack_require__(42)('IE_PROTO');
 var Empty = function () { /* empty */ };
 var PROTOTYPE = 'prototype';
 
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var createDict = function () {
   // Thrash, waste and sodomy: IE GC bug
-  var iframe = __webpack_require__(56)('iframe');
+  var iframe = __webpack_require__(58)('iframe');
   var i = enumBugKeys.length;
   var lt = '<';
   var gt = '>';
   var iframeDocument;
   iframe.style.display = 'none';
-  __webpack_require__(91).appendChild(iframe);
+  __webpack_require__(93).appendChild(iframe);
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -4657,7 +7547,7 @@ module.exports = Object.create || function create(O, Properties) {
 
 
 /***/ }),
-/* 36 */
+/* 39 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -4668,7 +7558,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 37 */
+/* 40 */
 /***/ (function(module, exports) {
 
 // 7.2.1 RequireObjectCoercible(argument)
@@ -4679,7 +7569,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 38 */
+/* 41 */
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -4691,22 +7581,22 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 39 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var shared = __webpack_require__(40)('keys');
-var uid = __webpack_require__(30);
+var shared = __webpack_require__(43)('keys');
+var uid = __webpack_require__(32);
 module.exports = function (key) {
   return shared[key] || (shared[key] = uid(key));
 };
 
 
 /***/ }),
-/* 40 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var core = __webpack_require__(3);
-var global = __webpack_require__(9);
+var global = __webpack_require__(11);
 var SHARED = '__core-js_shared__';
 var store = global[SHARED] || (global[SHARED] = {});
 
@@ -4714,13 +7604,13 @@ var store = global[SHARED] || (global[SHARED] = {});
   return store[key] || (store[key] = value !== undefined ? value : {});
 })('versions', []).push({
   version: core.version,
-  mode: __webpack_require__(29) ? 'pure' : 'global',
+  mode: __webpack_require__(31) ? 'pure' : 'global',
   copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
 });
 
 
 /***/ }),
-/* 41 */
+/* 44 */
 /***/ (function(module, exports) {
 
 // IE 8- don't enum bug keys
@@ -4730,23 +7620,12 @@ module.exports = (
 
 
 /***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 7.1.13 ToObject(argument)
-var defined = __webpack_require__(37);
-module.exports = function (it) {
-  return Object(defined(it));
-};
-
-
-/***/ }),
-/* 43 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var def = __webpack_require__(12).f;
-var has = __webpack_require__(14);
-var TAG = __webpack_require__(11)('toStringTag');
+var has = __webpack_require__(17);
+var TAG = __webpack_require__(8)('toStringTag');
 
 module.exports = function (it, tag, stat) {
   if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });
@@ -4754,20 +7633,44 @@ module.exports = function (it, tag, stat) {
 
 
 /***/ }),
-/* 44 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports.f = __webpack_require__(11);
+"use strict";
+
+var $at = __webpack_require__(101)(true);
+
+// 21.1.3.27 String.prototype[@@iterator]()
+__webpack_require__(63)(String, 'String', function (iterated) {
+  this._t = String(iterated); // target
+  this._i = 0;                // next index
+// 21.1.5.2.1 %StringIteratorPrototype%.next()
+}, function () {
+  var O = this._t;
+  var index = this._i;
+  var point;
+  if (index >= O.length) return { value: undefined, done: true };
+  point = $at(O, index);
+  this._i += point.length;
+  return { value: point, done: false };
+});
 
 
 /***/ }),
-/* 45 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(9);
+exports.f = __webpack_require__(8);
+
+
+/***/ }),
+/* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(11);
 var core = __webpack_require__(3);
-var LIBRARY = __webpack_require__(29);
-var wksExt = __webpack_require__(44);
+var LIBRARY = __webpack_require__(31);
+var wksExt = __webpack_require__(47);
 var defineProperty = __webpack_require__(12).f;
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
@@ -4776,14 +7679,14 @@ module.exports = function (name) {
 
 
 /***/ }),
-/* 46 */
+/* 49 */
 /***/ (function(module, exports) {
 
 exports.f = {}.propertyIsEnumerable;
 
 
 /***/ }),
-/* 47 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4809,7 +7712,7 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _DataSet = __webpack_require__(32);
+var _DataSet = __webpack_require__(34);
 
 var _DataSet2 = _interopRequireDefault(_DataSet);
 
@@ -5250,7 +8153,7 @@ DataView.prototype.unsubscribe = DataView.prototype.off;
 exports['default'] = DataView;
 
 /***/ }),
-/* 48 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5260,11 +8163,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -5276,11 +8179,11 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -5288,19 +8191,19 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _Component2 = __webpack_require__(15);
+var _Component2 = __webpack_require__(18);
 
 var _Component3 = _interopRequireDefault(_Component2);
 
-var _TimeStep = __webpack_require__(49);
+var _TimeStep = __webpack_require__(52);
 
 var _TimeStep2 = _interopRequireDefault(_TimeStep);
 
-var _DateUtil = __webpack_require__(25);
+var _DateUtil = __webpack_require__(28);
 
 var DateUtil = _interopRequireWildcard(_DateUtil);
 
-var _moment = __webpack_require__(8);
+var _moment = __webpack_require__(9);
 
 var _moment2 = _interopRequireDefault(_moment);
 
@@ -5838,7 +8741,7 @@ var warnedForOverflow = false;
 exports['default'] = TimeAxis;
 
 /***/ }),
-/* 49 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5856,11 +8759,11 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _moment2 = __webpack_require__(8);
+var _moment2 = __webpack_require__(9);
 
 var _moment3 = _interopRequireDefault(_moment2);
 
-var _DateUtil = __webpack_require__(25);
+var _DateUtil = __webpack_require__(28);
 
 var DateUtil = _interopRequireWildcard(_DateUtil);
 
@@ -6731,7 +9634,7 @@ TimeStep.FORMAT = {
 exports['default'] = TimeStep;
 
 /***/ }),
-/* 50 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6741,7 +9644,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -6753,15 +9656,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _hammer = __webpack_require__(16);
+var _hammer = __webpack_require__(13);
 
 var _hammer2 = _interopRequireDefault(_hammer);
 
@@ -6769,15 +9672,15 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _Component2 = __webpack_require__(15);
+var _Component2 = __webpack_require__(18);
 
 var _Component3 = _interopRequireDefault(_Component2);
 
-var _moment = __webpack_require__(8);
+var _moment = __webpack_require__(9);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _locales = __webpack_require__(74);
+var _locales = __webpack_require__(77);
 
 var _locales2 = _interopRequireDefault(_locales);
 
@@ -7092,7 +9995,7 @@ var CustomTime = function (_Component) {
 exports['default'] = CustomTime;
 
 /***/ }),
-/* 51 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7106,6 +10009,10 @@ var _keys = __webpack_require__(10);
 
 var _keys2 = _interopRequireDefault(_keys);
 
+var _toConsumableArray2 = __webpack_require__(79);
+
+var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
+
 var _classCallCheck2 = __webpack_require__(0);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
@@ -7118,9 +10025,17 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _Stack = __webpack_require__(77);
+var _Stack = __webpack_require__(80);
 
 var stack = _interopRequireWildcard(_Stack);
+
+var _Item = __webpack_require__(19);
+
+var _Item2 = _interopRequireDefault(_Item);
+
+var _ItemSet = __webpack_require__(29);
+
+var _ItemSet2 = _interopRequireDefault(_ItemSet);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
 
@@ -7191,7 +10106,8 @@ var Group = function () {
     };
     this.className = null;
 
-    this.items = {}; // items filtered by groupId of this group
+    this.rawItems = {}; // items filtered by groupId of this group
+    this.items = {}; // items clusteredRawItems
     this.visibleItems = []; // items currently visible in window
     this.itemsInRange = []; // items currently in range
     this.orderedItems = {
@@ -7604,7 +10520,13 @@ var Group = function () {
       var lastIsVisible = this.isVisible;
       var height = void 0;
 
-      var queue = [function () {
+      var queue = [
+      //cluster items
+      function () {
+        // if (this.options.clusterItems) {
+        _this2.items = _this2._clusterItems(_this2.rawItems);
+        // }
+      }, function () {
         forceRestack = _this2._didMarkerHeightChange.call(_this2) || forceRestack;
       },
 
@@ -7646,6 +10568,53 @@ var Group = function () {
         });
         return result;
       }
+    }
+  }, {
+    key: '_clusterItems',
+    value: function _clusterItems(items) {
+      var clusteredItemsArr = void 0;
+
+      if (!items) {
+        return null;
+      }
+
+      if (items instanceof _ItemSet2['default']) {
+        // turn an array into a dataset
+        clusteredItemsArr = util.toArray.apply(util, (0, _toConsumableArray3['default'])(items.items));
+      } else {
+        clusteredItemsArr = [].concat((0, _toConsumableArray3['default'])(util.toArray(items)));
+      }
+
+      for (var i = 0; i < clusteredItemsArr.length; i++) {
+        // eslint-disable-line no-redeclare
+        for (var j = i + 1; j < clusteredItemsArr.length; j++) {
+          if (clusteredItemsArr[i].isColliding(clusteredItemsArr[j])) {
+            var mergedItem = _Item2['default'].mergeItems(clusteredItemsArr[i], clusteredItemsArr[j]);
+            if (mergedItem) {
+              this._removeFromVisibleItems(clusteredItemsArr[i]);
+              this._removeFromVisibleItems(clusteredItemsArr[j]);
+
+              clusteredItemsArr.splice(j, 1);
+              clusteredItemsArr[i] = mergedItem;
+
+              var range = this.itemSet.body.range; // TODO: not nice accessing the range like this
+              this._checkIfVisible(mergedItem, this.visibleItems, range);
+
+              // this.itemSet.removeItem(clusteredItemsArr[i].id);
+              // this.itemSet.removeItem(clusteredItemsArr[j].id);
+
+              // clusteredItemsArr.splice(j, 1)
+              // this.itemSet.addItem(mergedItem)
+            }
+          }
+        }
+      }
+      var clusteredItems = {};
+      clusteredItemsArr.forEach(function (item) {
+        clusteredItems[item.id] = item;
+      });
+
+      return clusteredItems;
     }
 
     /**
@@ -7793,7 +10762,7 @@ var Group = function () {
   }, {
     key: 'add',
     value: function add(item) {
-      this.items[item.id] = item;
+      this.rawItems[item.id] = item;
       item.setParent(this);
       this.stackDirty = true;
       // add to
@@ -7913,7 +10882,7 @@ var Group = function () {
   }, {
     key: 'remove',
     value: function remove(item) {
-      delete this.items[item.id];
+      delete this.rawItems[item.id];
       item.setParent(null);
       this.stackDirty = true;
 
@@ -7945,6 +10914,17 @@ var Group = function () {
             }
           }
         }
+      }
+    }
+  }, {
+    key: '_removeFromVisibleItems',
+    value: function _removeFromVisibleItems(item) {
+      var itemIndex = this.visibleItems.findIndex(function (visibleItem) {
+        return item.id === visibleItem.id;
+      });
+      //  Check the item is actually in this subgroup. How should items not in the group be handled?
+      if (itemIndex >= 0) {
+        this.visibleItems.items.splice(itemIndex, 1);
       }
     }
 
@@ -8176,7 +11156,7 @@ var Group = function () {
 exports['default'] = Group;
 
 /***/ }),
-/* 52 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8186,7 +11166,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -8198,15 +11178,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _Group2 = __webpack_require__(51);
+var _Group2 = __webpack_require__(54);
 
 var _Group3 = _interopRequireDefault(_Group2);
 
@@ -8288,7 +11268,7 @@ var BackgroundGroup = function (_Group) {
 exports['default'] = BackgroundGroup;
 
 /***/ }),
-/* 53 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8298,7 +11278,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -8310,15 +11290,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _Item2 = __webpack_require__(26);
+var _Item2 = __webpack_require__(19);
 
 var _Item3 = _interopRequireDefault(_Item2);
 
@@ -8748,46 +11728,20 @@ RangeItem.prototype.baseClassName = 'timeline-item timeline-range';
 exports['default'] = RangeItem;
 
 /***/ }),
-/* 54 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// optional / simple context binding
-var aFunction = __webpack_require__(85);
-module.exports = function (fn, that, length) {
-  aFunction(fn);
-  if (that === undefined) return fn;
-  switch (length) {
-    case 1: return function (a) {
-      return fn.call(that, a);
-    };
-    case 2: return function (a, b) {
-      return fn.call(that, a, b);
-    };
-    case 3: return function (a, b, c) {
-      return fn.call(that, a, b, c);
-    };
-  }
-  return function (/* ...args */) {
-    return fn.apply(that, arguments);
-  };
-};
-
-
-/***/ }),
-/* 55 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = !__webpack_require__(13) && !__webpack_require__(23)(function () {
-  return Object.defineProperty(__webpack_require__(56)('div'), 'a', { get: function () { return 7; } }).a != 7;
+module.exports = !__webpack_require__(16) && !__webpack_require__(25)(function () {
+  return Object.defineProperty(__webpack_require__(58)('div'), 'a', { get: function () { return 7; } }).a != 7;
 });
 
 
 /***/ }),
-/* 56 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(20);
-var document = __webpack_require__(9).document;
+var isObject = __webpack_require__(21);
+var document = __webpack_require__(11).document;
 // typeof document.createElement is 'object' in old IE
 var is = isObject(document) && isObject(document.createElement);
 module.exports = function (it) {
@@ -8796,13 +11750,13 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 57 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var has = __webpack_require__(14);
-var toIObject = __webpack_require__(21);
-var arrayIndexOf = __webpack_require__(88)(false);
-var IE_PROTO = __webpack_require__(39)('IE_PROTO');
+var has = __webpack_require__(17);
+var toIObject = __webpack_require__(22);
+var arrayIndexOf = __webpack_require__(91)(false);
+var IE_PROTO = __webpack_require__(42)('IE_PROTO');
 
 module.exports = function (object, names) {
   var O = toIObject(object);
@@ -8819,13 +11773,25 @@ module.exports = function (object, names) {
 
 
 /***/ }),
-/* 58 */
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 7.1.15 ToLength
+var toInteger = __webpack_require__(41);
+var min = Math.min;
+module.exports = function (it) {
+  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
+};
+
+
+/***/ }),
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // most Object methods by ES6 should accept primitives
-var $export = __webpack_require__(17);
+var $export = __webpack_require__(14);
 var core = __webpack_require__(3);
-var fails = __webpack_require__(23);
+var fails = __webpack_require__(25);
 module.exports = function (KEY, exec) {
   var fn = (core.Object || {})[KEY] || Object[KEY];
   var exp = {};
@@ -8835,14 +11801,14 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
-/* 59 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(95);
-var global = __webpack_require__(9);
-var hide = __webpack_require__(18);
-var Iterators = __webpack_require__(31);
-var TO_STRING_TAG = __webpack_require__(11)('toStringTag');
+__webpack_require__(97);
+var global = __webpack_require__(11);
+var hide = __webpack_require__(20);
+var Iterators = __webpack_require__(27);
+var TO_STRING_TAG = __webpack_require__(8)('toStringTag');
 
 var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
   'DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,' +
@@ -8860,20 +11826,20 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 
 /***/ }),
-/* 60 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var LIBRARY = __webpack_require__(29);
-var $export = __webpack_require__(17);
-var redefine = __webpack_require__(61);
-var hide = __webpack_require__(18);
-var Iterators = __webpack_require__(31);
-var $iterCreate = __webpack_require__(98);
-var setToStringTag = __webpack_require__(43);
-var getPrototypeOf = __webpack_require__(62);
-var ITERATOR = __webpack_require__(11)('iterator');
+var LIBRARY = __webpack_require__(31);
+var $export = __webpack_require__(14);
+var redefine = __webpack_require__(64);
+var hide = __webpack_require__(20);
+var Iterators = __webpack_require__(27);
+var $iterCreate = __webpack_require__(100);
+var setToStringTag = __webpack_require__(45);
+var getPrototypeOf = __webpack_require__(65);
+var ITERATOR = __webpack_require__(8)('iterator');
 var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
 var FF_ITERATOR = '@@iterator';
 var KEYS = 'keys';
@@ -8936,20 +11902,20 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 
 /***/ }),
-/* 61 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(18);
+module.exports = __webpack_require__(20);
 
 
 /***/ }),
-/* 62 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
-var has = __webpack_require__(14);
-var toObject = __webpack_require__(42);
-var IE_PROTO = __webpack_require__(39)('IE_PROTO');
+var has = __webpack_require__(17);
+var toObject = __webpack_require__(33);
+var IE_PROTO = __webpack_require__(42)('IE_PROTO');
 var ObjectProto = Object.prototype;
 
 module.exports = Object.getPrototypeOf || function (O) {
@@ -8962,43 +11928,33 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 
 /***/ }),
-/* 63 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-var $at = __webpack_require__(99)(true);
-
-// 21.1.3.27 String.prototype[@@iterator]()
-__webpack_require__(60)(String, 'String', function (iterated) {
-  this._t = String(iterated); // target
-  this._i = 0;                // next index
-// 21.1.5.2.1 %StringIteratorPrototype%.next()
-}, function () {
-  var O = this._t;
-  var index = this._i;
-  var point;
-  if (index >= O.length) return { value: undefined, done: true };
-  point = $at(O, index);
-  this._i += point.length;
-  return { value: point, done: false };
-});
+var classof = __webpack_require__(103);
+var ITERATOR = __webpack_require__(8)('iterator');
+var Iterators = __webpack_require__(27);
+module.exports = __webpack_require__(3).getIteratorMethod = function (it) {
+  if (it != undefined) return it[ITERATOR]
+    || it['@@iterator']
+    || Iterators[classof(it)];
+};
 
 
 /***/ }),
-/* 64 */
+/* 67 */
 /***/ (function(module, exports) {
 
 exports.f = Object.getOwnPropertySymbols;
 
 
 /***/ }),
-/* 65 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(57);
-var hiddenKeys = __webpack_require__(41).concat('length', 'prototype');
+var $keys = __webpack_require__(59);
+var hiddenKeys = __webpack_require__(44).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
   return $keys(O, hiddenKeys);
@@ -9006,18 +11962,18 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
-/* 66 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var pIE = __webpack_require__(46);
-var createDesc = __webpack_require__(27);
-var toIObject = __webpack_require__(21);
-var toPrimitive = __webpack_require__(34);
-var has = __webpack_require__(14);
-var IE8_DOM_DEFINE = __webpack_require__(55);
+var pIE = __webpack_require__(49);
+var createDesc = __webpack_require__(26);
+var toIObject = __webpack_require__(22);
+var toPrimitive = __webpack_require__(37);
+var has = __webpack_require__(17);
+var IE8_DOM_DEFINE = __webpack_require__(57);
 var gOPD = Object.getOwnPropertyDescriptor;
 
-exports.f = __webpack_require__(13) ? gOPD : function getOwnPropertyDescriptor(O, P) {
+exports.f = __webpack_require__(16) ? gOPD : function getOwnPropertyDescriptor(O, P) {
   O = toIObject(O);
   P = toPrimitive(P, true);
   if (IE8_DOM_DEFINE) try {
@@ -9028,7 +11984,7 @@ exports.f = __webpack_require__(13) ? gOPD : function getOwnPropertyDescriptor(O
 
 
 /***/ }),
-/* 67 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9257,7 +12213,7 @@ function drawBar(x, y, width, height, className, JSONcontainer, svgContainer, st
 }
 
 /***/ }),
-/* 68 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9267,7 +12223,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getIterator2 = __webpack_require__(24);
+var _getIterator2 = __webpack_require__(23);
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
@@ -9550,7 +12506,7 @@ var Queue = function () {
 exports['default'] = Queue;
 
 /***/ }),
-/* 69 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9564,15 +12520,15 @@ var _keys = __webpack_require__(10);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _stringify = __webpack_require__(22);
+var _stringify = __webpack_require__(24);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -9584,11 +12540,11 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -9596,15 +12552,15 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _moment = __webpack_require__(8);
+var _moment = __webpack_require__(9);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _Component2 = __webpack_require__(15);
+var _Component2 = __webpack_require__(18);
 
 var _Component3 = _interopRequireDefault(_Component2);
 
-var _DateUtil = __webpack_require__(25);
+var _DateUtil = __webpack_require__(28);
 
 var DateUtil = _interopRequireWildcard(_DateUtil);
 
@@ -10577,7 +13533,7 @@ function validateDirection(direction) {
 }
 
 /***/ }),
-/* 70 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10587,11 +13543,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(22);
+var _stringify = __webpack_require__(24);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -10603,15 +13559,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _emitterComponent = __webpack_require__(71);
+var _emitterComponent = __webpack_require__(74);
 
 var _emitterComponent2 = _interopRequireDefault(_emitterComponent);
 
-var _hammer = __webpack_require__(16);
+var _hammer = __webpack_require__(13);
 
 var _hammer2 = _interopRequireDefault(_hammer);
 
-var _hammerUtil = __webpack_require__(72);
+var _hammerUtil = __webpack_require__(75);
 
 var hammerUtil = _interopRequireWildcard(_hammerUtil);
 
@@ -10619,19 +13575,19 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _DateUtil = __webpack_require__(25);
+var _DateUtil = __webpack_require__(28);
 
 var DateUtil = _interopRequireWildcard(_DateUtil);
 
-var _TimeAxis = __webpack_require__(48);
+var _TimeAxis = __webpack_require__(51);
 
 var _TimeAxis2 = _interopRequireDefault(_TimeAxis);
 
-var _Activator = __webpack_require__(133);
+var _Activator = __webpack_require__(134);
 
 var _Activator2 = _interopRequireDefault(_Activator);
 
-var _CustomTime = __webpack_require__(50);
+var _CustomTime = __webpack_require__(53);
 
 var _CustomTime2 = _interopRequireDefault(_CustomTime);
 
@@ -12118,7 +15074,7 @@ var Core = function () {
 exports['default'] = Core;
 
 /***/ }),
-/* 71 */
+/* 74 */
 /***/ (function(module, exports) {
 
 
@@ -12288,7 +15244,7 @@ Emitter.prototype.hasListeners = function(event){
 
 
 /***/ }),
-/* 72 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12370,7 +15326,7 @@ function disablePreventDefaultVertically(pinchRecognizer) {
 }
 
 /***/ }),
-/* 73 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12573,7 +15529,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 74 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12634,7 +15590,7 @@ exports['uk'] = {
 exports['uk_UA'] = exports['uk'];
 
 /***/ }),
-/* 75 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12644,7 +15600,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -12656,11 +15612,11 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -12668,15 +15624,15 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _Component2 = __webpack_require__(15);
+var _Component2 = __webpack_require__(18);
 
 var _Component3 = _interopRequireDefault(_Component2);
 
-var _moment = __webpack_require__(8);
+var _moment = __webpack_require__(9);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _locales = __webpack_require__(74);
+var _locales = __webpack_require__(77);
 
 var _locales2 = _interopRequireDefault(_locales);
 
@@ -12902,2721 +15858,34 @@ var CurrentTime = function (_Component) {
 exports['default'] = CurrentTime;
 
 /***/ }),
-/* 76 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+exports.__esModule = true;
 
-var _create2 = __webpack_require__(33);
+var _from = __webpack_require__(135);
 
-var _create3 = _interopRequireDefault(_create2);
+var _from2 = _interopRequireDefault(_from);
 
-var _getIterator2 = __webpack_require__(24);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _getIterator3 = _interopRequireDefault(_getIterator2);
+exports.default = function (arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
 
-var _typeof2 = __webpack_require__(7);
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-var _getPrototypeOf = __webpack_require__(4);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(0);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(1);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(5);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(6);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _hammer = __webpack_require__(16);
-
-var _hammer2 = _interopRequireDefault(_hammer);
-
-var _util = __webpack_require__(2);
-
-var util = _interopRequireWildcard(_util);
-
-var _DataSet = __webpack_require__(32);
-
-var _DataSet2 = _interopRequireDefault(_DataSet);
-
-var _DataView = __webpack_require__(47);
-
-var _DataView2 = _interopRequireDefault(_DataView);
-
-var _TimeStep = __webpack_require__(49);
-
-var _TimeStep2 = _interopRequireDefault(_TimeStep);
-
-var _Component2 = __webpack_require__(15);
-
-var _Component3 = _interopRequireDefault(_Component2);
-
-var _Group = __webpack_require__(51);
-
-var _Group2 = _interopRequireDefault(_Group);
-
-var _BackgroundGroup = __webpack_require__(52);
-
-var _BackgroundGroup2 = _interopRequireDefault(_BackgroundGroup);
-
-var _BoxItem = __webpack_require__(78);
-
-var _BoxItem2 = _interopRequireDefault(_BoxItem);
-
-var _PointItem = __webpack_require__(79);
-
-var _PointItem2 = _interopRequireDefault(_PointItem);
-
-var _RangeItem = __webpack_require__(53);
-
-var _RangeItem2 = _interopRequireDefault(_RangeItem);
-
-var _BackgroundItem = __webpack_require__(80);
-
-var _BackgroundItem2 = _interopRequireDefault(_BackgroundItem);
-
-var _Popup = __webpack_require__(134);
-
-var _Popup2 = _interopRequireDefault(_Popup);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var UNGROUPED = '__ungrouped__'; // reserved group id for ungrouped items
-var BACKGROUND = '__background__'; // reserved group id for background items without group
-
-/**
- * An ItemSet holds a set of items and ranges which can be displayed in a
- * range. The width is determined by the parent of the ItemSet, and the height
- * is determined by the size of the items.
- */
-
-var ItemSet = function (_Component) {
-  (0, _inherits3['default'])(ItemSet, _Component);
-
-  /**
-  * @param {{dom: Object, domProps: Object, emitter: Emitter, range: Range}} body
-  * @param {Object} [options]      See ItemSet.setOptions for the available options.
-  * @constructor ItemSet
-  * @extends Component
-  */
-  function ItemSet(body, options) {
-    (0, _classCallCheck3['default'])(this, ItemSet);
-
-    var _this = (0, _possibleConstructorReturn3['default'])(this, (ItemSet.__proto__ || (0, _getPrototypeOf2['default'])(ItemSet)).call(this));
-
-    _this.body = body;
-    _this.defaultOptions = {
-      type: null, // 'box', 'point', 'range', 'background'
-      orientation: {
-        item: 'bottom' // item orientation: 'top' or 'bottom'
-      },
-      align: 'auto', // alignment of box items
-      stack: true,
-      stackSubgroups: true,
-      groupOrderSwap: function groupOrderSwap(fromGroup, toGroup, groups) {
-        // eslint-disable-line no-unused-vars
-        var targetOrder = toGroup.order;
-        toGroup.order = fromGroup.order;
-        fromGroup.order = targetOrder;
-      },
-
-      groupOrder: 'order',
-
-      selectable: true,
-      multiselect: false,
-      itemsAlwaysDraggable: {
-        item: false,
-        range: false
-      },
-
-      editable: {
-        updateTime: false,
-        updateGroup: false,
-        add: false,
-        remove: false,
-        overrideItems: false
-      },
-
-      groupEditable: {
-        order: false,
-        add: false,
-        remove: false
-      },
-
-      snap: _TimeStep2['default'].snap,
-
-      // Only called when `objectData.target === 'item'.
-      onDropObjectOnItem: function onDropObjectOnItem(objectData, item, callback) {
-        callback(item);
-      },
-      onAdd: function onAdd(item, callback) {
-        callback(item);
-      },
-      onUpdate: function onUpdate(item, callback) {
-        callback(item);
-      },
-      onMove: function onMove(item, callback) {
-        callback(item);
-      },
-      onRemove: function onRemove(item, callback) {
-        callback(item);
-      },
-      onMoving: function onMoving(item, callback) {
-        callback(item);
-      },
-      onAddGroup: function onAddGroup(item, callback) {
-        callback(item);
-      },
-      onMoveGroup: function onMoveGroup(item, callback) {
-        callback(item);
-      },
-      onRemoveGroup: function onRemoveGroup(item, callback) {
-        callback(item);
-      },
-
-
-      margin: {
-        item: {
-          horizontal: 10,
-          vertical: 10
-        },
-        axis: 20
-      },
-
-      showTooltips: true,
-
-      tooltip: {
-        followMouse: false,
-        overflowMethod: 'flip'
-      },
-
-      tooltipOnItemUpdateTime: false
-    };
-
-    // options is shared by this ItemSet and all its items
-    _this.options = util.extend({}, _this.defaultOptions);
-    _this.options.rtl = options.rtl;
-    _this.options.onTimeout = options.onTimeout;
-
-    // options for getting items from the DataSet with the correct type
-    _this.itemOptions = {
-      type: { start: 'Date', end: 'Date' }
-    };
-
-    _this.conversion = {
-      toScreen: body.util.toScreen,
-      toTime: body.util.toTime
-    };
-    _this.dom = {};
-    _this.props = {};
-    _this.hammer = null;
-
-    var me = _this;
-    _this.itemsData = null; // DataSet
-    _this.groupsData = null; // DataSet
-    _this.itemsSettingTime = null;
-    _this.initialItemSetDrawn = false;
-    _this.userContinueNotBail = null;
-
-    // listeners for the DataSet of the items
-    _this.itemListeners = {
-      'add': function add(event, params, senderId) {
-        // eslint-disable-line no-unused-vars
-        me._onAdd(params.items);
-      },
-      'update': function update(event, params, senderId) {
-        // eslint-disable-line no-unused-vars
-        me._onUpdate(params.items);
-      },
-      'remove': function remove(event, params, senderId) {
-        // eslint-disable-line no-unused-vars
-        me._onRemove(params.items);
-      }
-    };
-
-    // listeners for the DataSet of the groups
-    _this.groupListeners = {
-      'add': function add(event, params, senderId) {
-        // eslint-disable-line no-unused-vars
-        me._onAddGroups(params.items);
-
-        if (me.groupsData && me.groupsData.length > 0) {
-          var groupsData = me.groupsData.getDataSet();
-          groupsData.get().forEach(function (groupData) {
-            if (groupData.nestedGroups) {
-              if (groupData.showNested != false) {
-                groupData.showNested = true;
-              }
-              var updatedGroups = [];
-              groupData.nestedGroups.forEach(function (nestedGroupId) {
-                var updatedNestedGroup = groupsData.get(nestedGroupId);
-                if (!updatedNestedGroup) {
-                  return;
-                }
-                updatedNestedGroup.nestedInGroup = groupData.id;
-                if (groupData.showNested == false) {
-                  updatedNestedGroup.visible = false;
-                }
-                updatedGroups = updatedGroups.concat(updatedNestedGroup);
-              });
-              groupsData.update(updatedGroups, senderId);
-            }
-          });
-        }
-      },
-      'update': function update(event, params, senderId) {
-        // eslint-disable-line no-unused-vars
-        me._onUpdateGroups(params.items);
-      },
-      'remove': function remove(event, params, senderId) {
-        // eslint-disable-line no-unused-vars
-        me._onRemoveGroups(params.items);
-      }
-    };
-
-    _this.items = {}; // object with an Item for every data item
-    _this.groups = {}; // Group object for every group
-    _this.groupIds = [];
-
-    _this.selection = []; // list with the ids of all selected nodes
-
-    _this.popup = null;
-
-    _this.touchParams = {}; // stores properties while dragging
-    _this.groupTouchParams = {};
-    // create the HTML DOM
-
-    _this._create();
-
-    _this.setOptions(options);
-    return _this;
+    return arr2;
+  } else {
+    return (0, _from2.default)(arr);
   }
-
-  /**
-   * Create the HTML DOM for the ItemSet
-   */
-
-
-  (0, _createClass3['default'])(ItemSet, [{
-    key: '_create',
-    value: function _create() {
-      var _this2 = this;
-
-      var frame = document.createElement('div');
-      frame.className = 'timeline-itemset';
-      frame['timeline-itemset'] = this;
-      this.dom.frame = frame;
-
-      // create background panel
-      var background = document.createElement('div');
-      background.className = 'timeline-background';
-      frame.appendChild(background);
-      this.dom.background = background;
-
-      // create foreground panel
-      var foreground = document.createElement('div');
-      foreground.className = 'timeline-foreground';
-      frame.appendChild(foreground);
-      this.dom.foreground = foreground;
-
-      // create axis panel
-      var axis = document.createElement('div');
-      axis.className = 'timeline-axis';
-      this.dom.axis = axis;
-
-      // create labelset
-      var labelSet = document.createElement('div');
-      labelSet.className = 'timeline-labelset';
-      this.dom.labelSet = labelSet;
-
-      // create ungrouped Group
-      this._updateUngrouped();
-
-      // create background Group
-      var backgroundGroup = new _BackgroundGroup2['default'](BACKGROUND, null, this);
-      backgroundGroup.show();
-      this.groups[BACKGROUND] = backgroundGroup;
-
-      // attach event listeners
-      // Note: we bind to the centerContainer for the case where the height
-      //       of the center container is larger than of the ItemSet, so we
-      //       can click in the empty area to create a new item or deselect an item.
-      this.hammer = new _hammer2['default'](this.body.dom.centerContainer);
-
-      // drag items when selected
-      this.hammer.on('hammer.input', function (event) {
-        if (event.isFirst) {
-          _this2._onTouch(event);
-        }
-      });
-      this.hammer.on('panstart', this._onDragStart.bind(this));
-      this.hammer.on('panmove', this._onDrag.bind(this));
-      this.hammer.on('panend', this._onDragEnd.bind(this));
-      this.hammer.get('pan').set({ threshold: 5, direction: _hammer2['default'].DIRECTION_HORIZONTAL });
-
-      // single select (or unselect) when tapping an item
-      this.hammer.on('tap', this._onSelectItem.bind(this));
-
-      // multi select when holding mouse/touch, or on ctrl+click
-      this.hammer.on('press', this._onMultiSelectItem.bind(this));
-
-      // add item on doubletap
-      this.hammer.on('doubletap', this._onAddItem.bind(this));
-
-      if (this.options.rtl) {
-        this.groupHammer = new _hammer2['default'](this.body.dom.rightContainer);
-      } else {
-        this.groupHammer = new _hammer2['default'](this.body.dom.leftContainer);
-      }
-
-      this.groupHammer.on('tap', this._onGroupClick.bind(this));
-      this.groupHammer.on('panstart', this._onGroupDragStart.bind(this));
-      this.groupHammer.on('panmove', this._onGroupDrag.bind(this));
-      this.groupHammer.on('panend', this._onGroupDragEnd.bind(this));
-      this.groupHammer.get('pan').set({ threshold: 5, direction: _hammer2['default'].DIRECTION_VERTICAL });
-
-      this.body.dom.centerContainer.addEventListener('mouseover', this._onMouseOver.bind(this));
-      this.body.dom.centerContainer.addEventListener('mouseout', this._onMouseOut.bind(this));
-      this.body.dom.centerContainer.addEventListener('mousemove', this._onMouseMove.bind(this));
-      // right-click on timeline 
-      this.body.dom.centerContainer.addEventListener('contextmenu', this._onDragEnd.bind(this));
-
-      this.body.dom.centerContainer.addEventListener('mousewheel', this._onMouseWheel.bind(this));
-
-      // attach to the DOM
-      this.show();
-    }
-
-    /**
-     * Set options for the ItemSet. Existing options will be extended/overwritten.
-     * @param {Object} [options] The following options are available:
-     *                           {string} type
-     *                              Default type for the items. Choose from 'box'
-     *                              (default), 'point', 'range', or 'background'.
-     *                              The default style can be overwritten by
-     *                              individual items.
-     *                           {string} align
-     *                              Alignment for the items, only applicable for
-     *                              BoxItem. Choose 'center' (default), 'left', or
-     *                              'right'.
-     *                           {string} orientation.item
-     *                              Orientation of the item set. Choose 'top' or
-     *                              'bottom' (default).
-     *                           {Function} groupOrder
-     *                              A sorting function for ordering groups
-     *                           {boolean} stack
-     *                              If true (default), items will be stacked on
-     *                              top of each other.
-     *                           {number} margin.axis
-     *                              Margin between the axis and the items in pixels.
-     *                              Default is 20.
-     *                           {number} margin.item.horizontal
-     *                              Horizontal margin between items in pixels.
-     *                              Default is 10.
-     *                           {number} margin.item.vertical
-     *                              Vertical Margin between items in pixels.
-     *                              Default is 10.
-     *                           {number} margin.item
-     *                              Margin between items in pixels in both horizontal
-     *                              and vertical direction. Default is 10.
-     *                           {number} margin
-     *                              Set margin for both axis and items in pixels.
-     *                           {boolean} selectable
-     *                              If true (default), items can be selected.
-     *                           {boolean} multiselect
-     *                              If true, multiple items can be selected.
-     *                              False by default.
-     *                           {boolean} editable
-     *                              Set all editable options to true or false
-     *                           {boolean} editable.updateTime
-     *                              Allow dragging an item to an other moment in time
-     *                           {boolean} editable.updateGroup
-     *                              Allow dragging an item to an other group
-     *                           {boolean} editable.add
-     *                              Allow creating new items on double tap
-     *                           {boolean} editable.remove
-     *                              Allow removing items by clicking the delete button
-     *                              top right of a selected item.
-     *                           {Function(item: Item, callback: Function)} onAdd
-     *                              Callback function triggered when an item is about to be added:
-     *                              when the user double taps an empty space in the Timeline.
-     *                           {Function(item: Item, callback: Function)} onUpdate
-     *                              Callback function fired when an item is about to be updated.
-     *                              This function typically has to show a dialog where the user
-     *                              change the item. If not implemented, nothing happens.
-     *                           {Function(item: Item, callback: Function)} onMove
-     *                              Fired when an item has been moved. If not implemented,
-     *                              the move action will be accepted.
-     *                           {Function(item: Item, callback: Function)} onRemove
-     *                              Fired when an item is about to be deleted.
-     *                              If not implemented, the item will be always removed.
-     */
-
-  }, {
-    key: 'setOptions',
-    value: function setOptions(options) {
-      var _this3 = this;
-
-      if (options) {
-        // copy all options that we know
-        var fields = ['type', 'rtl', 'align', 'order', 'stack', 'stackSubgroups', 'selectable', 'multiselect', 'multiselectPerGroup', 'groupOrder', 'dataAttributes', 'template', 'groupTemplate', 'visibleFrameTemplate', 'hide', 'snap', 'groupOrderSwap', 'showTooltips', 'tooltip', 'tooltipOnItemUpdateTime', 'groupHeightMode', 'onTimeout'];
-        util.selectiveExtend(fields, this.options, options);
-
-        if ('itemsAlwaysDraggable' in options) {
-          if (typeof options.itemsAlwaysDraggable === 'boolean') {
-            this.options.itemsAlwaysDraggable.item = options.itemsAlwaysDraggable;
-            this.options.itemsAlwaysDraggable.range = false;
-          } else if ((0, _typeof3['default'])(options.itemsAlwaysDraggable) === 'object') {
-            util.selectiveExtend(['item', 'range'], this.options.itemsAlwaysDraggable, options.itemsAlwaysDraggable);
-            // only allow range always draggable when item is always draggable as well
-            if (!this.options.itemsAlwaysDraggable.item) {
-              this.options.itemsAlwaysDraggable.range = false;
-            }
-          }
-        }
-
-        if ('orientation' in options) {
-          if (typeof options.orientation === 'string') {
-            this.options.orientation.item = options.orientation === 'top' ? 'top' : 'bottom';
-          } else if ((0, _typeof3['default'])(options.orientation) === 'object' && 'item' in options.orientation) {
-            this.options.orientation.item = options.orientation.item;
-          }
-        }
-
-        if ('margin' in options) {
-          if (typeof options.margin === 'number') {
-            this.options.margin.axis = options.margin;
-            this.options.margin.item.horizontal = options.margin;
-            this.options.margin.item.vertical = options.margin;
-          } else if ((0, _typeof3['default'])(options.margin) === 'object') {
-            util.selectiveExtend(['axis'], this.options.margin, options.margin);
-            if ('item' in options.margin) {
-              if (typeof options.margin.item === 'number') {
-                this.options.margin.item.horizontal = options.margin.item;
-                this.options.margin.item.vertical = options.margin.item;
-              } else if ((0, _typeof3['default'])(options.margin.item) === 'object') {
-                util.selectiveExtend(['horizontal', 'vertical'], this.options.margin.item, options.margin.item);
-              }
-            }
-          }
-        }
-
-        if ('editable' in options) {
-          if (typeof options.editable === 'boolean') {
-            this.options.editable.updateTime = options.editable;
-            this.options.editable.updateGroup = options.editable;
-            this.options.editable.add = options.editable;
-            this.options.editable.remove = options.editable;
-            this.options.editable.overrideItems = false;
-          } else if ((0, _typeof3['default'])(options.editable) === 'object') {
-            util.selectiveExtend(['updateTime', 'updateGroup', 'add', 'remove', 'overrideItems'], this.options.editable, options.editable);
-          }
-        }
-
-        if ('groupEditable' in options) {
-          if (typeof options.groupEditable === 'boolean') {
-            this.options.groupEditable.order = options.groupEditable;
-            this.options.groupEditable.add = options.groupEditable;
-            this.options.groupEditable.remove = options.groupEditable;
-          } else if ((0, _typeof3['default'])(options.groupEditable) === 'object') {
-            util.selectiveExtend(['order', 'add', 'remove'], this.options.groupEditable, options.groupEditable);
-          }
-        }
-
-        // callback functions
-        var addCallback = function addCallback(name) {
-          var fn = options[name];
-          if (fn) {
-            if (!(typeof fn === 'function')) {
-              throw new Error('option ' + name + ' must be a function ' + name + '(item, callback)');
-            }
-            _this3.options[name] = fn;
-          }
-        };
-        ['onDropObjectOnItem', 'onAdd', 'onUpdate', 'onRemove', 'onMove', 'onMoving', 'onAddGroup', 'onMoveGroup', 'onRemoveGroup'].forEach(addCallback);
-
-        // force the itemSet to refresh: options like orientation and margins may be changed
-        this.markDirty();
-      }
-    }
-
-    /**
-     * Mark the ItemSet dirty so it will refresh everything with next redraw.
-     * Optionally, all items can be marked as dirty and be refreshed.
-     * @param {{refreshItems: boolean}} [options]
-     */
-
-  }, {
-    key: 'markDirty',
-    value: function markDirty(options) {
-      this.groupIds = [];
-
-      if (options && options.refreshItems) {
-        util.forEach(this.items, function (item) {
-          item.dirty = true;
-          if (item.displayed) item.redraw();
-        });
-      }
-    }
-
-    /**
-     * Destroy the ItemSet
-     */
-
-  }, {
-    key: 'destroy',
-    value: function destroy() {
-      this.hide();
-      this.setItems(null);
-      this.setGroups(null);
-
-      this.hammer && this.hammer.destroy();
-      this.groupHammer && this.groupHammer.destroy();
-      this.hammer = null;
-
-      this.body = null;
-      this.conversion = null;
-    }
-
-    /**
-     * Hide the component from the DOM
-     */
-
-  }, {
-    key: 'hide',
-    value: function hide() {
-      // remove the frame containing the items
-      if (this.dom.frame.parentNode) {
-        this.dom.frame.parentNode.removeChild(this.dom.frame);
-      }
-
-      // remove the axis with dots
-      if (this.dom.axis.parentNode) {
-        this.dom.axis.parentNode.removeChild(this.dom.axis);
-      }
-
-      // remove the labelset containing all group labels
-      if (this.dom.labelSet.parentNode) {
-        this.dom.labelSet.parentNode.removeChild(this.dom.labelSet);
-      }
-    }
-
-    /**
-     * Show the component in the DOM (when not already visible).
-     */
-
-  }, {
-    key: 'show',
-    value: function show() {
-      // show frame containing the items
-      if (!this.dom.frame.parentNode) {
-        this.body.dom.center.appendChild(this.dom.frame);
-      }
-
-      // show axis with dots
-      if (!this.dom.axis.parentNode) {
-        this.body.dom.backgroundVertical.appendChild(this.dom.axis);
-      }
-
-      // show labelset containing labels
-      if (!this.dom.labelSet.parentNode) {
-        if (this.options.rtl) {
-          this.body.dom.right.appendChild(this.dom.labelSet);
-        } else {
-          this.body.dom.left.appendChild(this.dom.labelSet);
-        }
-      }
-    }
-
-    /**
-     * Set selected items by their id. Replaces the current selection
-     * Unknown id's are silently ignored.
-     * @param {string[] | string} [ids] An array with zero or more id's of the items to be
-     *                                  selected, or a single item id. If ids is undefined
-     *                                  or an empty array, all items will be unselected.
-     */
-
-  }, {
-    key: 'setSelection',
-    value: function setSelection(ids) {
-      var i = void 0;
-      var ii = void 0;
-      var id = void 0;
-      var item = void 0;
-
-      if (ids == undefined) ids = [];
-      if (!Array.isArray(ids)) ids = [ids];
-
-      // unselect currently selected items
-      for (i = 0, ii = this.selection.length; i < ii; i++) {
-        id = this.selection[i];
-        item = this.items[id];
-        if (item && ids.indexOf(id) < 0) item.unselect();
-      }
-
-      // select items
-      this.selection = [];
-      for (i = 0, ii = ids.length; i < ii; i++) {
-        id = ids[i];
-        item = this.items[id];
-        if (item) {
-          this.selection.push(id);
-          item.select();
-        }
-      }
-    }
-
-    /**
-     * Get the selected items by their id
-     * @return {Array} ids  The ids of the selected items
-     */
-
-  }, {
-    key: 'getSelection',
-    value: function getSelection() {
-      return this.selection.concat([]);
-    }
-
-    /**
-     * Get the id's of the currently visible items.
-     * @returns {Array} The ids of the visible items
-     */
-
-  }, {
-    key: 'getVisibleItems',
-    value: function getVisibleItems() {
-      var range = this.body.range.getRange();
-      var right = void 0;
-      var left = void 0;
-
-      if (this.options.rtl) {
-        right = this.body.util.toScreen(range.start);
-        left = this.body.util.toScreen(range.end);
-      } else {
-        left = this.body.util.toScreen(range.start);
-        right = this.body.util.toScreen(range.end);
-      }
-
-      var ids = [];
-      for (var groupId in this.groups) {
-        if (this.groups.hasOwnProperty(groupId)) {
-          var group = this.groups[groupId];
-          var rawVisibleItems = group.isVisible ? group.visibleItems : [];
-
-          // filter the "raw" set with visibleItems into a set which is really
-          // visible by pixels
-          var _iteratorNormalCompletion = true;
-          var _didIteratorError = false;
-          var _iteratorError = undefined;
-
-          try {
-            for (var _iterator = (0, _getIterator3['default'])(rawVisibleItems), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-              var item = _step.value;
-
-              // TODO: also check whether visible vertically
-              if (this.options.rtl) {
-                if (item.right < left && item.right + item.width > right) {
-                  ids.push(item.id);
-                }
-              } else {
-                if (item.left < right && item.left + item.width > left) {
-                  ids.push(item.id);
-                }
-              }
-            }
-          } catch (err) {
-            _didIteratorError = true;
-            _iteratorError = err;
-          } finally {
-            try {
-              if (!_iteratorNormalCompletion && _iterator['return']) {
-                _iterator['return']();
-              }
-            } finally {
-              if (_didIteratorError) {
-                throw _iteratorError;
-              }
-            }
-          }
-        }
-      }
-
-      return ids;
-    }
-
-    /**
-     * Get the id's of the currently visible groups.
-     * @returns {Array} The ids of the visible groups
-     */
-
-  }, {
-    key: 'getVisibleGroups',
-    value: function getVisibleGroups() {
-      var ids = [];
-
-      for (var groupId in this.groups) {
-        if (this.groups.hasOwnProperty(groupId)) {
-          var group = this.groups[groupId];
-          if (group.isVisible) {
-            ids.push(groupId);
-          }
-        }
-      }
-
-      return ids;
-    }
-
-    /**
-     * Deselect a selected item
-     * @param {string | number} id
-     * @private
-     */
-
-  }, {
-    key: '_deselect',
-    value: function _deselect(id) {
-      var selection = this.selection;
-      for (var i = 0, ii = selection.length; i < ii; i++) {
-        if (selection[i] == id) {
-          // non-strict comparison!
-          selection.splice(i, 1);
-          break;
-        }
-      }
-    }
-
-    /**
-     * Repaint the component
-     * @return {boolean} Returns true if the component is resized
-     */
-
-  }, {
-    key: 'redraw',
-    value: function redraw() {
-      var _this4 = this;
-
-      var margin = this.options.margin;
-      var range = this.body.range;
-      var asSize = util.option.asSize;
-      var options = this.options;
-      var orientation = options.orientation.item;
-      var resized = false;
-      var frame = this.dom.frame;
-
-      // recalculate absolute position (before redrawing groups)
-      this.props.top = this.body.domProps.top.height + this.body.domProps.border.top;
-
-      if (this.options.rtl) {
-        this.props.right = this.body.domProps.right.width + this.body.domProps.border.right;
-      } else {
-        this.props.left = this.body.domProps.left.width + this.body.domProps.border.left;
-      }
-
-      // update class name
-      frame.className = 'timeline-itemset';
-
-      // reorder the groups (if needed)
-      resized = this._orderGroups() || resized;
-
-      // check whether zoomed (in that case we need to re-stack everything)
-      // TODO: would be nicer to get this as a trigger from Range
-      var visibleInterval = range.end - range.start;
-      var zoomed = visibleInterval != this.lastVisibleInterval || this.props.width != this.props.lastWidth;
-      var scrolled = range.start != this.lastRangeStart;
-      var changedStackOption = options.stack != this.lastStack;
-      var changedStackSubgroupsOption = options.stackSubgroups != this.lastStackSubgroups;
-      var forceRestack = zoomed || scrolled || changedStackOption || changedStackSubgroupsOption;
-      this.lastVisibleInterval = visibleInterval;
-      this.lastRangeStart = range.start;
-      this.lastStack = options.stack;
-      this.lastStackSubgroups = options.stackSubgroups;
-
-      this.props.lastWidth = this.props.width;
-      var firstGroup = this._firstGroup();
-      var firstMargin = {
-        item: margin.item,
-        axis: margin.axis
-      };
-      var nonFirstMargin = {
-        item: margin.item,
-        axis: margin.item.vertical / 2
-      };
-      var height = 0;
-      var minHeight = margin.axis + margin.item.vertical;
-
-      // redraw the background group
-      this.groups[BACKGROUND].redraw(range, nonFirstMargin, forceRestack);
-
-      var redrawQueue = {};
-      var redrawQueueLength = 0;
-
-      // collect redraw functions
-      util.forEach(this.groups, function (group, key) {
-        if (key === BACKGROUND) return;
-        var groupMargin = group == firstGroup ? firstMargin : nonFirstMargin;
-        var returnQueue = true;
-        redrawQueue[key] = group.redraw(range, groupMargin, forceRestack, returnQueue);
-        redrawQueueLength = redrawQueue[key].length;
-      });
-
-      var needRedraw = redrawQueueLength > 0;
-      if (needRedraw) {
-        (function () {
-          var redrawResults = {};
-
-          var _loop = function _loop(i) {
-            util.forEach(redrawQueue, function (fns, key) {
-              redrawResults[key] = fns[i]();
-            });
-          };
-
-          for (var i = 0; i < redrawQueueLength; i++) {
-            _loop(i);
-          }
-
-          // redraw all regular groups
-          util.forEach(_this4.groups, function (group, key) {
-            if (key === BACKGROUND) return;
-            var groupResized = redrawResults[key];
-            resized = groupResized || resized;
-            height += group.height;
-          });
-          height = Math.max(height, minHeight);
-        })();
-      }
-
-      height = Math.max(height, minHeight);
-
-      // update frame height
-      frame.style.height = asSize(height);
-
-      // calculate actual size
-      this.props.width = frame.offsetWidth;
-      this.props.height = height;
-
-      // reposition axis
-      this.dom.axis.style.top = asSize(orientation == 'top' ? this.body.domProps.top.height + this.body.domProps.border.top : this.body.domProps.top.height + this.body.domProps.centerContainer.height);
-      if (this.options.rtl) {
-        this.dom.axis.style.right = '0';
-      } else {
-        this.dom.axis.style.left = '0';
-      }
-
-      this.initialItemSetDrawn = true;
-      // check if this component is resized
-      resized = this._isResized() || resized;
-
-      return resized;
-    }
-
-    /**
-     * Get the first group, aligned with the axis
-     * @return {Group | null} firstGroup
-     * @private
-     */
-
-  }, {
-    key: '_firstGroup',
-    value: function _firstGroup() {
-      var firstGroupIndex = this.options.orientation.item == 'top' ? 0 : this.groupIds.length - 1;
-      var firstGroupId = this.groupIds[firstGroupIndex];
-      var firstGroup = this.groups[firstGroupId] || this.groups[UNGROUPED];
-
-      return firstGroup || null;
-    }
-
-    /**
-     * Create or delete the group holding all ungrouped items. This group is used when
-     * there are no groups specified.
-     * @protected
-     */
-
-  }, {
-    key: '_updateUngrouped',
-    value: function _updateUngrouped() {
-      var ungrouped = this.groups[UNGROUPED];
-      var item = void 0;
-      var itemId = void 0;
-
-      if (this.groupsData) {
-        // remove the group holding all ungrouped items
-        if (ungrouped) {
-          ungrouped.hide();
-          delete this.groups[UNGROUPED];
-
-          for (itemId in this.items) {
-            if (this.items.hasOwnProperty(itemId)) {
-              item = this.items[itemId];
-              item.parent && item.parent.remove(item);
-              var groupId = this._getGroupId(item.data);
-              var group = this.groups[groupId];
-              group && group.add(item) || item.hide();
-            }
-          }
-        }
-      } else {
-        // create a group holding all (unfiltered) items
-        if (!ungrouped) {
-          var id = null;
-          var data = null;
-          ungrouped = new _Group2['default'](id, data, this);
-          this.groups[UNGROUPED] = ungrouped;
-
-          for (itemId in this.items) {
-            if (this.items.hasOwnProperty(itemId)) {
-              item = this.items[itemId];
-              ungrouped.add(item);
-            }
-          }
-
-          ungrouped.show();
-        }
-      }
-    }
-
-    /**
-     * Get the element for the labelset
-     * @return {HTMLElement} labelSet
-     */
-
-  }, {
-    key: 'getLabelSet',
-    value: function getLabelSet() {
-      return this.dom.labelSet;
-    }
-
-    /**
-     * Set items
-     * @param {timeline.DataSet | null} items
-     */
-
-  }, {
-    key: 'setItems',
-    value: function setItems(items) {
-      this.itemsSettingTime = new Date();
-      var me = this;
-      var ids = void 0;
-      var oldItemsData = this.itemsData;
-
-      // replace the dataset
-      if (!items) {
-        this.itemsData = null;
-      } else if (items instanceof _DataSet2['default'] || items instanceof _DataView2['default']) {
-        this.itemsData = items;
-      } else {
-        throw new TypeError('Data must be an instance of DataSet or DataView');
-      }
-
-      if (oldItemsData) {
-        // unsubscribe from old dataset
-        util.forEach(this.itemListeners, function (callback, event) {
-          oldItemsData.off(event, callback);
-        });
-
-        // remove all drawn items
-        ids = oldItemsData.getIds();
-        this._onRemove(ids);
-      }
-
-      if (this.itemsData) {
-        // subscribe to new dataset
-        var id = this.id;
-        util.forEach(this.itemListeners, function (callback, event) {
-          me.itemsData.on(event, callback, id);
-        });
-
-        // add all new items
-        ids = this.itemsData.getIds();
-        this._onAdd(ids);
-
-        // update the group holding all ungrouped items
-        this._updateUngrouped();
-      }
-
-      this.body.emitter.emit('_change', { queue: true });
-    }
-
-    /**
-     * Get the current items
-     * @returns {timeline.DataSet | null}
-     */
-
-  }, {
-    key: 'getItems',
-    value: function getItems() {
-      return this.itemsData;
-    }
-
-    /**
-     * Set groups
-     * @param {timeline.DataSet} groups
-     */
-
-  }, {
-    key: 'setGroups',
-    value: function setGroups(groups) {
-      var me = this;
-      var ids = void 0;
-
-      // unsubscribe from current dataset
-      if (this.groupsData) {
-        util.forEach(this.groupListeners, function (callback, event) {
-          me.groupsData.off(event, callback);
-        });
-
-        // remove all drawn groups
-        ids = this.groupsData.getIds();
-        this.groupsData = null;
-        this._onRemoveGroups(ids); // note: this will cause a redraw
-      }
-
-      // replace the dataset
-      if (!groups) {
-        this.groupsData = null;
-      } else if (groups instanceof _DataSet2['default'] || groups instanceof _DataView2['default']) {
-        this.groupsData = groups;
-      } else {
-        throw new TypeError('Data must be an instance of DataSet or DataView');
-      }
-
-      if (this.groupsData) {
-        // go over all groups nesting
-        var groupsData = this.groupsData;
-        if (this.groupsData instanceof _DataView2['default']) {
-          groupsData = this.groupsData.getDataSet();
-        }
-
-        groupsData.get().forEach(function (group) {
-          if (group.nestedGroups) {
-            group.nestedGroups.forEach(function (nestedGroupId) {
-              var updatedNestedGroup = groupsData.get(nestedGroupId);
-              updatedNestedGroup.nestedInGroup = group.id;
-              if (group.showNested == false) {
-                updatedNestedGroup.visible = false;
-              }
-              groupsData.update(updatedNestedGroup);
-            });
-          }
-        });
-
-        // subscribe to new dataset
-        var id = this.id;
-        util.forEach(this.groupListeners, function (callback, event) {
-          me.groupsData.on(event, callback, id);
-        });
-
-        // draw all ms
-        ids = this.groupsData.getIds();
-        this._onAddGroups(ids);
-      }
-
-      // update the group holding all ungrouped items
-      this._updateUngrouped();
-
-      // update the order of all items in each group
-      this._order();
-
-      this.body.emitter.emit('_change', { queue: true });
-    }
-
-    /**
-     * Get the current groups
-     * @returns {timeline.DataSet | null} groups
-     */
-
-  }, {
-    key: 'getGroups',
-    value: function getGroups() {
-      return this.groupsData;
-    }
-
-    /**
-     * Remove an item by its id
-     * @param {string | number} id
-     */
-
-  }, {
-    key: 'removeItem',
-    value: function removeItem(id) {
-      var item = this.itemsData.get(id);
-      var dataset = this.itemsData.getDataSet();
-
-      if (item) {
-        // confirm deletion
-        this.options.onRemove(item, function (item) {
-          if (item) {
-            // remove by id here, it is possible that an item has no id defined
-            // itself, so better not delete by the item itself
-            dataset.remove(id);
-          }
-        });
-      }
-    }
-
-    /**
-     * Get the time of an item based on it's data and options.type
-     * @param {Object} itemData
-     * @returns {string} Returns the type
-     * @private
-     */
-
-  }, {
-    key: '_getType',
-    value: function _getType(itemData) {
-      return itemData.type || this.options.type || (itemData.end ? 'range' : 'box');
-    }
-
-    /**
-     * Get the group id for an item
-     * @param {Object} itemData
-     * @returns {string} Returns the groupId
-     * @private
-     */
-
-  }, {
-    key: '_getGroupId',
-    value: function _getGroupId(itemData) {
-      var type = this._getType(itemData);
-      if (type == 'background' && itemData.group == undefined) {
-        return BACKGROUND;
-      } else {
-        return this.groupsData ? itemData.group : UNGROUPED;
-      }
-    }
-
-    /**
-     * Handle updated items
-     * @param {number[]} ids
-     * @protected
-     */
-
-  }, {
-    key: '_onUpdate',
-    value: function _onUpdate(ids) {
-      var _this5 = this;
-
-      var me = this;
-
-      ids.forEach(function (id) {
-        var itemData = me.itemsData.get(id, me.itemOptions);
-        var item = me.items[id];
-        var type = itemData ? me._getType(itemData) : null;
-
-        var constructor = ItemSet.types[type];
-        var selected = void 0;
-
-        if (item) {
-          // update item   	
-          if (!constructor || !(item instanceof constructor)) {
-            // item type has changed, delete the item and recreate it
-            selected = item.selected; // preserve selection of this item
-            me._removeItem(item);
-            item = null;
-          } else {
-            me._updateItem(item, itemData);
-          }
-        }
-
-        if (!item && itemData) {
-          // create item
-          if (constructor) {
-            item = new constructor(itemData, me.conversion, me.options);
-            item.id = id; // TODO: not so nice setting id afterwards
-
-            me._addItem(item);
-            if (selected) {
-              _this5.selection.push(id);
-              item.select();
-            }
-          } else if (type == 'rangeoverflow') {
-            // TODO: deprecated since version 2.1.0 (or 3.0.0?). cleanup some day
-            throw new TypeError('Item type "rangeoverflow" is deprecated. Use css styling instead: ' + '.timeline-item.timeline-range .timeline-item-content {overflow: visible;}');
-          } else {
-            throw new TypeError('Unknown item type "' + type + '"');
-          }
-        }
-      });
-
-      this._order();
-      this.body.emitter.emit('_change', { queue: true });
-    }
-
-    /**
-     * Handle removed items
-     * @param {number[]} ids
-     * @protected
-     */
-
-  }, {
-    key: '_onRemove',
-    value: function _onRemove(ids) {
-      var count = 0;
-      var me = this;
-      ids.forEach(function (id) {
-        var item = me.items[id];
-        if (item) {
-          count++;
-          me._removeItem(item);
-        }
-      });
-
-      if (count) {
-        // update order
-        this._order();
-        this.body.emitter.emit('_change', { queue: true });
-      }
-    }
-
-    /**
-     * Update the order of item in all groups
-     * @private
-     */
-
-  }, {
-    key: '_order',
-    value: function _order() {
-      // reorder the items in all groups
-      // TODO: optimization: only reorder groups affected by the changed items
-      util.forEach(this.groups, function (group) {
-        group.order();
-      });
-    }
-
-    /**
-     * Handle updated groups
-     * @param {number[]} ids
-     * @private
-     */
-
-  }, {
-    key: '_onUpdateGroups',
-    value: function _onUpdateGroups(ids) {
-      this._onAddGroups(ids);
-    }
-
-    /**
-     * Handle changed groups (added or updated)
-     * @param {number[]} ids
-     * @private
-     */
-
-  }, {
-    key: '_onAddGroups',
-    value: function _onAddGroups(ids) {
-      var me = this;
-
-      ids.forEach(function (id) {
-        var groupData = me.groupsData.get(id);
-        var group = me.groups[id];
-
-        if (!group) {
-          // check for reserved ids
-          if (id == UNGROUPED || id == BACKGROUND) {
-            throw new Error('Illegal group id. ' + id + ' is a reserved id.');
-          }
-
-          var groupOptions = (0, _create3['default'])(me.options);
-          util.extend(groupOptions, {
-            height: null
-          });
-
-          group = new _Group2['default'](id, groupData, me);
-          me.groups[id] = group;
-
-          // add items with this groupId to the new group
-          for (var itemId in me.items) {
-            if (me.items.hasOwnProperty(itemId)) {
-              var item = me.items[itemId];
-              if (item.data.group == id) {
-                group.add(item);
-              }
-            }
-          }
-
-          group.order();
-          group.show();
-        } else {
-          // update group
-          group.setData(groupData);
-        }
-      });
-
-      this.body.emitter.emit('_change', { queue: true });
-    }
-
-    /**
-     * Handle removed groups
-     * @param {number[]} ids
-     * @private
-     */
-
-  }, {
-    key: '_onRemoveGroups',
-    value: function _onRemoveGroups(ids) {
-      var groups = this.groups;
-      ids.forEach(function (id) {
-        var group = groups[id];
-
-        if (group) {
-          group.hide();
-          delete groups[id];
-        }
-      });
-
-      this.markDirty();
-
-      this.body.emitter.emit('_change', { queue: true });
-    }
-
-    /**
-     * Reorder the groups if needed
-     * @return {boolean} changed
-     * @private
-     */
-
-  }, {
-    key: '_orderGroups',
-    value: function _orderGroups() {
-      if (this.groupsData) {
-        // reorder the groups
-        var groupIds = this.groupsData.getIds({
-          order: this.options.groupOrder
-        });
-
-        groupIds = this._orderNestedGroups(groupIds);
-
-        var changed = !util.equalArray(groupIds, this.groupIds);
-        if (changed) {
-          // hide all groups, removes them from the DOM
-          var groups = this.groups;
-          groupIds.forEach(function (groupId) {
-            groups[groupId].hide();
-          });
-
-          // show the groups again, attach them to the DOM in correct order
-          groupIds.forEach(function (groupId) {
-            groups[groupId].show();
-          });
-
-          this.groupIds = groupIds;
-        }
-
-        return changed;
-      } else {
-        return false;
-      }
-    }
-
-    /**
-     * Reorder the nested groups
-     *
-     * @param {Array.<number>} groupIds
-     * @returns {Array.<number>}
-     * @private
-     */
-
-  }, {
-    key: '_orderNestedGroups',
-    value: function _orderNestedGroups(groupIds) {
-      var _this6 = this;
-
-      /**
-       * Recursively order nested groups
-       *
-       * @param {ItemSet} t
-       * @param {Array.<number>} groupIds
-       * @returns {Array.<number>}
-       * @private
-       */
-      function getOrderedNestedGroups(t, groupIds) {
-        var result = [];
-        groupIds.forEach(function (groupId) {
-          result.push(groupId);
-          var groupData = t.groupsData.get(groupId);
-          if (groupData.nestedGroups) {
-            var nestedGroupIds = t.groupsData.get({
-              filter: function filter(nestedGroup) {
-                return nestedGroup.nestedInGroup == groupId;
-              },
-
-              order: t.options.groupOrder
-            }).map(function (nestedGroup) {
-              return nestedGroup.id;
-            });
-            result = result.concat(getOrderedNestedGroups(t, nestedGroupIds));
-          }
-        });
-
-        return result;
-      }
-
-      var topGroupIds = groupIds.filter(function (groupId) {
-        return !_this6.groupsData.get(groupId).nestedInGroup;
-      });
-
-      return getOrderedNestedGroups(this, topGroupIds);
-    }
-
-    /**
-     * Add a new item
-     * @param {Item} item
-     * @private
-     */
-
-  }, {
-    key: '_addItem',
-    value: function _addItem(item) {
-      this.items[item.id] = item;
-
-      // add to group
-      var groupId = this._getGroupId(item.data);
-      var group = this.groups[groupId];
-
-      if (!group) {
-        item.groupShowing = false;
-      } else if (group && group.data && group.data.showNested) {
-        item.groupShowing = true;
-      }
-
-      if (group) group.add(item);
-    }
-
-    /**
-     * Update an existing item
-     * @param {Item} item
-     * @param {Object} itemData
-     * @private
-     */
-
-  }, {
-    key: '_updateItem',
-    value: function _updateItem(item, itemData) {
-      // update the items data (will redraw the item when displayed)
-      item.setData(itemData);
-
-      var groupId = this._getGroupId(item.data);
-      var group = this.groups[groupId];
-      if (!group) {
-        item.groupShowing = false;
-      } else if (group && group.data && group.data.showNested) {
-        item.groupShowing = true;
-      }
-    }
-
-    /**
-     * Delete an item from the ItemSet: remove it from the DOM, from the map
-     * with items, and from the map with visible items, and from the selection
-     * @param {Item} item
-     * @private
-     */
-
-  }, {
-    key: '_removeItem',
-    value: function _removeItem(item) {
-      // remove from DOM
-      item.hide();
-
-      // remove from items
-      delete this.items[item.id];
-
-      // remove from selection
-      var index = this.selection.indexOf(item.id);
-      if (index != -1) this.selection.splice(index, 1);
-
-      // remove from group
-      item.parent && item.parent.remove(item);
-    }
-
-    /**
-     * Create an array containing all items being a range (having an end date)
-     * @param {Array.<Object>} array
-     * @returns {Array}
-     * @private
-     */
-
-  }, {
-    key: '_constructByEndArray',
-    value: function _constructByEndArray(array) {
-      var endArray = [];
-
-      for (var i = 0; i < array.length; i++) {
-        if (array[i] instanceof _RangeItem2['default']) {
-          endArray.push(array[i]);
-        }
-      }
-      return endArray;
-    }
-
-    /**
-     * Register the clicked item on touch, before dragStart is initiated.
-     *
-     * dragStart is initiated from a mousemove event, AFTER the mouse/touch is
-     * already moving. Therefore, the mouse/touch can sometimes be above an other
-     * DOM element than the item itself.
-     *
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onTouch',
-    value: function _onTouch(event) {
-      // store the touched item, used in _onDragStart
-      this.touchParams.item = this.itemFromTarget(event);
-      this.touchParams.dragLeftItem = event.target.dragLeftItem || false;
-      this.touchParams.dragRightItem = event.target.dragRightItem || false;
-      this.touchParams.itemProps = null;
-    }
-
-    /**
-     * Given an group id, returns the index it has.
-     *
-     * @param {number} groupId
-     * @returns {number} index / groupId
-     * @private
-     */
-
-  }, {
-    key: '_getGroupIndex',
-    value: function _getGroupIndex(groupId) {
-      for (var i = 0; i < this.groupIds.length; i++) {
-        if (groupId == this.groupIds[i]) return i;
-      }
-    }
-
-    /**
-     * Start dragging the selected events
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onDragStart',
-    value: function _onDragStart(event) {
-      var _this7 = this;
-
-      if (this.touchParams.itemIsDragging) {
-        return;
-      }
-      var item = this.touchParams.item || null;
-      var me = this;
-      var props = void 0;
-
-      if (item && (item.selected || this.options.itemsAlwaysDraggable.item)) {
-
-        if (this.options.editable.overrideItems && !this.options.editable.updateTime && !this.options.editable.updateGroup) {
-          return;
-        }
-
-        // override options.editable
-        if (item.editable != null && !item.editable.updateTime && !item.editable.updateGroup && !this.options.editable.overrideItems) {
-          return;
-        }
-
-        var dragLeftItem = this.touchParams.dragLeftItem;
-        var dragRightItem = this.touchParams.dragRightItem;
-        this.touchParams.itemIsDragging = true;
-        this.touchParams.selectedItem = item;
-
-        if (dragLeftItem) {
-          props = {
-            item: dragLeftItem,
-            initialX: event.center.x,
-            dragLeft: true,
-            data: this._cloneItemData(item.data)
-          };
-
-          this.touchParams.itemProps = [props];
-        } else if (dragRightItem) {
-          props = {
-            item: dragRightItem,
-            initialX: event.center.x,
-            dragRight: true,
-            data: this._cloneItemData(item.data)
-          };
-
-          this.touchParams.itemProps = [props];
-        } else if (this.options.editable.add && (event.srcEvent.ctrlKey || event.srcEvent.metaKey)) {
-          // create a new range item when dragging with ctrl key down
-          this._onDragStartAddItem(event);
-        } else {
-          if (this.groupIds.length < 1) {
-            // Mitigates a race condition if _onDragStart() is
-            // called after markDirty() without redraw() being called between.
-            this.redraw();
-          }
-
-          var baseGroupIndex = this._getGroupIndex(item.data.group);
-
-          var itemsToDrag = this.options.itemsAlwaysDraggable.item && !item.selected ? [item.id] : this.getSelection();
-
-          this.touchParams.itemProps = itemsToDrag.map(function (id) {
-            var item = me.items[id];
-            var groupIndex = me._getGroupIndex(item.data.group);
-            return {
-              item: item,
-              initialX: event.center.x,
-              groupOffset: baseGroupIndex - groupIndex,
-              data: _this7._cloneItemData(item.data)
-            };
-          });
-        }
-
-        event.stopPropagation();
-      } else if (this.options.editable.add && (event.srcEvent.ctrlKey || event.srcEvent.metaKey)) {
-        // create a new range item when dragging with ctrl key down
-        this._onDragStartAddItem(event);
-      }
-    }
-
-    /**
-     * Start creating a new range item by dragging.
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onDragStartAddItem',
-    value: function _onDragStartAddItem(event) {
-      var xAbs = void 0;
-      var x = void 0;
-      var snap = this.options.snap || null;
-
-      if (this.options.rtl) {
-        xAbs = util.getAbsoluteRight(this.dom.frame);
-        x = xAbs - event.center.x + 10; // plus 10 to compensate for the drag starting as soon as you've moved 10px
-      } else {
-        xAbs = util.getAbsoluteLeft(this.dom.frame);
-        x = event.center.x - xAbs - 10; // minus 10 to compensate for the drag starting as soon as you've moved 10px
-      }
-
-      var time = this.body.util.toTime(x);
-      var scale = this.body.util.getScale();
-      var step = this.body.util.getStep();
-      var start = snap ? snap(time, scale, step) : time;
-      var end = start;
-
-      var itemData = {
-        type: 'range',
-        start: start,
-        end: end,
-        content: 'new item'
-      };
-
-      var id = util.randomUUID();
-      itemData[this.itemsData._fieldId] = id;
-
-      var group = this.groupFromTarget(event);
-      if (group) {
-        itemData.group = group.groupId;
-      }
-      var newItem = new _RangeItem2['default'](itemData, this.conversion, this.options);
-      newItem.id = id; // TODO: not so nice setting id afterwards
-      newItem.data = this._cloneItemData(itemData);
-      this._addItem(newItem);
-      this.touchParams.selectedItem = newItem;
-
-      var props = {
-        item: newItem,
-        initialX: event.center.x,
-        data: newItem.data
-      };
-
-      if (this.options.rtl) {
-        props.dragLeft = true;
-      } else {
-        props.dragRight = true;
-      }
-      this.touchParams.itemProps = [props];
-
-      event.stopPropagation();
-    }
-
-    /**
-     * Drag selected items
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onDrag',
-    value: function _onDrag(event) {
-      var _this8 = this;
-
-      if (this.touchParams.itemProps) {
-        event.stopPropagation();
-
-        var me = this;
-        var snap = this.options.snap || null;
-        var xOffset = void 0;
-
-        if (this.options.rtl) {
-          xOffset = this.body.dom.root.offsetLeft + this.body.domProps.right.width;
-        } else {
-          xOffset = this.body.dom.root.offsetLeft + this.body.domProps.left.width;
-        }
-
-        var scale = this.body.util.getScale();
-        var step = this.body.util.getStep();
-
-        //only calculate the new group for the item that's actually dragged
-        var selectedItem = this.touchParams.selectedItem;
-        var updateGroupAllowed = (this.options.editable.overrideItems || selectedItem.editable == null) && this.options.editable.updateGroup || !this.options.editable.overrideItems && selectedItem.editable != null && selectedItem.editable.updateGroup;
-        var newGroupBase = null;
-        if (updateGroupAllowed && selectedItem) {
-          if (selectedItem.data.group != undefined) {
-            // drag from one group to another
-            var group = me.groupFromTarget(event);
-            if (group) {
-              //we know the offset for all items, so the new group for all items
-              //will be relative to this one.
-              newGroupBase = this._getGroupIndex(group.groupId);
-            }
-          }
-        }
-
-        // move
-        this.touchParams.itemProps.forEach(function (props) {
-          var current = me.body.util.toTime(event.center.x - xOffset);
-          var initial = me.body.util.toTime(props.initialX - xOffset);
-          var offset = void 0;
-          var initialStart = void 0;
-          var initialEnd = void 0;
-          var start = void 0;
-          var end = void 0;
-
-          if (_this8.options.rtl) {
-            offset = -(current - initial); // ms
-          } else {
-            offset = current - initial; // ms
-          }
-
-          var itemData = _this8._cloneItemData(props.item.data); // clone the data
-          if (props.item.editable != null && !props.item.editable.updateTime && !props.item.editable.updateGroup && !me.options.editable.overrideItems) {
-            return;
-          }
-
-          var updateTimeAllowed = (_this8.options.editable.overrideItems || selectedItem.editable == null) && _this8.options.editable.updateTime || !_this8.options.editable.overrideItems && selectedItem.editable != null && selectedItem.editable.updateTime;
-          if (updateTimeAllowed) {
-            if (props.dragLeft) {
-              // drag left side of a range item
-              if (_this8.options.rtl) {
-                if (itemData.end != undefined) {
-                  initialEnd = util.convert(props.data.end, 'Date');
-                  end = new Date(initialEnd.valueOf() + offset);
-                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
-                  itemData.end = snap ? snap(end, scale, step) : end;
-                }
-              } else {
-                if (itemData.start != undefined) {
-                  initialStart = util.convert(props.data.start, 'Date');
-                  start = new Date(initialStart.valueOf() + offset);
-                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
-                  itemData.start = snap ? snap(start, scale, step) : start;
-                }
-              }
-            } else if (props.dragRight) {
-              // drag right side of a range item
-              if (_this8.options.rtl) {
-                if (itemData.start != undefined) {
-                  initialStart = util.convert(props.data.start, 'Date');
-                  start = new Date(initialStart.valueOf() + offset);
-                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
-                  itemData.start = snap ? snap(start, scale, step) : start;
-                }
-              } else {
-                if (itemData.end != undefined) {
-                  initialEnd = util.convert(props.data.end, 'Date');
-                  end = new Date(initialEnd.valueOf() + offset);
-                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
-                  itemData.end = snap ? snap(end, scale, step) : end;
-                }
-              }
-            } else {
-              // drag both start and end
-              if (itemData.start != undefined) {
-
-                initialStart = util.convert(props.data.start, 'Date').valueOf();
-                start = new Date(initialStart + offset);
-
-                if (itemData.end != undefined) {
-                  initialEnd = util.convert(props.data.end, 'Date');
-                  var duration = initialEnd.valueOf() - initialStart.valueOf();
-
-                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
-                  itemData.start = snap ? snap(start, scale, step) : start;
-                  itemData.end = new Date(itemData.start.valueOf() + duration);
-                } else {
-                  // TODO: pass a Moment instead of a Date to snap(). (Breaking change)
-                  itemData.start = snap ? snap(start, scale, step) : start;
-                }
-              }
-            }
-          }
-
-          if (updateGroupAllowed && !props.dragLeft && !props.dragRight && newGroupBase != null) {
-            if (itemData.group != undefined) {
-              var newOffset = newGroupBase - props.groupOffset;
-
-              //make sure we stay in bounds
-              newOffset = Math.max(0, newOffset);
-              newOffset = Math.min(me.groupIds.length - 1, newOffset);
-              itemData.group = me.groupIds[newOffset];
-            }
-          }
-
-          // confirm moving the item
-          itemData = _this8._cloneItemData(itemData); // convert start and end to the correct type
-          me.options.onMoving(itemData, function (itemData) {
-            if (itemData) {
-              props.item.setData(_this8._cloneItemData(itemData, 'Date'));
-            }
-          });
-        });
-
-        this.body.emitter.emit('_change');
-      }
-    }
-
-    /**
-     * Move an item to another group
-     * @param {Item} item
-     * @param {string | number} groupId
-     * @private
-     */
-
-  }, {
-    key: '_moveToGroup',
-    value: function _moveToGroup(item, groupId) {
-      var group = this.groups[groupId];
-      if (group && group.groupId != item.data.group) {
-        var oldGroup = item.parent;
-        oldGroup.remove(item);
-        oldGroup.order();
-
-        item.data.group = group.groupId;
-
-        group.add(item);
-        group.order();
-      }
-    }
-
-    /**
-     * End of dragging selected items
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onDragEnd',
-    value: function _onDragEnd(event) {
-      var _this9 = this;
-
-      this.touchParams.itemIsDragging = false;
-      if (this.touchParams.itemProps) {
-        event.stopPropagation();
-
-        var me = this;
-        var dataset = this.itemsData.getDataSet();
-        var itemProps = this.touchParams.itemProps;
-        this.touchParams.itemProps = null;
-
-        itemProps.forEach(function (props) {
-          var id = props.item.id;
-          var exists = me.itemsData.get(id, me.itemOptions) != null;
-
-          if (!exists) {
-            // add a new item
-            me.options.onAdd(props.item.data, function (itemData) {
-              me._removeItem(props.item); // remove temporary item
-              if (itemData) {
-                me.itemsData.getDataSet().add(itemData);
-              }
-
-              // force re-stacking of all items next redraw
-              me.body.emitter.emit('_change');
-            });
-          } else {
-            // update existing item
-            var itemData = _this9._cloneItemData(props.item.data); // convert start and end to the correct type
-            me.options.onMove(itemData, function (itemData) {
-              if (itemData) {
-                // apply changes
-                itemData[dataset._fieldId] = id; // ensure the item contains its id (can be undefined)
-                dataset.update(itemData);
-              } else {
-                // restore original values
-                props.item.setData(props.data);
-
-                me.body.emitter.emit('_change');
-              }
-            });
-          }
-        });
-      }
-    }
-  }, {
-    key: '_onGroupClick',
-    value: function _onGroupClick(event) {
-      var group = this.groupFromTarget(event);
-
-      if (!group || !group.nestedGroups) return;
-
-      var groupsData = this.groupsData.getDataSet();
-
-      group.showNested = !group.showNested;
-
-      var nestingGroup = groupsData.get(group.groupId);
-      nestingGroup.showNested = group.showNested;
-
-      var fullNestedGroups = group.nestedGroups;
-      var nextLevel = fullNestedGroups;
-      while (nextLevel.length > 0) {
-        var current = nextLevel;
-        nextLevel = [];
-        for (var i = 0; i < current.length; i++) {
-          var node = groupsData.get(current[i]);
-          if (node.nestedGroups) {
-            nextLevel = nextLevel.concat(node.nestedGroups);
-          }
-        }
-        if (nextLevel.length > 0) {
-          fullNestedGroups = fullNestedGroups.concat(nextLevel);
-        }
-      }
-      var nestedGroups = groupsData.get(fullNestedGroups).map(function (nestedGroup) {
-        if (nestedGroup.visible == undefined) {
-          nestedGroup.visible = true;
-        }
-        nestedGroup.visible = !!nestingGroup.showNested;
-        return nestedGroup;
-      });
-
-      groupsData.update(nestedGroups.concat(nestingGroup));
-
-      if (nestingGroup.showNested) {
-        util.removeClassName(group.dom.label, 'collapsed');
-        util.addClassName(group.dom.label, 'expanded');
-      } else {
-        util.removeClassName(group.dom.label, 'expanded');
-        var collapsedDirClassName = this.options.rtl ? 'collapsed-rtl' : 'collapsed';
-        util.addClassName(group.dom.label, collapsedDirClassName);
-      }
-    }
-  }, {
-    key: '_onGroupDragStart',
-    value: function _onGroupDragStart(event) {
-      if (this.options.groupEditable.order) {
-        this.groupTouchParams.group = this.groupFromTarget(event);
-
-        if (this.groupTouchParams.group) {
-          event.stopPropagation();
-
-          this.groupTouchParams.originalOrder = this.groupsData.getIds({
-            order: this.options.groupOrder
-          });
-        }
-      }
-    }
-  }, {
-    key: '_onGroupDrag',
-    value: function _onGroupDrag(event) {
-      if (this.options.groupEditable.order && this.groupTouchParams.group) {
-        event.stopPropagation();
-
-        var groupsData = this.groupsData;
-        if (this.groupsData instanceof _DataView2['default']) {
-          groupsData = this.groupsData.getDataSet();
-        }
-        // drag from one group to another
-        var group = this.groupFromTarget(event);
-
-        // try to avoid toggling when groups differ in height
-        if (group && group.height != this.groupTouchParams.group.height) {
-          var movingUp = group.top < this.groupTouchParams.group.top;
-          var clientY = event.center ? event.center.y : event.clientY;
-          var targetGroupTop = util.getAbsoluteTop(group.dom.foreground);
-          var draggedGroupHeight = this.groupTouchParams.group.height;
-          if (movingUp) {
-            // skip swapping the groups when the dragged group is not below clientY afterwards
-            if (targetGroupTop + draggedGroupHeight < clientY) {
-              return;
-            }
-          } else {
-            var targetGroupHeight = group.height;
-            // skip swapping the groups when the dragged group is not below clientY afterwards
-            if (targetGroupTop + targetGroupHeight - draggedGroupHeight > clientY) {
-              return;
-            }
-          }
-        }
-
-        if (group && group != this.groupTouchParams.group) {
-          var targetGroup = groupsData.get(group.groupId);
-          var draggedGroup = groupsData.get(this.groupTouchParams.group.groupId);
-
-          // switch groups
-          if (draggedGroup && targetGroup) {
-            this.options.groupOrderSwap(draggedGroup, targetGroup, groupsData);
-            groupsData.update(draggedGroup);
-            groupsData.update(targetGroup);
-          }
-
-          // fetch current order of groups
-          var newOrder = groupsData.getIds({
-            order: this.options.groupOrder
-          });
-
-          // in case of changes since _onGroupDragStart
-          if (!util.equalArray(newOrder, this.groupTouchParams.originalOrder)) {
-            var origOrder = this.groupTouchParams.originalOrder;
-            var draggedId = this.groupTouchParams.group.groupId;
-            var numGroups = Math.min(origOrder.length, newOrder.length);
-            var curPos = 0;
-            var newOffset = 0;
-            var orgOffset = 0;
-            while (curPos < numGroups) {
-              // as long as the groups are where they should be step down along the groups order
-              while (curPos + newOffset < numGroups && curPos + orgOffset < numGroups && newOrder[curPos + newOffset] == origOrder[curPos + orgOffset]) {
-                curPos++;
-              }
-
-              // all ok
-              if (curPos + newOffset >= numGroups) {
-                break;
-              }
-
-              // not all ok
-              // if dragged group was move upwards everything below should have an offset
-              if (newOrder[curPos + newOffset] == draggedId) {
-                newOffset = 1;
-              }
-              // if dragged group was move downwards everything above should have an offset
-              else if (origOrder[curPos + orgOffset] == draggedId) {
-                  orgOffset = 1;
-                }
-                // found a group (apart from dragged group) that has the wrong position -> switch with the 
-                // group at the position where other one should be, fix index arrays and continue
-                else {
-                    var slippedPosition = newOrder.indexOf(origOrder[curPos + orgOffset]);
-                    var switchGroup = groupsData.get(newOrder[curPos + newOffset]);
-                    var shouldBeGroup = groupsData.get(origOrder[curPos + orgOffset]);
-                    this.options.groupOrderSwap(switchGroup, shouldBeGroup, groupsData);
-                    groupsData.update(switchGroup);
-                    groupsData.update(shouldBeGroup);
-
-                    var switchGroupId = newOrder[curPos + newOffset];
-                    newOrder[curPos + newOffset] = origOrder[curPos + orgOffset];
-                    newOrder[slippedPosition] = switchGroupId;
-
-                    curPos++;
-                  }
-            }
-          }
-        }
-      }
-    }
-  }, {
-    key: '_onGroupDragEnd',
-    value: function _onGroupDragEnd(event) {
-      if (this.options.groupEditable.order && this.groupTouchParams.group) {
-        event.stopPropagation();
-
-        // update existing group
-        var me = this;
-        var id = me.groupTouchParams.group.groupId;
-        var dataset = me.groupsData.getDataSet();
-        var groupData = util.extend({}, dataset.get(id)); // clone the data
-        me.options.onMoveGroup(groupData, function (groupData) {
-          if (groupData) {
-            // apply changes
-            groupData[dataset._fieldId] = id; // ensure the group contains its id (can be undefined)
-            dataset.update(groupData);
-          } else {
-
-            // fetch current order of groups
-            var newOrder = dataset.getIds({
-              order: me.options.groupOrder
-            });
-
-            // restore original order
-            if (!util.equalArray(newOrder, me.groupTouchParams.originalOrder)) {
-              var origOrder = me.groupTouchParams.originalOrder;
-              var numGroups = Math.min(origOrder.length, newOrder.length);
-              var curPos = 0;
-              while (curPos < numGroups) {
-                // as long as the groups are where they should be step down along the groups order
-                while (curPos < numGroups && newOrder[curPos] == origOrder[curPos]) {
-                  curPos++;
-                }
-
-                // all ok
-                if (curPos >= numGroups) {
-                  break;
-                }
-
-                // found a group that has the wrong position -> switch with the
-                // group at the position where other one should be, fix index arrays and continue
-                var slippedPosition = newOrder.indexOf(origOrder[curPos]);
-                var switchGroup = dataset.get(newOrder[curPos]);
-                var shouldBeGroup = dataset.get(origOrder[curPos]);
-                me.options.groupOrderSwap(switchGroup, shouldBeGroup, dataset);
-                dataset.update(switchGroup);
-                dataset.update(shouldBeGroup);
-
-                var switchGroupId = newOrder[curPos];
-                newOrder[curPos] = origOrder[curPos];
-                newOrder[slippedPosition] = switchGroupId;
-
-                curPos++;
-              }
-            }
-          }
-        });
-
-        me.body.emitter.emit('groupDragged', { groupId: id });
-      }
-    }
-
-    /**
-     * Handle selecting/deselecting an item when tapping it
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onSelectItem',
-    value: function _onSelectItem(event) {
-      if (!this.options.selectable) return;
-
-      var ctrlKey = event.srcEvent && (event.srcEvent.ctrlKey || event.srcEvent.metaKey);
-      var shiftKey = event.srcEvent && event.srcEvent.shiftKey;
-      if (ctrlKey || shiftKey) {
-        this._onMultiSelectItem(event);
-        return;
-      }
-
-      var oldSelection = this.getSelection();
-
-      var item = this.itemFromTarget(event);
-      var selection = item ? [item.id] : [];
-      this.setSelection(selection);
-
-      var newSelection = this.getSelection();
-
-      // emit a select event,
-      // except when old selection is empty and new selection is still empty
-      if (newSelection.length > 0 || oldSelection.length > 0) {
-        this.body.emitter.emit('select', {
-          items: newSelection,
-          event: event
-        });
-      }
-    }
-
-    /**
-     * Handle hovering an item
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onMouseOver',
-    value: function _onMouseOver(event) {
-      var item = this.itemFromTarget(event);
-      if (!item) return;
-
-      // Item we just left
-      var related = this.itemFromRelatedTarget(event);
-      if (item === related) {
-        // We haven't changed item, just element in the item
-        return;
-      }
-
-      var title = item.getTitle();
-      if (this.options.showTooltips && title) {
-        if (this.popup == null) {
-          this.popup = new _Popup2['default'](this.body.dom.root, this.options.tooltip.overflowMethod || 'flip');
-        }
-
-        this.popup.setText(title);
-        var container = this.body.dom.centerContainer;
-        this.popup.setPosition(event.clientX - util.getAbsoluteLeft(container) + container.offsetLeft, event.clientY - util.getAbsoluteTop(container) + container.offsetTop);
-        this.popup.show();
-      } else {
-        // Hovering over item without a title, hide popup
-        // Needed instead of _just_ in _onMouseOut due to #2572
-        if (this.popup != null) {
-          this.popup.hide();
-        }
-      }
-
-      this.body.emitter.emit('itemover', {
-        item: item.id,
-        event: event
-      });
-    }
-  }, {
-    key: '_onMouseOut',
-    value: function _onMouseOut(event) {
-      var item = this.itemFromTarget(event);
-      if (!item) return;
-
-      // Item we are going to
-      var related = this.itemFromRelatedTarget(event);
-      if (item === related) {
-        // We aren't changing item, just element in the item
-        return;
-      }
-
-      if (this.popup != null) {
-        this.popup.hide();
-      }
-
-      this.body.emitter.emit('itemout', {
-        item: item.id,
-        event: event
-      });
-    }
-  }, {
-    key: '_onMouseMove',
-    value: function _onMouseMove(event) {
-      var item = this.itemFromTarget(event);
-      if (!item) return;
-
-      if (this.options.showTooltips && this.options.tooltip.followMouse) {
-        if (this.popup) {
-          if (!this.popup.hidden) {
-            var container = this.body.dom.centerContainer;
-            this.popup.setPosition(event.clientX - util.getAbsoluteLeft(container) + container.offsetLeft, event.clientY - util.getAbsoluteTop(container) + container.offsetTop);
-            this.popup.show(); // Redraw
-          }
-        }
-      }
-    }
-
-    /**
-     * Handle mousewheel
-     * @param {Event}  event   The event
-     * @private
-     */
-
-  }, {
-    key: '_onMouseWheel',
-    value: function _onMouseWheel(event) {
-      if (this.touchParams.itemIsDragging) {
-        this._onDragEnd(event);
-      }
-    }
-
-    /**
-     * Handle updates of an item on double tap
-     * @param {timeline.Item}  item   The item
-     * @private
-     */
-
-  }, {
-    key: '_onUpdateItem',
-    value: function _onUpdateItem(item) {
-      if (!this.options.selectable) return;
-      if (!this.options.editable.add) return;
-
-      var me = this;
-
-      if (item) {
-        // execute async handler to update the item (or cancel it)
-        var itemData = me.itemsData.get(item.id); // get a clone of the data from the dataset
-        this.options.onUpdate(itemData, function (itemData) {
-          if (itemData) {
-            me.itemsData.getDataSet().update(itemData);
-          }
-        });
-      }
-    }
-
-    /**
-     * Handle drop event of data on item
-     * Only called when `objectData.target === 'item'.
-     * @param {Event} event The event 
-     * @private
-     */
-
-  }, {
-    key: '_onDropObjectOnItem',
-    value: function _onDropObjectOnItem(event) {
-      var item = this.itemFromTarget(event);
-      var objectData = JSON.parse(event.dataTransfer.getData("text"));
-      this.options.onDropObjectOnItem(objectData, item);
-    }
-
-    /**
-     * Handle creation of an item on double tap or drop of a drag event
-     * @param {Event} event   The event
-     * @private
-     */
-
-  }, {
-    key: '_onAddItem',
-    value: function _onAddItem(event) {
-      if (!this.options.selectable) return;
-      if (!this.options.editable.add) return;
-
-      var me = this;
-      var snap = this.options.snap || null;
-      var xAbs = void 0;
-      var x = void 0;
-      // add item
-      if (this.options.rtl) {
-        xAbs = util.getAbsoluteRight(this.dom.frame);
-        x = xAbs - event.center.x;
-      } else {
-        xAbs = util.getAbsoluteLeft(this.dom.frame);
-        x = event.center.x - xAbs;
-      }
-      // var xAbs = util.getAbsoluteLeft(this.dom.frame);
-      // var x = event.center.x - xAbs;
-      var start = this.body.util.toTime(x);
-      var scale = this.body.util.getScale();
-      var step = this.body.util.getStep();
-      var end = void 0;
-
-      var newItemData = void 0;
-      if (event.type == 'drop') {
-        newItemData = JSON.parse(event.dataTransfer.getData("text"));
-        newItemData.content = newItemData.content ? newItemData.content : 'new item';
-        newItemData.start = newItemData.start ? newItemData.start : snap ? snap(start, scale, step) : start;
-        newItemData.type = newItemData.type || 'box';
-        newItemData[this.itemsData._fieldId] = newItemData.id || util.randomUUID();
-
-        if (newItemData.type == 'range' && !newItemData.end) {
-          end = this.body.util.toTime(x + this.props.width / 5);
-          newItemData.end = snap ? snap(end, scale, step) : end;
-        }
-      } else {
-        newItemData = {
-          start: snap ? snap(start, scale, step) : start,
-          content: 'new item'
-        };
-        newItemData[this.itemsData._fieldId] = util.randomUUID();
-
-        // when default type is a range, add a default end date to the new item
-        if (this.options.type === 'range') {
-          end = this.body.util.toTime(x + this.props.width / 5);
-          newItemData.end = snap ? snap(end, scale, step) : end;
-        }
-      }
-
-      var group = this.groupFromTarget(event);
-      if (group) {
-        newItemData.group = group.groupId;
-      }
-
-      // execute async handler to customize (or cancel) adding an item
-      newItemData = this._cloneItemData(newItemData); // convert start and end to the correct type
-      this.options.onAdd(newItemData, function (item) {
-        if (item) {
-          me.itemsData.getDataSet().add(item);
-          if (event.type == 'drop') {
-            me.setSelection([item.id]);
-          }
-          // TODO: need to trigger a redraw?
-        }
-      });
-    }
-
-    /**
-     * Handle selecting/deselecting multiple items when holding an item
-     * @param {Event} event
-     * @private
-     */
-
-  }, {
-    key: '_onMultiSelectItem',
-    value: function _onMultiSelectItem(event) {
-      if (!this.options.selectable) return;
-
-      var item = this.itemFromTarget(event);
-
-      if (item) {
-        // multi select items (if allowed)
-
-        var selection = this.options.multiselect ? this.getSelection() // take current selection
-        : []; // deselect current selection
-
-        var shiftKey = event.srcEvent && event.srcEvent.shiftKey || false;
-
-        if (shiftKey && this.options.multiselect) {
-          // select all items between the old selection and the tapped item
-          var itemGroup = this.itemsData.get(item.id).group;
-
-          // when filtering get the group of the last selected item
-          var lastSelectedGroup = undefined;
-          if (this.options.multiselectPerGroup) {
-            if (selection.length > 0) {
-              lastSelectedGroup = this.itemsData.get(selection[0]).group;
-            }
-          }
-
-          // determine the selection range
-          if (!this.options.multiselectPerGroup || lastSelectedGroup == undefined || lastSelectedGroup == itemGroup) {
-            selection.push(item.id);
-          }
-          var range = ItemSet._getItemRange(this.itemsData.get(selection, this.itemOptions));
-
-          if (!this.options.multiselectPerGroup || lastSelectedGroup == itemGroup) {
-            // select all items within the selection range
-            selection = [];
-            for (var id in this.items) {
-              if (this.items.hasOwnProperty(id)) {
-                var _item = this.items[id];
-                var start = _item.data.start;
-                var end = _item.data.end !== undefined ? _item.data.end : start;
-
-                if (start >= range.min && end <= range.max && (!this.options.multiselectPerGroup || lastSelectedGroup == this.itemsData.get(_item.id).group) && !(_item instanceof _BackgroundItem2['default'])) {
-                  selection.push(_item.id); // do not use id but item.id, id itself is stringified
-                }
-              }
-            }
-          }
-        } else {
-          // add/remove this item from the current selection
-          var index = selection.indexOf(item.id);
-          if (index == -1) {
-            // item is not yet selected -> select it
-            selection.push(item.id);
-          } else {
-            // item is already selected -> deselect it
-            selection.splice(index, 1);
-          }
-        }
-
-        this.setSelection(selection);
-
-        this.body.emitter.emit('select', {
-          items: this.getSelection(),
-          event: event
-        });
-      }
-    }
-
-    /**
-     * Calculate the time range of a list of items
-     * @param {Array.<Object>} itemsData
-     * @return {{min: Date, max: Date}} Returns the range of the provided items
-     * @private
-     */
-
-  }, {
-    key: 'itemFromElement',
-
-
-    /**
-     * Find an item from an element:
-     * searches for the attribute 'timeline-item' in the element's tree
-     * @param {HTMLElement} element
-     * @return {Item | null} item
-     */
-    value: function itemFromElement(element) {
-      var cur = element;
-      while (cur) {
-        if (cur.hasOwnProperty('timeline-item')) {
-          return cur['timeline-item'];
-        }
-        cur = cur.parentNode;
-      }
-
-      return null;
-    }
-
-    /**
-     * Find an item from an event target:
-     * searches for the attribute 'timeline-item' in the event target's element tree
-     * @param {Event} event
-     * @return {Item | null} item
-     */
-
-  }, {
-    key: 'itemFromTarget',
-    value: function itemFromTarget(event) {
-      return this.itemFromElement(event.target);
-    }
-
-    /**
-     * Find an item from an event's related target:
-     * searches for the attribute 'timeline-item' in the related target's element tree
-     * @param {Event} event
-     * @return {Item | null} item
-     */
-
-  }, {
-    key: 'itemFromRelatedTarget',
-    value: function itemFromRelatedTarget(event) {
-      return this.itemFromElement(event.relatedTarget);
-    }
-
-    /**
-     * Find the Group from an event target:
-     * searches for the attribute 'timeline-group' in the event target's element tree
-     * @param {Event} event
-     * @return {Group | null} group
-     */
-
-  }, {
-    key: 'groupFromTarget',
-    value: function groupFromTarget(event) {
-      var clientY = event.center ? event.center.y : event.clientY;
-      var groupIds = this.groupIds;
-
-      if (groupIds.length <= 0 && this.groupsData) {
-        groupIds = this.groupsData.getIds({
-          order: this.options.groupOrder
-        });
-      }
-
-      for (var i = 0; i < groupIds.length; i++) {
-        var groupId = groupIds[i];
-        var group = this.groups[groupId];
-        var foreground = group.dom.foreground;
-        var top = util.getAbsoluteTop(foreground);
-        if (clientY >= top && clientY < top + foreground.offsetHeight) {
-          return group;
-        }
-
-        if (this.options.orientation.item === 'top') {
-          if (i === this.groupIds.length - 1 && clientY > top) {
-            return group;
-          }
-        } else {
-          if (i === 0 && clientY < top + foreground.offset) {
-            return group;
-          }
-        }
-      }
-
-      return null;
-    }
-
-    /**
-     * Find the ItemSet from an event target:
-     * searches for the attribute 'timeline-itemset' in the event target's element tree
-     * @param {Event} event
-     * @return {ItemSet | null} item
-     */
-
-  }, {
-    key: '_cloneItemData',
-
-
-    /**
-     * Clone the data of an item, and "normalize" it: convert the start and end date
-     * to the type (Date, Moment, ...) configured in the DataSet. If not configured,
-     * start and end are converted to Date.
-     * @param {Object} itemData, typically `item.data`
-     * @param {string} [type]  Optional Date type. If not provided, the type from the DataSet is taken
-     * @return {Object} The cloned object
-     * @private
-     */
-    value: function _cloneItemData(itemData, type) {
-      var clone = util.extend({}, itemData);
-
-      if (!type) {
-        // convert start and end date to the type (Date, Moment, ...) configured in the DataSet
-        type = this.itemsData.getDataSet()._options.type;
-      }
-
-      if (clone.start != undefined) {
-        clone.start = util.convert(clone.start, type && type.start || 'Date');
-      }
-      if (clone.end != undefined) {
-        clone.end = util.convert(clone.end, type && type.end || 'Date');
-      }
-
-      return clone;
-    }
-  }], [{
-    key: '_getItemRange',
-    value: function _getItemRange(itemsData) {
-      var max = null;
-      var min = null;
-
-      itemsData.forEach(function (data) {
-        if (min == null || data.start < min) {
-          min = data.start;
-        }
-
-        if (data.end != undefined) {
-          if (max == null || data.end > max) {
-            max = data.end;
-          }
-        } else {
-          if (max == null || data.start > max) {
-            max = data.start;
-          }
-        }
-      });
-
-      return {
-        min: min,
-        max: max
-      };
-    }
-  }, {
-    key: 'itemSetFromTarget',
-    value: function itemSetFromTarget(event) {
-      var target = event.target;
-      while (target) {
-        if (target.hasOwnProperty('timeline-itemset')) {
-          return target['timeline-itemset'];
-        }
-        target = target.parentNode;
-      }
-
-      return null;
-    }
-  }]);
-  return ItemSet;
-}(_Component3['default']);
-
-// available item types will be registered here
-
-
-ItemSet.types = {
-  background: _BackgroundItem2['default'],
-  box: _BoxItem2['default'],
-  range: _RangeItem2['default'],
-  point: _PointItem2['default']
 };
 
-/**
- * Handle added items
- * @param {number[]} ids
- * @protected
- */
-ItemSet.prototype._onAdd = ItemSet.prototype._onUpdate;
-
-exports['default'] = ItemSet;
-
 /***/ }),
-/* 77 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15634,6 +15903,13 @@ exports.stackSubgroups = stackSubgroups;
 exports.stackSubgroupsWithInnerStack = stackSubgroupsWithInnerStack;
 exports.collision = collision;
 exports.collisionByTimes = collisionByTimes;
+
+var _Item = __webpack_require__(19);
+
+var _Item2 = _interopRequireDefault(_Item);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
 // Utility functions for ordering and stacking of items
 var EPSILON = 0.001; // used when checking collisions, to prevent round-off errors
 
@@ -15704,7 +15980,7 @@ function stack(items, margin, force, shouldBailItemsRedrawFunction) {
             return true;
           }
 
-          if (other.top !== null && other !== item && other.stack && exports.collision(item, other, margin.item, other.options.rtl)) {
+          if (other.top !== null && other !== item && other.stack && _Item2['default'].isColliding(item, other, margin.item, other.options.rtl)) {
             collidingItem = other;
             break;
           }
@@ -15930,7 +16206,7 @@ function collisionByTimes(a, b) {
 }
 
 /***/ }),
-/* 78 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15940,7 +16216,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -15952,15 +16228,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _Item2 = __webpack_require__(26);
+var _Item2 = __webpack_require__(19);
 
 var _Item3 = _interopRequireDefault(_Item2);
 
@@ -16361,7 +16637,7 @@ var BoxItem = function (_Item) {
 exports['default'] = BoxItem;
 
 /***/ }),
-/* 79 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16371,7 +16647,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -16383,15 +16659,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _Item2 = __webpack_require__(26);
+var _Item2 = __webpack_require__(19);
 
 var _Item3 = _interopRequireDefault(_Item2);
 
@@ -16715,7 +16991,7 @@ var PointItem = function (_Item) {
 exports['default'] = PointItem;
 
 /***/ }),
-/* 80 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16725,7 +17001,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -16737,23 +17013,23 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _Item2 = __webpack_require__(26);
+var _Item2 = __webpack_require__(19);
 
 var _Item3 = _interopRequireDefault(_Item2);
 
-var _BackgroundGroup = __webpack_require__(52);
+var _BackgroundGroup = __webpack_require__(55);
 
 var _BackgroundGroup2 = _interopRequireDefault(_BackgroundGroup);
 
-var _RangeItem = __webpack_require__(53);
+var _RangeItem = __webpack_require__(56);
 
 var _RangeItem2 = _interopRequireDefault(_RangeItem);
 
@@ -17012,7 +17288,7 @@ BackgroundItem.prototype.repositionX = _RangeItem2['default'].prototype.repositi
 exports['default'] = BackgroundItem;
 
 /***/ }),
-/* 81 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17293,7 +17569,7 @@ var DataScale = function () {
 exports['default'] = DataScale;
 
 /***/ }),
-/* 82 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17305,56 +17581,56 @@ Object.defineProperty(exports, "__esModule", {
 // utils
 var util = exports.util = __webpack_require__(2);
 
-var DOMutil = exports.DOMutil = __webpack_require__(67);
+var DOMutil = exports.DOMutil = __webpack_require__(70);
 
 // data
-var DataSet = exports.DataSet = __webpack_require__(32)['default'];
+var DataSet = exports.DataSet = __webpack_require__(34)['default'];
 
-var DataView = exports.DataView = __webpack_require__(47)['default'];
-var Queue = exports.Queue = __webpack_require__(68)['default'];
+var DataView = exports.DataView = __webpack_require__(50)['default'];
+var Queue = exports.Queue = __webpack_require__(71)['default'];
 
 // Timeline
-var Timeline = exports.Timeline = __webpack_require__(124)['default'];
+var Timeline = exports.Timeline = __webpack_require__(125)['default'];
 
 var timeline = exports.timeline = {
-  Core: __webpack_require__(70)['default'],
-  DateUtil: __webpack_require__(25),
-  Range: __webpack_require__(69)['default'],
-  stack: __webpack_require__(77),
-  TimeStep: __webpack_require__(49)['default'],
+  Core: __webpack_require__(73)['default'],
+  DateUtil: __webpack_require__(28),
+  Range: __webpack_require__(72)['default'],
+  stack: __webpack_require__(80),
+  TimeStep: __webpack_require__(52)['default'],
 
   components: {
     items: {
-      Item: __webpack_require__(26)['default'],
-      BackgroundItem: __webpack_require__(80)['default'],
-      BoxItem: __webpack_require__(78)['default'],
-      PointItem: __webpack_require__(79)['default'],
-      RangeItem: __webpack_require__(53)['default']
+      Item: __webpack_require__(19)['default'],
+      BackgroundItem: __webpack_require__(83)['default'],
+      BoxItem: __webpack_require__(81)['default'],
+      PointItem: __webpack_require__(82)['default'],
+      RangeItem: __webpack_require__(56)['default']
     },
 
-    BackgroundGroup: __webpack_require__(52)['default'],
-    Component: __webpack_require__(15)['default'],
-    CurrentTime: __webpack_require__(75)['default'],
-    CustomTime: __webpack_require__(50)['default'],
-    DataAxis: __webpack_require__(139)['default'],
-    DataScale: __webpack_require__(81)['default'],
-    Group: __webpack_require__(51)['default'],
-    ItemSet: __webpack_require__(76)['default'],
-    TimeAxis: __webpack_require__(48)['default']
+    BackgroundGroup: __webpack_require__(55)['default'],
+    Component: __webpack_require__(18)['default'],
+    CurrentTime: __webpack_require__(78)['default'],
+    CustomTime: __webpack_require__(53)['default'],
+    DataAxis: __webpack_require__(148)['default'],
+    DataScale: __webpack_require__(84)['default'],
+    Group: __webpack_require__(54)['default'],
+    ItemSet: __webpack_require__(29)['default'],
+    TimeAxis: __webpack_require__(51)['default']
   }
 };
 
 // bundled external libraries
-var moment = exports.moment = __webpack_require__(8)['default'];
+var moment = exports.moment = __webpack_require__(9)['default'];
 
-var Hammer = exports.Hammer = __webpack_require__(16);
-var keycharm = exports.keycharm = __webpack_require__(73);
+var Hammer = exports.Hammer = __webpack_require__(13);
+var keycharm = exports.keycharm = __webpack_require__(76);
 
 /***/ }),
-/* 83 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(84);
+__webpack_require__(87);
 var $Object = __webpack_require__(3).Object;
 module.exports = function create(P, D) {
   return $Object.create(P, D);
@@ -17362,16 +17638,16 @@ module.exports = function create(P, D) {
 
 
 /***/ }),
-/* 84 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(17);
+var $export = __webpack_require__(14);
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', { create: __webpack_require__(35) });
+$export($export.S, 'Object', { create: __webpack_require__(38) });
 
 
 /***/ }),
-/* 85 */
+/* 88 */
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -17381,14 +17657,14 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 86 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(12);
-var anObject = __webpack_require__(19);
-var getKeys = __webpack_require__(28);
+var anObject = __webpack_require__(15);
+var getKeys = __webpack_require__(30);
 
-module.exports = __webpack_require__(13) ? Object.defineProperties : function defineProperties(O, Properties) {
+module.exports = __webpack_require__(16) ? Object.defineProperties : function defineProperties(O, Properties) {
   anObject(O);
   var keys = getKeys(Properties);
   var length = keys.length;
@@ -17400,11 +17676,11 @@ module.exports = __webpack_require__(13) ? Object.defineProperties : function de
 
 
 /***/ }),
-/* 87 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(36);
+var cof = __webpack_require__(39);
 // eslint-disable-next-line no-prototype-builtins
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
@@ -17412,14 +17688,14 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 
 /***/ }),
-/* 88 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
-var toIObject = __webpack_require__(21);
-var toLength = __webpack_require__(89);
-var toAbsoluteIndex = __webpack_require__(90);
+var toIObject = __webpack_require__(22);
+var toLength = __webpack_require__(60);
+var toAbsoluteIndex = __webpack_require__(92);
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIObject($this);
@@ -17441,22 +17717,10 @@ module.exports = function (IS_INCLUDES) {
 
 
 /***/ }),
-/* 89 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 7.1.15 ToLength
-var toInteger = __webpack_require__(38);
-var min = Math.min;
-module.exports = function (it) {
-  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
-};
-
-
-/***/ }),
-/* 90 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var toInteger = __webpack_require__(38);
+var toInteger = __webpack_require__(41);
 var max = Math.max;
 var min = Math.min;
 module.exports = function (index, length) {
@@ -17466,30 +17730,30 @@ module.exports = function (index, length) {
 
 
 /***/ }),
-/* 91 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var document = __webpack_require__(9).document;
+var document = __webpack_require__(11).document;
 module.exports = document && document.documentElement;
 
 
 /***/ }),
-/* 92 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(93);
+__webpack_require__(95);
 module.exports = __webpack_require__(3).Object.keys;
 
 
 /***/ }),
-/* 93 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 Object.keys(O)
-var toObject = __webpack_require__(42);
-var $keys = __webpack_require__(28);
+var toObject = __webpack_require__(33);
+var $keys = __webpack_require__(30);
 
-__webpack_require__(58)('keys', function () {
+__webpack_require__(61)('keys', function () {
   return function keys(it) {
     return $keys(toObject(it));
   };
@@ -17497,30 +17761,30 @@ __webpack_require__(58)('keys', function () {
 
 
 /***/ }),
-/* 94 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(59);
-__webpack_require__(63);
-module.exports = __webpack_require__(100);
+__webpack_require__(62);
+__webpack_require__(46);
+module.exports = __webpack_require__(102);
 
 
 /***/ }),
-/* 95 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var addToUnscopables = __webpack_require__(96);
-var step = __webpack_require__(97);
-var Iterators = __webpack_require__(31);
-var toIObject = __webpack_require__(21);
+var addToUnscopables = __webpack_require__(98);
+var step = __webpack_require__(99);
+var Iterators = __webpack_require__(27);
+var toIObject = __webpack_require__(22);
 
 // 22.1.3.4 Array.prototype.entries()
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(60)(Array, 'Array', function (iterated, kind) {
+module.exports = __webpack_require__(63)(Array, 'Array', function (iterated, kind) {
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -17547,14 +17811,14 @@ addToUnscopables('entries');
 
 
 /***/ }),
-/* 96 */
+/* 98 */
 /***/ (function(module, exports) {
 
 module.exports = function () { /* empty */ };
 
 
 /***/ }),
-/* 97 */
+/* 99 */
 /***/ (function(module, exports) {
 
 module.exports = function (done, value) {
@@ -17563,18 +17827,18 @@ module.exports = function (done, value) {
 
 
 /***/ }),
-/* 98 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var create = __webpack_require__(35);
-var descriptor = __webpack_require__(27);
-var setToStringTag = __webpack_require__(43);
+var create = __webpack_require__(38);
+var descriptor = __webpack_require__(26);
+var setToStringTag = __webpack_require__(45);
 var IteratorPrototype = {};
 
 // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-__webpack_require__(18)(IteratorPrototype, __webpack_require__(11)('iterator'), function () { return this; });
+__webpack_require__(20)(IteratorPrototype, __webpack_require__(8)('iterator'), function () { return this; });
 
 module.exports = function (Constructor, NAME, next) {
   Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
@@ -17583,11 +17847,11 @@ module.exports = function (Constructor, NAME, next) {
 
 
 /***/ }),
-/* 99 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(38);
-var defined = __webpack_require__(37);
+var toInteger = __webpack_require__(41);
+var defined = __webpack_require__(40);
 // true  -> String#at
 // false -> String#codePointAt
 module.exports = function (TO_STRING) {
@@ -17606,11 +17870,11 @@ module.exports = function (TO_STRING) {
 
 
 /***/ }),
-/* 100 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(19);
-var get = __webpack_require__(101);
+var anObject = __webpack_require__(15);
+var get = __webpack_require__(66);
 module.exports = __webpack_require__(3).getIterator = function (it) {
   var iterFn = get(it);
   if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
@@ -17619,26 +17883,12 @@ module.exports = __webpack_require__(3).getIterator = function (it) {
 
 
 /***/ }),
-/* 101 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var classof = __webpack_require__(102);
-var ITERATOR = __webpack_require__(11)('iterator');
-var Iterators = __webpack_require__(31);
-module.exports = __webpack_require__(3).getIteratorMethod = function (it) {
-  if (it != undefined) return it[ITERATOR]
-    || it['@@iterator']
-    || Iterators[classof(it)];
-};
-
-
-/***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // getting tag from 19.1.3.6 Object.prototype.toString()
-var cof = __webpack_require__(36);
-var TAG = __webpack_require__(11)('toStringTag');
+var cof = __webpack_require__(39);
+var TAG = __webpack_require__(8)('toStringTag');
 // ES3 wrong here
 var ARG = cof(function () { return arguments; }()) == 'Arguments';
 
@@ -17662,69 +17912,69 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 103 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(104), __esModule: true };
-
-/***/ }),
 /* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(63);
-__webpack_require__(59);
-module.exports = __webpack_require__(44).f('iterator');
-
+module.exports = { "default": __webpack_require__(105), __esModule: true };
 
 /***/ }),
 /* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(106), __esModule: true };
+__webpack_require__(46);
+__webpack_require__(62);
+module.exports = __webpack_require__(47).f('iterator');
+
 
 /***/ }),
 /* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(107);
-__webpack_require__(112);
-__webpack_require__(113);
-__webpack_require__(114);
-module.exports = __webpack_require__(3).Symbol;
-
+module.exports = { "default": __webpack_require__(107), __esModule: true };
 
 /***/ }),
 /* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(108);
+__webpack_require__(113);
+__webpack_require__(114);
+__webpack_require__(115);
+module.exports = __webpack_require__(3).Symbol;
+
+
+/***/ }),
+/* 108 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 // ECMAScript 6 symbols shim
-var global = __webpack_require__(9);
-var has = __webpack_require__(14);
-var DESCRIPTORS = __webpack_require__(13);
-var $export = __webpack_require__(17);
-var redefine = __webpack_require__(61);
-var META = __webpack_require__(108).KEY;
-var $fails = __webpack_require__(23);
-var shared = __webpack_require__(40);
-var setToStringTag = __webpack_require__(43);
-var uid = __webpack_require__(30);
-var wks = __webpack_require__(11);
-var wksExt = __webpack_require__(44);
-var wksDefine = __webpack_require__(45);
-var enumKeys = __webpack_require__(109);
-var isArray = __webpack_require__(110);
-var anObject = __webpack_require__(19);
-var isObject = __webpack_require__(20);
-var toIObject = __webpack_require__(21);
-var toPrimitive = __webpack_require__(34);
-var createDesc = __webpack_require__(27);
-var _create = __webpack_require__(35);
-var gOPNExt = __webpack_require__(111);
-var $GOPD = __webpack_require__(66);
+var global = __webpack_require__(11);
+var has = __webpack_require__(17);
+var DESCRIPTORS = __webpack_require__(16);
+var $export = __webpack_require__(14);
+var redefine = __webpack_require__(64);
+var META = __webpack_require__(109).KEY;
+var $fails = __webpack_require__(25);
+var shared = __webpack_require__(43);
+var setToStringTag = __webpack_require__(45);
+var uid = __webpack_require__(32);
+var wks = __webpack_require__(8);
+var wksExt = __webpack_require__(47);
+var wksDefine = __webpack_require__(48);
+var enumKeys = __webpack_require__(110);
+var isArray = __webpack_require__(111);
+var anObject = __webpack_require__(15);
+var isObject = __webpack_require__(21);
+var toIObject = __webpack_require__(22);
+var toPrimitive = __webpack_require__(37);
+var createDesc = __webpack_require__(26);
+var _create = __webpack_require__(38);
+var gOPNExt = __webpack_require__(112);
+var $GOPD = __webpack_require__(69);
 var $DP = __webpack_require__(12);
-var $keys = __webpack_require__(28);
+var $keys = __webpack_require__(30);
 var gOPD = $GOPD.f;
 var dP = $DP.f;
 var gOPN = gOPNExt.f;
@@ -17847,11 +18097,11 @@ if (!USE_NATIVE) {
 
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f = $defineProperty;
-  __webpack_require__(65).f = gOPNExt.f = $getOwnPropertyNames;
-  __webpack_require__(46).f = $propertyIsEnumerable;
-  __webpack_require__(64).f = $getOwnPropertySymbols;
+  __webpack_require__(68).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(49).f = $propertyIsEnumerable;
+  __webpack_require__(67).f = $getOwnPropertySymbols;
 
-  if (DESCRIPTORS && !__webpack_require__(29)) {
+  if (DESCRIPTORS && !__webpack_require__(31)) {
     redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
   }
 
@@ -17925,7 +18175,7 @@ $JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {
 });
 
 // 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
-$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(18)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(20)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
 // 19.4.3.5 Symbol.prototype[@@toStringTag]
 setToStringTag($Symbol, 'Symbol');
 // 20.2.1.9 Math[@@toStringTag]
@@ -17935,18 +18185,18 @@ setToStringTag(global.JSON, 'JSON', true);
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var META = __webpack_require__(30)('meta');
-var isObject = __webpack_require__(20);
-var has = __webpack_require__(14);
+var META = __webpack_require__(32)('meta');
+var isObject = __webpack_require__(21);
+var has = __webpack_require__(17);
 var setDesc = __webpack_require__(12).f;
 var id = 0;
 var isExtensible = Object.isExtensible || function () {
   return true;
 };
-var FREEZE = !__webpack_require__(23)(function () {
+var FREEZE = !__webpack_require__(25)(function () {
   return isExtensible(Object.preventExtensions({}));
 });
 var setMeta = function (it) {
@@ -17994,13 +18244,13 @@ var meta = module.exports = {
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
-var getKeys = __webpack_require__(28);
-var gOPS = __webpack_require__(64);
-var pIE = __webpack_require__(46);
+var getKeys = __webpack_require__(30);
+var gOPS = __webpack_require__(67);
+var pIE = __webpack_require__(49);
 module.exports = function (it) {
   var result = getKeys(it);
   var getSymbols = gOPS.f;
@@ -18015,23 +18265,23 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
-var cof = __webpack_require__(36);
+var cof = __webpack_require__(39);
 module.exports = Array.isArray || function isArray(arg) {
   return cof(arg) == 'Array';
 };
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
-var toIObject = __webpack_require__(21);
-var gOPN = __webpack_require__(65).f;
+var toIObject = __webpack_require__(22);
+var gOPN = __webpack_require__(68).f;
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -18051,27 +18301,27 @@ module.exports.f = function getOwnPropertyNames(it) {
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
-
-
-/***/ }),
-/* 113 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(45)('asyncIterator');
 
 
 /***/ }),
 /* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(45)('observable');
+__webpack_require__(48)('asyncIterator');
 
 
 /***/ }),
 /* 115 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(48)('observable');
+
+
+/***/ }),
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module) {var require;//! moment.js
@@ -22581,10 +22831,10 @@ __webpack_require__(45)('observable');
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(116)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(117)(module)))
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -22612,7 +22862,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -22621,10 +22871,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 117;
+webpackEmptyContext.id = 118;
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22844,10 +23094,10 @@ uuid.parse = parse;
 uuid.unparse = unparse;
 
 exports['default'] = uuid;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(119)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(120)))
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 var g;
@@ -22874,7 +23124,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var core = __webpack_require__(3);
@@ -22885,16 +23135,16 @@ module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
 
 
 /***/ }),
-/* 121 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(122), __esModule: true };
-
-/***/ }),
 /* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(123);
+module.exports = { "default": __webpack_require__(123), __esModule: true };
+
+/***/ }),
+/* 123 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(124);
 var $Object = __webpack_require__(3).Object;
 module.exports = function defineProperty(it, key, desc) {
   return $Object.defineProperty(it, key, desc);
@@ -22902,16 +23152,16 @@ module.exports = function defineProperty(it, key, desc) {
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(17);
+var $export = __webpack_require__(14);
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-$export($export.S + $export.F * !__webpack_require__(13), 'Object', { defineProperty: __webpack_require__(12).f });
+$export($export.S + $export.F * !__webpack_require__(16), 'Object', { defineProperty: __webpack_require__(12).f });
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22921,7 +23171,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -22933,15 +23183,15 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _moment = __webpack_require__(8);
+var _moment = __webpack_require__(9);
 
 var _moment2 = _interopRequireDefault(_moment);
 
@@ -22949,45 +23199,45 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _DataSet = __webpack_require__(32);
+var _DataSet = __webpack_require__(34);
 
 var _DataSet2 = _interopRequireDefault(_DataSet);
 
-var _DataView = __webpack_require__(47);
+var _DataView = __webpack_require__(50);
 
 var _DataView2 = _interopRequireDefault(_DataView);
 
-var _Range = __webpack_require__(69);
+var _Range = __webpack_require__(72);
 
 var _Range2 = _interopRequireDefault(_Range);
 
-var _Core2 = __webpack_require__(70);
+var _Core2 = __webpack_require__(73);
 
 var _Core3 = _interopRequireDefault(_Core2);
 
-var _TimeAxis = __webpack_require__(48);
+var _TimeAxis = __webpack_require__(51);
 
 var _TimeAxis2 = _interopRequireDefault(_TimeAxis);
 
-var _CurrentTime = __webpack_require__(75);
+var _CurrentTime = __webpack_require__(78);
 
 var _CurrentTime2 = _interopRequireDefault(_CurrentTime);
 
-var _CustomTime = __webpack_require__(50);
+var _CustomTime = __webpack_require__(53);
 
 var _CustomTime2 = _interopRequireDefault(_CustomTime);
 
-var _ItemSet = __webpack_require__(76);
+var _ItemSet = __webpack_require__(29);
 
 var _ItemSet2 = _interopRequireDefault(_ItemSet);
 
-var _Validator = __webpack_require__(135);
+var _Validator = __webpack_require__(144);
 
 var _Validator2 = _interopRequireDefault(_Validator);
 
-var _optionsTimeline = __webpack_require__(136);
+var _optionsTimeline = __webpack_require__(145);
 
-var _Configurator = __webpack_require__(137);
+var _Configurator = __webpack_require__(146);
 
 var _Configurator2 = _interopRequireDefault(_Configurator);
 
@@ -23297,14 +23547,14 @@ var Timeline = function (_Core) {
       this.itemsDone = false;
 
       // convert to type DataSet when needed
-      var newDataSet = void 0;
+      var newRawDataSet = void 0;
       if (!items) {
-        newDataSet = null;
+        newRawDataSet = null;
       } else if (items instanceof _DataSet2['default'] || items instanceof _DataView2['default']) {
-        newDataSet = items;
+        newRawDataSet = items;
       } else {
         // turn an array into a dataset
-        newDataSet = new _DataSet2['default'](items, {
+        newRawDataSet = new _DataSet2['default'](items, {
           type: {
             start: 'Date',
             end: 'Date'
@@ -23313,9 +23563,40 @@ var Timeline = function (_Core) {
       }
 
       // set items
-      this.itemsData = newDataSet;
-      this.itemSet && this.itemSet.setItems(newDataSet);
+      this.itemsData = newRawDataSet;
+      this.itemSet && this.itemSet.setItems(newRawDataSet);
+      // this.itemSet = this.rawItemSet ? this.manipulateItems(this.itemSet.items) : newRawDataSet;
     }
+
+    //   /**
+    //  * Manipulate items
+    //  * @param {timeline.DataSet | Array | null} items
+    //  */
+    // manipulateItems(items) {
+    //   let manipulatedItems;
+
+    //   if (!items) {
+    //     return null;
+    //   }
+
+    //   if (items instanceof ItemSet) {
+    //     // turn an array into a dataset
+    //     manipulatedItems = [ ...items.items ]
+    //   }
+    //   else {
+    //     manipulatedItems = [ ...items ];
+    //   }
+
+    //   for (var i = 0; i < manipulatedItems.length; i++) {  // eslint-disable-line no-redeclare
+    //     for (let j = i + 1; j < manipulatedItems.length; j++) {
+    //       if (manipulatedItems[i].isColliding(manipulatedItems[j])) {
+    //         manipulatedItems[i] = Item.mergeItems(manipulatedItems[i], manipulatedItems[j])
+    //         manipulatedItems.splice(j, 1)
+    //       }
+    //     }
+    //   }
+    //   return new ItemSet(manipulatedItems)
+    // }
 
     /**
      * Set groups
@@ -23767,6 +24048,8 @@ var Timeline = function (_Core) {
  * @returns {number}
  */
 
+// import Item from './component/item/Item';
+
 
 exports['default'] = Timeline;
 function getStart(item) {
@@ -23830,22 +24113,22 @@ function getItemVerticalScroll(timeline, item) {
 }
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(126);
+__webpack_require__(127);
 module.exports = __webpack_require__(3).Object.getPrototypeOf;
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 Object.getPrototypeOf(O)
-var toObject = __webpack_require__(42);
-var $getPrototypeOf = __webpack_require__(62);
+var toObject = __webpack_require__(33);
+var $getPrototypeOf = __webpack_require__(65);
 
-__webpack_require__(58)('getPrototypeOf', function () {
+__webpack_require__(61)('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
     return $getPrototypeOf(toObject(it));
   };
@@ -23853,36 +24136,36 @@ __webpack_require__(58)('getPrototypeOf', function () {
 
 
 /***/ }),
-/* 127 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(128), __esModule: true };
-
-/***/ }),
 /* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(129);
-module.exports = __webpack_require__(3).Object.setPrototypeOf;
-
+module.exports = { "default": __webpack_require__(129), __esModule: true };
 
 /***/ }),
 /* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(17);
-$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(130).set });
+__webpack_require__(130);
+module.exports = __webpack_require__(3).Object.setPrototypeOf;
 
 
 /***/ }),
 /* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
+// 19.1.3.19 Object.setPrototypeOf(O, proto)
+var $export = __webpack_require__(14);
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(131).set });
+
+
+/***/ }),
+/* 131 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 /* eslint-disable no-proto */
-var isObject = __webpack_require__(20);
-var anObject = __webpack_require__(19);
+var isObject = __webpack_require__(21);
+var anObject = __webpack_require__(15);
 var check = function (O, proto) {
   anObject(O);
   if (!isObject(proto) && proto !== null) throw TypeError(proto + ": can't set as prototype!");
@@ -23891,7 +24174,7 @@ module.exports = {
   set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
     function (test, buggy, set) {
       try {
-        set = __webpack_require__(54)(Function.call, __webpack_require__(66).f(Object.prototype, '__proto__').set, 2);
+        set = __webpack_require__(36)(Function.call, __webpack_require__(69).f(Object.prototype, '__proto__').set, 2);
         set(test, []);
         buggy = !(test instanceof Array);
       } catch (e) { buggy = true; }
@@ -23907,7 +24190,7 @@ module.exports = {
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24148,7 +24431,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/*! Hammer.JS - v2.0.7 - 2016-04-22
@@ -26798,15 +27081,15 @@ if (true) {
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var keycharm = __webpack_require__(73);
-var Emitter = __webpack_require__(71);
-var Hammer = __webpack_require__(16);
+var keycharm = __webpack_require__(76);
+var Emitter = __webpack_require__(74);
+var Hammer = __webpack_require__(13);
 var util = __webpack_require__(2);
 
 /**
@@ -26962,7 +27245,875 @@ function _hasParent(element, parent) {
 module.exports = Activator;
 
 /***/ }),
-/* 134 */
+/* 135 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(136), __esModule: true };
+
+/***/ }),
+/* 136 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(46);
+__webpack_require__(137);
+module.exports = __webpack_require__(3).Array.from;
+
+
+/***/ }),
+/* 137 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var ctx = __webpack_require__(36);
+var $export = __webpack_require__(14);
+var toObject = __webpack_require__(33);
+var call = __webpack_require__(138);
+var isArrayIter = __webpack_require__(139);
+var toLength = __webpack_require__(60);
+var createProperty = __webpack_require__(140);
+var getIterFn = __webpack_require__(66);
+
+$export($export.S + $export.F * !__webpack_require__(141)(function (iter) { Array.from(iter); }), 'Array', {
+  // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
+  from: function from(arrayLike /* , mapfn = undefined, thisArg = undefined */) {
+    var O = toObject(arrayLike);
+    var C = typeof this == 'function' ? this : Array;
+    var aLen = arguments.length;
+    var mapfn = aLen > 1 ? arguments[1] : undefined;
+    var mapping = mapfn !== undefined;
+    var index = 0;
+    var iterFn = getIterFn(O);
+    var length, result, step, iterator;
+    if (mapping) mapfn = ctx(mapfn, aLen > 2 ? arguments[2] : undefined, 2);
+    // if object isn't iterable or it's array with default iterator - use simple case
+    if (iterFn != undefined && !(C == Array && isArrayIter(iterFn))) {
+      for (iterator = iterFn.call(O), result = new C(); !(step = iterator.next()).done; index++) {
+        createProperty(result, index, mapping ? call(iterator, mapfn, [step.value, index], true) : step.value);
+      }
+    } else {
+      length = toLength(O.length);
+      for (result = new C(length); length > index; index++) {
+        createProperty(result, index, mapping ? mapfn(O[index], index) : O[index]);
+      }
+    }
+    result.length = index;
+    return result;
+  }
+});
+
+
+/***/ }),
+/* 138 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// call something on iterator step with safe closing on error
+var anObject = __webpack_require__(15);
+module.exports = function (iterator, fn, value, entries) {
+  try {
+    return entries ? fn(anObject(value)[0], value[1]) : fn(value);
+  // 7.4.6 IteratorClose(iterator, completion)
+  } catch (e) {
+    var ret = iterator['return'];
+    if (ret !== undefined) anObject(ret.call(iterator));
+    throw e;
+  }
+};
+
+
+/***/ }),
+/* 139 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// check on default Array iterator
+var Iterators = __webpack_require__(27);
+var ITERATOR = __webpack_require__(8)('iterator');
+var ArrayProto = Array.prototype;
+
+module.exports = function (it) {
+  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);
+};
+
+
+/***/ }),
+/* 140 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $defineProperty = __webpack_require__(12);
+var createDesc = __webpack_require__(26);
+
+module.exports = function (object, index, value) {
+  if (index in object) $defineProperty.f(object, index, createDesc(0, value));
+  else object[index] = value;
+};
+
+
+/***/ }),
+/* 141 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var ITERATOR = __webpack_require__(8)('iterator');
+var SAFE_CLOSING = false;
+
+try {
+  var riter = [7][ITERATOR]();
+  riter['return'] = function () { SAFE_CLOSING = true; };
+  // eslint-disable-next-line no-throw-literal
+  Array.from(riter, function () { throw 2; });
+} catch (e) { /* empty */ }
+
+module.exports = function (exec, skipClosing) {
+  if (!skipClosing && !SAFE_CLOSING) return false;
+  var safe = false;
+  try {
+    var arr = [7];
+    var iter = arr[ITERATOR]();
+    iter.next = function () { return { done: safe = true }; };
+    arr[ITERATOR] = function () { return iter; };
+    exec(arr);
+  } catch (e) { /* empty */ }
+  return safe;
+};
+
+
+/***/ }),
+/* 142 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof2 = __webpack_require__(4);
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+var _getIterator2 = __webpack_require__(23);
+
+var _getIterator3 = _interopRequireDefault(_getIterator2);
+
+var _keys = __webpack_require__(10);
+
+var _keys2 = _interopRequireDefault(_keys);
+
+var _classCallCheck2 = __webpack_require__(0);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(1);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _ItemSet = __webpack_require__(29);
+
+var _hammer = __webpack_require__(13);
+
+var _hammer2 = _interopRequireDefault(_hammer);
+
+var _util = __webpack_require__(2);
+
+var util = _interopRequireWildcard(_util);
+
+var _moment = __webpack_require__(9);
+
+var _moment2 = _interopRequireDefault(_moment);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var EPSILON = 0.001; // used when checking collisions, to prevent round-off errors
+
+/**
+ * Item
+ */
+
+var Item = function () {
+  /**
+   * @constructor Item
+   * @param {Object} data             Object containing (optional) parameters type,
+   *                                  start, end, content, group, className.
+   * @param {{toScreen: function, toTime: function}} conversion
+   *                                  Conversion functions from time to screen and vice versa
+   * @param {Object} options          Configuration options
+   *                                  // TODO: describe available options
+   */
+  function Item(data, conversion, options) {
+    (0, _classCallCheck3['default'])(this, Item);
+
+    this.id = null;
+    this.parent = null;
+    this.data = data;
+    this.dom = null;
+    this.conversion = conversion || {};
+    this.options = options || {};
+    this.selected = false;
+    this.displayed = false;
+    this.groupShowing = true;
+    this.dirty = true;
+
+    this.top = null;
+    this.right = null;
+    this.left = null;
+    this.width = null;
+    this.height = null;
+
+    this.editable = null;
+    this._updateEditStatus();
+  }
+
+  /**
+   * Select current item
+   */
+
+
+  (0, _createClass3['default'])(Item, [{
+    key: 'select',
+    value: function select() {
+      this.selected = true;
+      this.dirty = true;
+      if (this.displayed) this.redraw();
+    }
+
+    /**
+     * Unselect current item
+     */
+
+  }, {
+    key: 'unselect',
+    value: function unselect() {
+      this.selected = false;
+      this.dirty = true;
+      if (this.displayed) this.redraw();
+    }
+
+    /**
+     * Set data for the item. Existing data will be updated. The id should not
+     * be changed. When the item is displayed, it will be redrawn immediately.
+     * @param {Object} data
+     */
+
+  }, {
+    key: 'setData',
+    value: function setData(data) {
+      var groupChanged = data.group != undefined && this.data.group != data.group;
+      if (groupChanged && this.parent != null) {
+        this.parent.itemSet._moveToGroup(this, data.group);
+      }
+
+      if (this.parent) {
+        this.parent.stackDirty = true;
+      }
+
+      var subGroupChanged = data.subgroup != undefined && this.data.subgroup != data.subgroup;
+      if (subGroupChanged && this.parent != null) {
+        this.parent.changeSubgroup(this, this.data.subgroup, data.subgroup);
+      }
+
+      this.data = data;
+      this._updateEditStatus();
+      this.dirty = true;
+      if (this.displayed) this.redraw();
+    }
+
+    /**
+     * Set a parent for the item
+     * @param {Group} parent
+     */
+
+  }, {
+    key: 'setParent',
+    value: function setParent(parent) {
+      if (this.displayed) {
+        this.hide();
+        this.parent = parent;
+        if (this.parent) {
+          this.show();
+        }
+      } else {
+        this.parent = parent;
+      }
+    }
+
+    /**
+     * Check whether this item is visible inside given range
+     * @param {timeline.Range} range with a timestamp for start and end
+     * @returns {boolean} True if visible
+     */
+
+  }, {
+    key: 'isVisible',
+    value: function isVisible(range) {
+      // eslint-disable-line no-unused-vars
+      return false;
+    }
+
+    /**
+     * Show the Item in the DOM (when not already visible)
+     * @return {Boolean} changed
+     */
+
+  }, {
+    key: 'show',
+    value: function show() {
+      return false;
+    }
+
+    /**
+     * Hide the Item from the DOM (when visible)
+     * @return {Boolean} changed
+     */
+
+  }, {
+    key: 'hide',
+    value: function hide() {
+      return false;
+    }
+
+    /**
+     * Repaint the item
+     */
+
+  }, {
+    key: 'redraw',
+    value: function redraw() {}
+    // should be implemented by the item
+
+
+    /**
+     * Reposition the Item horizontally
+     */
+
+  }, {
+    key: 'repositionX',
+    value: function repositionX() {}
+    // should be implemented by the item
+
+
+    /**
+     * Reposition the Item vertically
+     */
+
+  }, {
+    key: 'repositionY',
+    value: function repositionY() {}
+    // should be implemented by the item
+
+
+    /**
+     * Test if the item provided collide with this item.
+     * The item must have parameters left, width, top, and height.
+     * @param {Item} otherItem          The tested item
+     * @param {{horizontal: number, vertical: number}} margin
+     *                          An object containing a horizontal and vertical
+     *                          minimum required margin.
+     * @param {boolean} rtl
+     * @return {boolean}        true if a and b collide, else false
+     */
+
+  }, {
+    key: 'isColliding',
+    value: function isColliding(otherItem) {
+      var rtl = this.options.rtl;
+      var margin = this.options.margin.item;
+
+      if (rtl) {
+        return this.right - margin.horizontal + EPSILON < otherItem.right + otherItem.width && this.right + this.width + margin.horizontal - EPSILON > otherItem.right && this.top - margin.vertical + EPSILON < otherItem.top + otherItem.height && this.top + this.height + margin.vertical - EPSILON > otherItem.top;
+      } else {
+        return this.left - margin.horizontal + EPSILON < otherItem.left + otherItem.width && this.left + this.width + margin.horizontal - EPSILON > otherItem.left && this.top - margin.vertical + EPSILON < otherItem.top + otherItem.height && this.top + this.height + margin.vertical - EPSILON > otherItem.top;
+      }
+    }
+
+    /**
+    * Test if the two provided items collide
+    * The items must have parameters left, width, top, and height.
+    * @param {Item} a          The first item
+    * @param {Item} b          The second item
+    * @param {{horizontal: number, vertical: number}} margin
+    *                          An object containing a horizontal and vertical
+    *                          minimum required margin.
+    * @param {boolean} rtl
+    * @return {boolean}        true if a and b collide, else false
+    */
+
+  }, {
+    key: '_repaintDragCenter',
+
+
+    /**
+     * Repaint a drag area on the center of the item when the item is selected
+     * @protected
+     */
+    value: function _repaintDragCenter() {
+      if (this.selected && this.options.editable.updateTime && !this.dom.dragCenter) {
+        var me = this;
+        // create and show drag area
+        var dragCenter = document.createElement('div');
+        dragCenter.className = 'timeline-drag-center';
+        dragCenter.dragCenterItem = this;
+        this.hammerDragCenter = new _hammer2['default'](dragCenter);
+
+        this.hammerDragCenter.on('tap', function (event) {
+          me.parent.itemSet.body.emitter.emit('click', {
+            event: event,
+            item: me.id
+          });
+        });
+        this.hammerDragCenter.on('doubletap', function (event) {
+          event.stopPropagation();
+          me.parent.itemSet._onUpdateItem(me);
+          me.parent.itemSet.body.emitter.emit('doubleClick', {
+            event: event,
+            item: me.id
+          });
+        });
+
+        if (this.dom.box) {
+          if (this.dom.dragLeft) {
+            this.dom.box.insertBefore(dragCenter, this.dom.dragLeft);
+          } else {
+            this.dom.box.appendChild(dragCenter);
+          }
+        } else if (this.dom.point) {
+          this.dom.point.appendChild(dragCenter);
+        }
+
+        this.dom.dragCenter = dragCenter;
+      } else if (!this.selected && this.dom.dragCenter) {
+        // delete drag area
+        if (this.dom.dragCenter.parentNode) {
+          this.dom.dragCenter.parentNode.removeChild(this.dom.dragCenter);
+        }
+        this.dom.dragCenter = null;
+
+        if (this.hammerDragCenter) {
+          this.hammerDragCenter.destroy();
+          this.hammerDragCenter = null;
+        }
+      }
+    }
+
+    /**
+     * Repaint a delete button on the top right of the item when the item is selected
+     * @param {HTMLElement} anchor
+     * @protected
+     */
+
+  }, {
+    key: '_repaintDeleteButton',
+    value: function _repaintDeleteButton(anchor) {
+      var editable = (this.options.editable.overrideItems || this.editable == null) && this.options.editable.remove || !this.options.editable.overrideItems && this.editable != null && this.editable.remove;
+
+      if (this.selected && editable && !this.dom.deleteButton) {
+        // create and show button
+        var me = this;
+
+        var deleteButton = document.createElement('div');
+
+        if (this.options.rtl) {
+          deleteButton.className = 'timeline-delete-rtl';
+        } else {
+          deleteButton.className = 'timeline-delete';
+        }
+        deleteButton.title = 'Delete this item';
+
+        // TODO: be able to destroy the delete button
+        this.hammerDeleteButton = new _hammer2['default'](deleteButton).on('tap', function (event) {
+          event.stopPropagation();
+          me.parent.removeFromDataSet(me);
+        });
+
+        anchor.appendChild(deleteButton);
+        this.dom.deleteButton = deleteButton;
+      } else if (!this.selected && this.dom.deleteButton) {
+        // remove button
+        if (this.dom.deleteButton.parentNode) {
+          this.dom.deleteButton.parentNode.removeChild(this.dom.deleteButton);
+        }
+        this.dom.deleteButton = null;
+
+        if (this.hammerDeleteButton) {
+          this.hammerDeleteButton.destroy();
+          this.hammerDeleteButton = null;
+        }
+      }
+    }
+
+    /**
+     * Repaint a onChange tooltip on the top right of the item when the item is selected
+     * @param {HTMLElement} anchor
+     * @protected
+     */
+
+  }, {
+    key: '_repaintOnItemUpdateTimeTooltip',
+    value: function _repaintOnItemUpdateTimeTooltip(anchor) {
+      if (!this.options.tooltipOnItemUpdateTime) return;
+
+      var editable = (this.options.editable.updateTime || this.data.editable === true) && this.data.editable !== false;
+
+      if (this.selected && editable && !this.dom.onItemUpdateTimeTooltip) {
+        var onItemUpdateTimeTooltip = document.createElement('div');
+
+        onItemUpdateTimeTooltip.className = 'timeline-onUpdateTime-tooltip';
+        anchor.appendChild(onItemUpdateTimeTooltip);
+        this.dom.onItemUpdateTimeTooltip = onItemUpdateTimeTooltip;
+      } else if (!this.selected && this.dom.onItemUpdateTimeTooltip) {
+        // remove button
+        if (this.dom.onItemUpdateTimeTooltip.parentNode) {
+          this.dom.onItemUpdateTimeTooltip.parentNode.removeChild(this.dom.onItemUpdateTimeTooltip);
+        }
+        this.dom.onItemUpdateTimeTooltip = null;
+      }
+
+      // position onChange tooltip
+      if (this.dom.onItemUpdateTimeTooltip) {
+
+        // only show when editing
+        this.dom.onItemUpdateTimeTooltip.style.visibility = this.parent.itemSet.touchParams.itemIsDragging ? 'visible' : 'hidden';
+
+        // position relative to item's content
+        if (this.options.rtl) {
+          this.dom.onItemUpdateTimeTooltip.style.right = this.dom.content.style.right;
+        } else {
+          this.dom.onItemUpdateTimeTooltip.style.left = this.dom.content.style.left;
+        }
+
+        // position above or below the item depending on the item's position in the window
+        var tooltipOffset = 50; // TODO: should be tooltip height (depends on template)
+        var scrollTop = this.parent.itemSet.body.domProps.scrollTop;
+
+        // TODO: this.top for orientation:true is actually the items distance from the bottom... 
+        // (should be this.bottom)
+        var itemDistanceFromTop = void 0;
+        if (this.options.orientation.item == 'top') {
+          itemDistanceFromTop = this.top;
+        } else {
+          itemDistanceFromTop = this.parent.height - this.top - this.height;
+        }
+        var isCloseToTop = itemDistanceFromTop + this.parent.top - tooltipOffset < -scrollTop;
+
+        if (isCloseToTop) {
+          this.dom.onItemUpdateTimeTooltip.style.bottom = "";
+          this.dom.onItemUpdateTimeTooltip.style.top = this.height + 2 + 'px';
+        } else {
+          this.dom.onItemUpdateTimeTooltip.style.top = "";
+          this.dom.onItemUpdateTimeTooltip.style.bottom = this.height + 2 + 'px';
+        }
+
+        // handle tooltip content
+        var content = void 0;
+        var templateFunction = void 0;
+
+        if (this.options.tooltipOnItemUpdateTime && this.options.tooltipOnItemUpdateTime.template) {
+          templateFunction = this.options.tooltipOnItemUpdateTime.template.bind(this);
+          content = templateFunction(this.data);
+        } else {
+          content = 'start: ' + (0, _moment2['default'])(this.data.start).format('MM/DD/YYYY hh:mm');
+          if (this.data.end) {
+            content += '<br> end: ' + (0, _moment2['default'])(this.data.end).format('MM/DD/YYYY hh:mm');
+          }
+        }
+        this.dom.onItemUpdateTimeTooltip.innerHTML = content;
+      }
+    }
+
+    /**
+     * Set HTML contents for the item
+     * @param {Element} element   HTML element to fill with the contents
+     * @private
+     */
+
+  }, {
+    key: '_updateContents',
+    value: function _updateContents(element) {
+      var content = void 0;
+      var changed = void 0;
+      var templateFunction = void 0;
+      var itemVisibleFrameContent = void 0;
+      var visibleFrameTemplateFunction = void 0;
+      var itemData = this.parent.itemSet.itemsData.get(this.id); // get a clone of the data from the dataset
+
+      var frameElement = this.dom.box || this.dom.point;
+      var itemVisibleFrameContentElement = frameElement.getElementsByClassName('timeline-item-visible-frame')[0];
+
+      if (this.options.visibleFrameTemplate) {
+        visibleFrameTemplateFunction = this.options.visibleFrameTemplate.bind(this);
+        itemVisibleFrameContent = visibleFrameTemplateFunction(itemData, itemVisibleFrameContentElement);
+      } else {
+        itemVisibleFrameContent = '';
+      }
+
+      if (itemVisibleFrameContentElement) {
+        if (itemVisibleFrameContent instanceof Object && !(itemVisibleFrameContent instanceof Element)) {
+          visibleFrameTemplateFunction(itemData, itemVisibleFrameContentElement);
+        } else {
+          changed = this._contentToString(this.itemVisibleFrameContent) !== this._contentToString(itemVisibleFrameContent);
+          if (changed) {
+            // only replace the content when changed
+            if (itemVisibleFrameContent instanceof Element) {
+              itemVisibleFrameContentElement.innerHTML = '';
+              itemVisibleFrameContentElement.appendChild(itemVisibleFrameContent);
+            } else if (itemVisibleFrameContent != undefined) {
+              itemVisibleFrameContentElement.innerHTML = itemVisibleFrameContent;
+            } else {
+              if (!(this.data.type == 'background' && this.data.content === undefined)) {
+                throw new Error('Property "content" missing in item ' + this.id);
+              }
+            }
+
+            this.itemVisibleFrameContent = itemVisibleFrameContent;
+          }
+        }
+      }
+
+      if (this.options.template) {
+        templateFunction = this.options.template.bind(this);
+        content = templateFunction(itemData, element, this.data);
+      } else {
+        content = this.data.content;
+      }
+
+      if (content instanceof Object && !(content instanceof Element)) {
+        templateFunction(itemData, element);
+      } else {
+        changed = this._contentToString(this.content) !== this._contentToString(content);
+        if (changed) {
+          // only replace the content when changed
+          if (content instanceof Element) {
+            element.innerHTML = '';
+            element.appendChild(content);
+          } else if (content != undefined) {
+            element.innerHTML = content;
+          } else {
+            if (!(this.data.type == 'background' && this.data.content === undefined)) {
+              throw new Error('Property "content" missing in item ' + this.id);
+            }
+          }
+          this.content = content;
+        }
+      }
+    }
+
+    /**
+     * Process dataAttributes timeline option and set as data- attributes on dom.content
+     * @param {Element} element   HTML element to which the attributes will be attached
+     * @private
+     */
+
+  }, {
+    key: '_updateDataAttributes',
+    value: function _updateDataAttributes(element) {
+      if (this.options.dataAttributes && this.options.dataAttributes.length > 0) {
+        var attributes = [];
+
+        if (Array.isArray(this.options.dataAttributes)) {
+          attributes = this.options.dataAttributes;
+        } else if (this.options.dataAttributes == 'all') {
+          attributes = (0, _keys2['default'])(this.data);
+        } else {
+          return;
+        }
+
+        var _iteratorNormalCompletion = true;
+        var _didIteratorError = false;
+        var _iteratorError = undefined;
+
+        try {
+          for (var _iterator = (0, _getIterator3['default'])(attributes), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+            var name = _step.value;
+
+            var value = this.data[name];
+
+            if (value != null) {
+              element.setAttribute('data-' + name, value);
+            } else {
+              element.removeAttribute('data-' + name);
+            }
+          }
+        } catch (err) {
+          _didIteratorError = true;
+          _iteratorError = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion && _iterator['return']) {
+              _iterator['return']();
+            }
+          } finally {
+            if (_didIteratorError) {
+              throw _iteratorError;
+            }
+          }
+        }
+      }
+    }
+
+    /**
+     * Update custom styles of the element
+     * @param {Element} element
+     * @private
+     */
+
+  }, {
+    key: '_updateStyle',
+    value: function _updateStyle(element) {
+      // remove old styles
+      if (this.style) {
+        util.removeCssText(element, this.style);
+        this.style = null;
+      }
+
+      // append new styles
+      if (this.data.style) {
+        util.addCssText(element, this.data.style);
+        this.style = this.data.style;
+      }
+    }
+
+    /**
+     * Stringify the items contents
+     * @param {string | Element | undefined} content
+     * @returns {string | undefined}
+     * @private
+     */
+
+  }, {
+    key: '_contentToString',
+    value: function _contentToString(content) {
+      if (typeof content === 'string') return content;
+      if (content && 'outerHTML' in content) return content.outerHTML;
+      return content;
+    }
+
+    /**
+     * Update the editability of this item.
+     */
+
+  }, {
+    key: '_updateEditStatus',
+    value: function _updateEditStatus() {
+      if (this.options) {
+        if (typeof this.options.editable === 'boolean') {
+          this.editable = {
+            updateTime: this.options.editable,
+            updateGroup: this.options.editable,
+            remove: this.options.editable
+          };
+        } else if ((0, _typeof3['default'])(this.options.editable) === 'object') {
+          this.editable = {};
+          util.selectiveExtend(['updateTime', 'updateGroup', 'remove'], this.editable, this.options.editable);
+        }
+      }
+      // Item data overrides, except if options.editable.overrideItems is set.
+      if (!this.options || !this.options.editable || this.options.editable.overrideItems !== true) {
+        if (this.data) {
+          if (typeof this.data.editable === 'boolean') {
+            this.editable = {
+              updateTime: this.data.editable,
+              updateGroup: this.data.editable,
+              remove: this.data.editable
+            };
+          } else if ((0, _typeof3['default'])(this.data.editable) === 'object') {
+            // TODO: in timeline.js 5.0, we should change this to not reset options from the timeline configuration.
+            // Basically just remove the next line...
+            this.editable = {};
+            util.selectiveExtend(['updateTime', 'updateGroup', 'remove'], this.editable, this.data.editable);
+          }
+        }
+      }
+    }
+
+    /**
+     * Return the width of the item left from its start date
+     * @return {number}
+     */
+
+  }, {
+    key: 'getWidthLeft',
+    value: function getWidthLeft() {
+      return 0;
+    }
+
+    /**
+     * Return the width of the item right from the max of its start and end date
+     * @return {number}
+     */
+
+  }, {
+    key: 'getWidthRight',
+    value: function getWidthRight() {
+      return 0;
+    }
+
+    /**
+     * Return the title of the item
+     * @return {string | undefined}
+     */
+
+  }, {
+    key: 'getTitle',
+    value: function getTitle() {
+      return this.data.title;
+    }
+
+    /**
+     * Merge the item provided to this item.
+     * The item must have parameters left, width, top, and height.
+     * @param {Item} baseItem          The item to be merged
+     * @param {Item} otherItem          The item to be merged
+     * @return {Item}        New merged item
+     */
+
+  }], [{
+    key: 'isColliding',
+    value: function isColliding(a, b, margin, rtl) {
+      if (rtl) {
+        return a.right - margin.horizontal + EPSILON < b.right + b.width && a.right + a.width + margin.horizontal - EPSILON > b.right && a.top - margin.vertical + EPSILON < b.top + b.height && a.top + a.height + margin.vertical - EPSILON > b.top;
+      } else {
+        return a.left - margin.horizontal + EPSILON < b.left + b.width && a.left + a.width + margin.horizontal - EPSILON > b.left && a.top - margin.vertical + EPSILON < b.top + b.height && a.top + a.height + margin.vertical - EPSILON > b.top;
+      }
+    }
+  }, {
+    key: 'mergeItems',
+    value: function mergeItems(baseItem, otherItem) {
+
+      var typesConstructors = {};
+      util.toArray(_ItemSet.types).forEach(function (typeConstructor) {
+        if (baseItem instanceof typeConstructor) {
+          typesConstructors.base = typeConstructor;
+        }
+
+        if (otherItem instanceof typeConstructor) {
+          typesConstructors.other = typeConstructor;
+        }
+      });
+
+      if (!typesConstructors.base || !typesConstructors.other || typesConstructors.base !== typesConstructors.other) {
+        return;
+      }
+
+      var data = util.extend({}, baseItem.data);
+      data.content = 'merged'; //baseItem.content + ' merged!';
+      var mergedItem = new typesConstructors.base(data, baseItem.conversion, baseItem.options);
+      mergedItem.data.id = baseItem.data.id + '_merged_' + otherItem.data.id;
+      mergedItem.id = baseItem.data.id + '_merged_' + otherItem.data.id;
+      return mergedItem;
+    }
+  }]);
+  return Item;
+}();
+
+Item.prototype.stack = true;
+
+exports['default'] = Item;
+
+/***/ }),
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27136,7 +28287,7 @@ var Popup = function () {
 exports['default'] = Popup;
 
 /***/ }),
-/* 135 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27147,11 +28298,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.printStyle = undefined;
 
-var _stringify = __webpack_require__(22);
+var _stringify = __webpack_require__(24);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -27542,7 +28693,7 @@ exports['default'] = Validator;
 exports.printStyle = printStyle;
 
 /***/ }),
-/* 136 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27832,7 +28983,7 @@ exports.allOptions = allOptions;
 exports.configureOptions = configureOptions;
 
 /***/ }),
-/* 137 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27842,11 +28993,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(22);
+var _stringify = __webpack_require__(24);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _typeof2 = __webpack_require__(7);
+var _typeof2 = __webpack_require__(4);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -27862,7 +29013,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 
 var util = __webpack_require__(2);
 
-var ColorPicker = __webpack_require__(138)['default'];
+var ColorPicker = __webpack_require__(147)['default'];
 
 /**
  * The way this works is for all properties of this.possible options, you can supply the property name in any form to list the options.
@@ -28695,7 +29846,7 @@ var Configurator = function () {
 exports['default'] = Configurator;
 
 /***/ }),
-/* 138 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28705,7 +29856,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _stringify = __webpack_require__(22);
+var _stringify = __webpack_require__(24);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
@@ -28719,8 +29870,8 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var Hammer = __webpack_require__(16);
-var hammerUtil = __webpack_require__(72);
+var Hammer = __webpack_require__(13);
+var hammerUtil = __webpack_require__(75);
 var util = __webpack_require__(2);
 
 var htmlColors = { black: '#000000', navy: '#000080', darkblue: '#00008B', mediumblue: '#0000CD', blue: '#0000FF', darkgreen: '#006400', green: '#008000', teal: '#008080', darkcyan: '#008B8B', deepskyblue: '#00BFFF', darkturquoise: '#00CED1', mediumspringgreen: '#00FA9A', lime: '#00FF00', springgreen: '#00FF7F', aqua: '#00FFFF', cyan: '#00FFFF', midnightblue: '#191970', dodgerblue: '#1E90FF', lightseagreen: '#20B2AA', forestgreen: '#228B22', seagreen: '#2E8B57', darkslategray: '#2F4F4F', limegreen: '#32CD32', mediumseagreen: '#3CB371', turquoise: '#40E0D0', royalblue: '#4169E1', steelblue: '#4682B4', darkslateblue: '#483D8B', mediumturquoise: '#48D1CC', indigo: '#4B0082', darkolivegreen: '#556B2F', cadetblue: '#5F9EA0', cornflowerblue: '#6495ED', mediumaquamarine: '#66CDAA', dimgray: '#696969', slateblue: '#6A5ACD', olivedrab: '#6B8E23', slategray: '#708090', lightslategray: '#778899', mediumslateblue: '#7B68EE', lawngreen: '#7CFC00', chartreuse: '#7FFF00', aquamarine: '#7FFFD4', maroon: '#800000', purple: '#800080', olive: '#808000', gray: '#808080', skyblue: '#87CEEB', lightskyblue: '#87CEFA', blueviolet: '#8A2BE2', darkred: '#8B0000', darkmagenta: '#8B008B', saddlebrown: '#8B4513', darkseagreen: '#8FBC8F', lightgreen: '#90EE90', mediumpurple: '#9370D8', darkviolet: '#9400D3', palegreen: '#98FB98', darkorchid: '#9932CC', yellowgreen: '#9ACD32', sienna: '#A0522D', brown: '#A52A2A', darkgray: '#A9A9A9', lightblue: '#ADD8E6', greenyellow: '#ADFF2F', paleturquoise: '#AFEEEE', lightsteelblue: '#B0C4DE', powderblue: '#B0E0E6', firebrick: '#B22222', darkgoldenrod: '#B8860B', mediumorchid: '#BA55D3', rosybrown: '#BC8F8F', darkkhaki: '#BDB76B', silver: '#C0C0C0', mediumvioletred: '#C71585', indianred: '#CD5C5C', peru: '#CD853F', chocolate: '#D2691E', tan: '#D2B48C', lightgrey: '#D3D3D3', palevioletred: '#D87093', thistle: '#D8BFD8', orchid: '#DA70D6', goldenrod: '#DAA520', crimson: '#DC143C', gainsboro: '#DCDCDC', plum: '#DDA0DD', burlywood: '#DEB887', lightcyan: '#E0FFFF', lavender: '#E6E6FA', darksalmon: '#E9967A', violet: '#EE82EE', palegoldenrod: '#EEE8AA', lightcoral: '#F08080', khaki: '#F0E68C', aliceblue: '#F0F8FF', honeydew: '#F0FFF0', azure: '#F0FFFF', sandybrown: '#F4A460', wheat: '#F5DEB3', beige: '#F5F5DC', whitesmoke: '#F5F5F5', mintcream: '#F5FFFA', ghostwhite: '#F8F8FF', salmon: '#FA8072', antiquewhite: '#FAEBD7', linen: '#FAF0E6', lightgoldenrodyellow: '#FAFAD2', oldlace: '#FDF5E6', red: '#FF0000', fuchsia: '#FF00FF', magenta: '#FF00FF', deeppink: '#FF1493', orangered: '#FF4500', tomato: '#FF6347', hotpink: '#FF69B4', coral: '#FF7F50', darkorange: '#FF8C00', lightsalmon: '#FFA07A', orange: '#FFA500', lightpink: '#FFB6C1', pink: '#FFC0CB', gold: '#FFD700', peachpuff: '#FFDAB9', navajowhite: '#FFDEAD', moccasin: '#FFE4B5', bisque: '#FFE4C4', mistyrose: '#FFE4E1', blanchedalmond: '#FFEBCD', papayawhip: '#FFEFD5', lavenderblush: '#FFF0F5', seashell: '#FFF5EE', cornsilk: '#FFF8DC', lemonchiffon: '#FFFACD', floralwhite: '#FFFAF0', snow: '#FFFAFA', yellow: '#FFFF00', lightyellow: '#FFFFE0', ivory: '#FFFFF0', white: '#FFFFFF' };
@@ -29352,7 +30503,7 @@ var ColorPicker = function () {
 exports['default'] = ColorPicker;
 
 /***/ }),
-/* 139 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29362,7 +30513,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getIterator2 = __webpack_require__(24);
+var _getIterator2 = __webpack_require__(23);
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
@@ -29370,7 +30521,7 @@ var _keys = __webpack_require__(10);
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _getPrototypeOf = __webpack_require__(4);
+var _getPrototypeOf = __webpack_require__(5);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
@@ -29382,11 +30533,11 @@ var _createClass2 = __webpack_require__(1);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(5);
+var _possibleConstructorReturn2 = __webpack_require__(6);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(6);
+var _inherits2 = __webpack_require__(7);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -29394,15 +30545,15 @@ var _util = __webpack_require__(2);
 
 var util = _interopRequireWildcard(_util);
 
-var _DOMutil = __webpack_require__(67);
+var _DOMutil = __webpack_require__(70);
 
 var _DOMutil2 = _interopRequireDefault(_DOMutil);
 
-var _Component2 = __webpack_require__(15);
+var _Component2 = __webpack_require__(18);
 
 var _Component3 = _interopRequireDefault(_Component2);
 
-var _DataScale = __webpack_require__(81);
+var _DataScale = __webpack_require__(84);
 
 var _DataScale2 = _interopRequireDefault(_DataScale);
 
